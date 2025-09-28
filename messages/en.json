@@ -1,9 +1,183 @@
 {
   "common": {
     "meta": {
-      "title": "Altra",
-      "description": "Altra website"
+      "title": "Altra — Care reimagined",
+      "description": "Transform care delivery with unified, person-centred software."
+    }
+  },
+  "header": {
+    "brand": "Altra",
+    "nav": {
+      "home": { "label": "Home" },
+      "our-solutions": {
+        "label": "Our Solutions",
+        "title": "Our Solutions",
+        "items": {
+          "family-engagement": "Family Engagement",
+          "newsletters": "Newsletters",
+          "activity-calendar": "Activity Calendar",
+          "voice-assistants": "Voice Assistants",
+          "surveys": "Surveys",
+          "wellbeing-library": "Wellbeing Library",
+          "menu": "Menu",
+          "content-libraries": "Content Libraries",
+          "concierge": "Concierge",
+          "group-intelligence": "Group Intelligence",
+          "branded-app": "Branded App",
+          "staff-engagement": "Staff Engagement",
+          "digital-signage": "Digital Signage",
+          "workflow": "Workflow"
+        }
+      },
+      "who-we-serve": {
+        "label": "Who we serve",
+        "items": {
+          "ld-supported-living": "LD & Supported Living",
+          "independent-living": "Independent Living",
+          "elderly-care": "Elderly Care",
+          "day-services-respite-outpatient": "Day Services, Respite, Outpatient & More"
+        }
+      },
+      "customer-testimonials": { "label": "Customer Testimonials" },
+      "our-mission": { "label": "Our Mission" },
+      "contact": { "label": "Contact" }
+    },
+    "actions": {
+      "login": "Log in",
+      "bookDemo": "Book Demo"
+    }
+  },
+  "footer": {
+    "menu": {
+      "title": "Menu",
+      "items": {
+        "privacy-policy": "Privacy Policy",
+        "data-security": "Data Security"
+      }
+    },
+    "connect": {
+      "linkedIn": "Connect with us on LinkedIn"
+    },
+    "contact": {
+      "title": "Get in touch with us",
+      "emailLabel": "hello@altra.ie"
+    },
+    "copyright": {
+      "text": "© 2025 Altra"
+    },
+    "seeForYourself": {
+      "title": "See for yourself",
+      "description": "Our demos give you a clear picture of how Altra can transform experience and engagement, all the while saving you precious time.",
+      "cta": "Pick a Time"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Altra is the all-in-one experience and engagement platform designed for modern care services.",
+      "subtitle": "We help you deliver outstanding care experiences, build trust with families, empower your teams, and improve outcomes for the people you support.",
+      "cta": "Book Demo"
+    },
+    "heroImage": {
+      "alt": "Altra Dashboard"
+    },
+    "whoWeServe": {
+      "title": "Who We Serve",
+      "description": "We work with care providers across a wide range of services:",
+      "items": {
+        "elderly-care": {
+          "title": "Elderly Care",
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+        },
+        "ld-supported-living": {
+          "title": "LD & Supported Living",
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+        },
+        "independent-living": {
+          "title": "Independent Living",
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+        },
+        "day-services-respite-outpatient": {
+          "title": "Day Services, Respite, Outpatient & More",
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+        }
+      }
+    },
+    "howWeHelp": {
+      "title": "How We Help",
+      "description": "Everything you need to engage families, support residents and streamline service delivery — in one place:",
+      "cta": "Learn more",
+      "items": {
+        "keep-families-connected": {
+          "title": "Keep Families Connected, Reassured and Informed – Every Day",
+          "description": "Give families what they want most: meaningful connection, proactive updates and peace of mind. Whether near or far, families stay closely connected to the day-to-day lives of their loved ones through real-time updates, media-rich moments and smart notification"
+        },
+        "make-every-day-count": {
+          "title": "Make Every Day Count with Smarter Life Enrichment Planning",
+          "description": "Run engaging, person-centred life enrichment programming with far less admin. From planning to participation tracking, everything is built for speed, clarity and impact – helping your team focus more on what matters most: the people you support."
+        },
+        "empower-every-individual": {
+          "title": "Empower Every Individual with Personalised Content and Routines",
+          "description": "Bring learning, leisure and independence into the hands of those you support. From tailored content to structured routines, everything is designed to engage, empower and enrich daily living experiences."
+        },
+        "unite-and-simplify": {
+          "title": "Unite and Simplify Team Communication and Tasks",
+          "description": "Cut through the noise with a single hub for communication, workflows and task management. Your team stays aligned, informed and focused – with less admin and more time for meaningful care."
+        },
+        "turn-everyday-data": {
+          "title": "Turn Everyday Data into Actionable Insights",
+          "description": "Capture participation, feedback and outcomes in real time. With clear dashboards, instant reports and built-in surveys, you get the clarity you need to measure impact and make better decisions, faster."
+        },
+        "seemlessly-connect": {
+          "title": "Seamlessly Connect with Your Care Management Systems",
+          "description": "No duplicate work, no silos. Altra integrates directly with your care management software, so data flows where it should – saving time, improving accuracy and giving your team a single source of truth."
+        }
+      }
+    },
+    "achieve": {
+      "title": "What You Can Achieve",
+      "bullets": [
+        "More engaged, independent residents and people supported",
+        "Reassured, connected families",
+        "Less admin — more time for care",
+        "Clear insights for better decisions",
+        "Inspection-ready communication and feedback evidence"
+      ],
+      "cta": "Explore Our Solutions"
+    },
+    "readyToTransform": {
+      "title": "Ready to transform experience and engagement in your care service?",
+      "cta": "Explore Our Solutions"
+    },
+    "clients": {
+      "items": {
+        "emeio": { "alt": "Emeio" },
+        "carechoice": { "alt": "CareChoice" },
+        "athena": { "alt": "Athena" },
+        "avondale": { "alt": "Avondale" },
+        "virtue": { "alt": "Virtue" },
+        "windmill": { "alt": "Windmill" },
+        "stmartins": { "alt": "St Martins" }
+      }
+    },
+    "testimonials": {
+      "title": "What Our Partners Say",
+      "items": {
+        "lisa-vila": {
+          "quote": "“The Altra platform has been a game-changer for us in enhancing service delivery through the effective measurement of set KPIs. The reporting function has allowed us to effectively gather the evidence needed for all external stakeholders, ensuring transparency and accountability in our operations.”",
+          "name": "Lisa Vila",
+          "role": "Sales & Hospitality Manager, Athena Care Homes"
+        },
+        "laura-collins": {
+          "quote": "“Concierge has made it so much easier for us to stay on top of resident requests. It’s helping us build more trust with residents and families, and our team finds it so easy to use.”",
+          "name": "Laura Collins",
+          "role": "Curam Care"
+        },
+        "mike-tonery": {
+          "quote": "“We have transformed our approach to feedback by using Altra’s survey tool to stay in tune with our community’s needs. Everything is now linked to resident and family profiles in one place, saving us a lot of time.”",
+          "name": "Mike Tonery",
+          "role": "CEO, DomusVi Ireland"
+        }
+      }
     }
   }
 }
-

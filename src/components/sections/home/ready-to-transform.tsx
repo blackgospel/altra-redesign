@@ -1,9 +1,11 @@
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export function ReadyToTransform() {
+  const t = useTranslations("home.readyToTransform");
   return (
     <div className="flex items-center justify-center w-full relative bg-[url('/images/home/ready-to-transform/background.png')] bg-cover bg-center bg-no-repeat">
       <div className="container px-4 py-24 xl:py-0 flex flex-col lg:flex-row items-center justify-center gap-10 z-2 text-white">
@@ -12,7 +14,7 @@ export function ReadyToTransform() {
             variant="h3"
             className="text-white text-center xl:text-left"
           >
-            Ready to transform experience and engagement in your care service?
+            {t("title")}
           </Typography>
 
           <Button
@@ -20,7 +22,7 @@ export function ReadyToTransform() {
             size="md"
             className="self-center xl:self-start flex items-center gap-3"
           >
-            <span>Explore Our Solutions</span>
+            <span>{t("cta")}</span>
             <ArrowRight className="size-5" />
           </Button>
         </div>
@@ -32,6 +34,8 @@ export function ReadyToTransform() {
             width={713}
             height={501}
             className="object-contain absolute bottom-0 left-[50%] translate-x-[-50%]"
+            style={{ width: "auto", height: "auto" }}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
           />
         </div>

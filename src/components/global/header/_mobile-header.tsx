@@ -25,6 +25,7 @@ export function MobileHeader({ navbarStyles }: MobileHeaderProps) {
         )}
       >
         <Logo />
+
         <Button
           variant="ghost"
           size="icon"

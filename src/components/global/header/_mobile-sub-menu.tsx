@@ -5,9 +5,11 @@ import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { NAVIGATION_ITEMS } from "@/config/navigation";
 import { useMobileOverlayStore } from "@/lib/stores/mobile-overlay/mobile-overlay-provider";
+import { useTranslations } from "next-intl";
 import { GenericDropdownItem } from "./_generic-dropdown-item";
 
 export function MobileSubmenu() {
+  const t = useTranslations("header");
   const activeSubmenu = useMobileOverlayStore((s) => s.activeSubmenu);
   const setActiveSubmenu = useMobileOverlayStore((s) => s.setActiveSubmenu);
   const activeItem = NAVIGATION_ITEMS.find((item) => item.id === activeSubmenu);
@@ -36,9 +38,11 @@ export function MobileSubmenu() {
         </div>
 
         <nav className="flex flex-col scroll-container gap-6">
-          {activeItem?.title && (
+          {activeItem?.id && (
             <Typography variant="subtitle-l-semibold">
-              {activeItem.title}
+              {t(`nav.${activeItem.id}.title`, {
+                default: t(`nav.${activeItem.id}.label`, { default: "" }),
+              })}
             </Typography>
           )}
 

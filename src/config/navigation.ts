@@ -44,106 +44,80 @@ export const PATHS = {
 export const NAVIGATION_ITEMS = [
   {
     id: "who-we-serve",
-    label: "Who we Serve",
-    title: undefined,
     href: PATHS.WHO_WE_SERVE.ROOT,
     hasDropdown: true,
     dropdown: [
       {
-        label: "LD & Supported Living",
         href: PATHS.WHO_WE_SERVE.LD_SUPPORTED_LIVING,
       },
       {
-        label: "Independent Living",
         href: PATHS.WHO_WE_SERVE.INDEPENDENT_LIVING,
       },
       {
-        label: "Elderly Care",
         href: PATHS.WHO_WE_SERVE.ELDERLY_CARE,
       },
       {
-        label: "Day Services, Respite, Outpatient & More",
         href: PATHS.WHO_WE_SERVE.DAY_SERVICES,
       },
     ],
   },
   {
     id: "our-solutions",
-    label: "Our Solutions",
-    title: "Our Solutions",
     href: PATHS.OUR_SOLUTIONS.ROOT,
     hasDropdown: true,
     dropdown: [
       {
-        label: "Family Engagement",
         href: PATHS.OUR_SOLUTIONS.FAMILY_ENGAGEMENT,
       },
       {
-        label: "Newsletters",
         href: PATHS.OUR_SOLUTIONS.NEWSLETTERS,
       },
       {
-        label: "Activity Calendar",
         href: PATHS.OUR_SOLUTIONS.ACTIVITY_CALENDAR,
       },
       {
-        label: "Voice Assistants",
         href: PATHS.OUR_SOLUTIONS.VOICE_ASSISTANTS,
       },
       {
-        label: "Surveys",
         href: PATHS.OUR_SOLUTIONS.SURVEYS,
       },
       {
-        label: "Wellbeing Library",
         href: PATHS.OUR_SOLUTIONS.WELLBEING_LIBRARY,
       },
       {
-        label: "Menu",
         href: PATHS.OUR_SOLUTIONS.MENU,
       },
       {
-        label: "Content Libraries",
         href: PATHS.OUR_SOLUTIONS.CONTENT_LIBRARIES,
       },
       {
-        label: "Concierge",
         href: PATHS.OUR_SOLUTIONS.CONCIERGE,
       },
       {
-        label: "Group Intelligence",
         href: PATHS.OUR_SOLUTIONS.GROUP_INTELLIGENCE,
       },
       {
-        label: "Branded App",
         href: PATHS.OUR_SOLUTIONS.BRANDED_APP,
       },
       {
-        label: "Staff Engagement",
         href: PATHS.OUR_SOLUTIONS.STAFF_ENGAGEMENT,
       },
       {
-        label: "Digital Signage",
         href: PATHS.OUR_SOLUTIONS.DIGITAL_SIGNAGE,
       },
       {
-        label: "Workflow",
         href: PATHS.OUR_SOLUTIONS.WORKFLOW,
       },
     ],
   },
   {
     id: "customer-testimonials",
-    label: "Customer Testimonials",
-    title: undefined,
     href: PATHS.CUSTOMER_TESTIMONIALS,
     hasDropdown: false,
     dropdown: [],
   },
   {
     id: "our-mission",
-    label: "Our Mission",
-    title: undefined,
     href: PATHS.OUR_MISSION,
     hasDropdown: false,
     dropdown: [],
@@ -153,16 +127,12 @@ export const NAVIGATION_ITEMS = [
 export const MENU_NAVIGATION_ITEMS = [
   {
     id: "privacy-policy",
-    label: "Privacy Policy",
-    title: "Privacy Policy",
     href: PATHS.PRIVACY_POLICY,
     hasDropdown: false,
     dropdown: [],
   },
   {
     id: "data-security",
-    label: "Data Security",
-    title: "Data Security",
     href: PATHS.DATA_SECURITY,
     hasDropdown: false,
     dropdown: [],
@@ -172,16 +142,12 @@ export const MENU_NAVIGATION_ITEMS = [
 export const COMPANY_NAVIGATION_ITEMS = [
   {
     id: "customer-testimonials",
-    label: "Customer Testimonials",
-    title: "Customer Testimonials",
     href: PATHS.CUSTOMER_TESTIMONIALS,
     hasDropdown: false,
     dropdown: [],
   },
   {
     id: "our-mission",
-    label: "Our Mission",
-    title: "Our Mission",
     href: PATHS.OUR_MISSION,
     hasDropdown: false,
     dropdown: [],

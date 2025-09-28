@@ -15,10 +15,11 @@ export function Logo({
 }: LogoProps) {
   return (
     <Image
-      src="/images/altraLogo-56586a.png"
+      src="/images/logo.png"
       alt={alt}
       width={width}
       height={height}
+      style={{ width: "auto", height: "auto", ...(props.style || {}) }}
       {...props}
       priority
     />

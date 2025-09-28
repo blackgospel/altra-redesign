@@ -2,16 +2,15 @@ import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { HOW_WE_HELP } from "@/config/home";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { SectionTitle } from "./_section-title";
 
 export function HowWeHelp() {
+  const t = useTranslations("home.howWeHelp");
   return (
     <div className="flex flex-col gap-12">
-      <SectionTitle
-        title="How We Help"
-        description="Everything you need to engage families, support residents and streamline service delivery — in one place:"
-      />
+      <SectionTitle title={t("title")} description={t("description")} />
 
       <div className="flex flex-col gap-12 md:gap-32">
         {HOW_WE_HELP.map((item, index) => (
@@ -23,15 +22,17 @@ export function HowWeHelp() {
           >
             <div className="flex-1 flex flex-col gap-6">
               <div className="flex flex-col gap-4">
-                <Typography variant="h4">{item.title}</Typography>
+                <Typography variant="h4">
+                  {t(`items.${item.slug}.title`)}
+                </Typography>
 
                 <Typography variant="text-xl" className="text-dark-gray-40">
-                  {item.description}
+                  {t(`items.${item.slug}.description`)}
                 </Typography>
               </div>
 
               <Button variant="outline" size="sm" className="self-start">
-                Learn more
+                {t("cta", { default: "Learn more" })}
                 <ArrowRight className="size-5" />
               </Button>
             </div>
@@ -39,7 +40,7 @@ export function HowWeHelp() {
             <div className="relative aspect-[689/500] w-full lg:w-auto flex-1 xl:flex-none">
               <Image
                 src={item.image}
-                alt={item.title}
+                alt={t(`items.${item.slug}.title`)}
                 width={689}
                 height={500}
                 priority

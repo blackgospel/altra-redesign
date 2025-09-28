@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { NAVIGATION_ITEMS } from "@/config/navigation";
 import { useMobileOverlayStore } from "@/lib/stores/mobile-overlay/mobile-overlay-provider";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 interface MobileNavMenuProps {
@@ -12,6 +13,7 @@ interface MobileNavMenuProps {
 }
 
 export function MobileNavMenu({ onClose }: MobileNavMenuProps) {
+  const t = useTranslations("header");
   const activeSubmenu = useMobileOverlayStore((s) => s.activeSubmenu);
   const setActiveSubmenu = useMobileOverlayStore((s) => s.setActiveSubmenu);
 
@@ -38,7 +40,9 @@ export function MobileNavMenu({ onClose }: MobileNavMenuProps) {
                       className="flex w-full items-center gap-2 py-4 text-left cursor-pointer"
                       onClick={() => onItemClick(item.id)}
                     >
-                      <Typography variant="subtitle-l">{item.label}</Typography>
+                      <Typography variant="subtitle-l">
+                        {t(`nav.${item.id}.label`)}
+                      </Typography>
                       <ChevronRight className="w-4 h-4 text-muted-foreground stroke-[2px] ml-auto" />
                     </span>
                   ) : (
@@ -47,7 +51,9 @@ export function MobileNavMenu({ onClose }: MobileNavMenuProps) {
                       className="flex items-center gap-2 py-4"
                       onClick={onClose}
                     >
-                      <Typography variant="subtitle-l">{item.label}</Typography>
+                      <Typography variant="subtitle-l">
+                        {t(`nav.${item.id}.label`)}
+                      </Typography>
                     </Link>
                   )}
                 </li>

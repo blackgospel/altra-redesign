@@ -1,8 +1,9 @@
 import { ArrowRight } from "@/assets/icons";
 import { INavigationDropdownItem } from "@/config/navigation";
+import { Link } from "@/i18n/navigation";
 import { useHover } from "@/lib/hooks/use-hover";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface GenericDropdownItemProps {
   item: INavigationDropdownItem;
@@ -13,6 +14,10 @@ interface GenericDropdownItemProps {
 }
 
 export function GenericDropdownItem({ item, slots }: GenericDropdownItemProps) {
+  const t = useTranslations("header");
+  const parts = item.href.split("/").filter(Boolean);
+  const parent = parts[0] ?? "";
+  const slug = parts[1] ?? "";
   const { hovered, ref } = useHover();
 
   return (
@@ -29,7 +34,9 @@ export function GenericDropdownItem({ item, slots }: GenericDropdownItemProps) {
             )
           : {})}
       >
-        {item.label}
+        {parent && slug
+          ? t(`nav.${parent}.items.${slug}`)
+          : t(`nav.${parent}.label`)}
       </span>
       <ArrowRight
         className={cn(

@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 import { Logo } from "../logo/logo";
 import { AltraNavigationMenu } from "./_navigation-menu";
 
@@ -10,6 +11,7 @@ interface DesktopHeaderProps {
 }
 
 export function DesktopHeader({ navbarStyles }: DesktopHeaderProps) {
+  const t = useTranslations("header");
   return (
     <div
       className={cn(
@@ -23,10 +25,10 @@ export function DesktopHeader({ navbarStyles }: DesktopHeaderProps) {
 
       <div className="flex items-center gap-2">
         <Button variant="ghost" size="sm">
-          Log in
+          {t("actions.login", { default: "Log in" })}
         </Button>
         <Button variant="primary" size="sm">
-          Book Demo
+          {t("actions.bookDemo", { default: "Book Demo" })}
         </Button>
       </div>
     </div>

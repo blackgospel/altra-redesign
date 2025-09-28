@@ -11,7 +11,13 @@ interface ServiceCardProps {
 export function ServiceCard({ title, description, image }: ServiceCardProps) {
   return (
     <div className="relative w-full rounded-lg overflow-hidden group cursor-pointer aspect-square md:aspect-[281/460]">
-      <Image src={image} alt={title} fill className="object-cover" />
+      <Image
+        src={image}
+        alt={title}
+        fill
+        className="object-cover"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/80 pointer-events-none z-10"></div>
       <div
         className="absolute bottom-0 left-0 right-0 bg-light-blue-50 transition-all duration-500 ease-out h-0 group-hover:h-full pointer-events-none z-20"

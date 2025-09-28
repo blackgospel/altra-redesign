@@ -11,7 +11,7 @@ export function GenericDropdown({ items }: GenericDropdownProps) {
   return (
     <div className="flex flex-col gap-[15px] p-4 w-[214px]">
       {items.map((item) => (
-        <GenericDropdownItem key={item.label} item={item} />
+        <GenericDropdownItem key={item.href} item={item} />
       ))}
     </div>
   );
