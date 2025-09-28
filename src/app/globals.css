@@ -83,6 +83,12 @@
   --color-red-80: #b91c1c;
   --color-red-90: #7f1d1d;
 
+  --color-purple: #8265d4;
+  --color-purple-40: #9b8fef;
+  --color-pink: #ed4789;
+  --color-line-4: #dce0e4;
+  --color-background-02-dark: #0b223d;
+
   --color-line-2: #e8ebed;
   --color-line-3: #f2f5f7;
 
@@ -201,7 +207,7 @@
 }
 
 @layer utilities {
-  .text-h1 {
+  .typography-h1 {
     font-family: var(--font-outfit);
     font-weight: 700;
     font-size: 48px;
@@ -209,7 +215,7 @@
     letter-spacing: 0;
   }
 
-  .text-h2 {
+  .typography-h2 {
     font-family: var(--font-outfit);
     font-weight: 700;
     font-size: 44px;
@@ -217,7 +223,7 @@
     letter-spacing: 0;
   }
 
-  .text-h3 {
+  .typography-h3 {
     font-family: var(--font-outfit);
     font-weight: 700;
     font-size: 36px;
@@ -225,7 +231,7 @@
     letter-spacing: 0;
   }
 
-  .text-h4 {
+  .typography-h4 {
     font-family: var(--font-outfit);
     font-weight: 700;
     font-size: 30px;
@@ -233,7 +239,7 @@
     letter-spacing: 0;
   }
 
-  .text-h5 {
+  .typography-h5 {
     font-family: var(--font-outfit);
     font-weight: 700;
     font-size: 24px;
@@ -241,7 +247,7 @@
     letter-spacing: 0;
   }
 
-  .text-title-l {
+  .typography-title-l {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 22px;
@@ -249,7 +255,7 @@
     letter-spacing: 0;
   }
 
-  .text-title-l-medium {
+  .typography-title-l-medium {
     font-family: var(--font-outfit);
     font-weight: 500;
     font-size: 22px;
@@ -257,15 +263,15 @@
     letter-spacing: 0;
   }
 
-  .text-title-m {
+  .typography-title-m {
     font-family: var(--font-outfit);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0;
   }
 
-  .text-title-s {
+  .typography-title-s {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 18px;
@@ -273,7 +279,7 @@
     letter-spacing: 0;
   }
 
-  .text-subtitle-xl {
+  .typography-subtitle-xl {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 20px;
@@ -281,7 +287,7 @@
     letter-spacing: 0;
   }
 
-  .text-subtitle-l {
+  .typography-subtitle-l {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 18px;
@@ -289,7 +295,7 @@
     letter-spacing: 0;
   }
 
-  .text-subtitle-l-semibold {
+  .typography-subtitle-l-semibold {
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 18px;
@@ -297,7 +303,7 @@
     letter-spacing: 0;
   }
 
-  .text-subtitle-m {
+  .typography-subtitle-m {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 16px;
@@ -305,7 +311,7 @@
     letter-spacing: 0;
   }
 
-  .text-subtitle-m-medium {
+  .typography-subtitle-m-medium {
     font-family: var(--font-outfit);
     font-weight: 500;
     font-size: 16px;
@@ -313,7 +319,7 @@
     letter-spacing: 0;
   }
 
-  .text-xl {
+  .typography-xl {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 18px;
@@ -321,7 +327,7 @@
     letter-spacing: 0px;
   }
 
-  .text-xl-medium {
+  .typography-xl-medium {
     font-family: var(--font-outfit);
     font-weight: 500;
     font-size: 18px;
@@ -329,7 +335,7 @@
     letter-spacing: 0px;
   }
 
-  .text-xl-semibold {
+  .typography-xl-semibold {
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 18px;
@@ -337,7 +343,7 @@
     letter-spacing: 0px;
   }
 
-  .text-l {
+  .typography-l {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 16px;
@@ -345,7 +351,7 @@
     letter-spacing: 0px;
   }
 
-  .text-m {
+  .typography-m {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 14px;
@@ -353,7 +359,7 @@
     letter-spacing: 0px;
   }
 
-  .text-btn-l {
+  .typography-btn-l {
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 20px;
@@ -361,7 +367,7 @@
     letter-spacing: 0px;
   }
 
-  .text-btn-s {
+  .typography-btn-s {
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 16px;
@@ -369,7 +375,7 @@
     letter-spacing: 0px;
   }
 
-  .text-btn-m {
+  .typography-btn-m {
     font-family: var(--font-outfit);
     font-weight: 600;
     font-size: 18px;
@@ -377,7 +383,7 @@
     letter-spacing: 0px;
   }
 
-  .text-caption-m {
+  .typography-caption-m {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 15px;
@@ -402,10 +408,27 @@
     box-shadow: 0px 4px 30px 0px #87878729;
   }
 
+  .shadow-linear-t {
+    border-top: 1px solid;
+    border-image-source: linear-gradient(
+      90deg,
+      rgba(134, 151, 169, 0.5) 0%,
+      #8697a9 50.1%,
+      rgba(134, 151, 169, 0.5) 100%
+    );
+    border-image-slice: 1;
+  }
+
   .scroll-container {
     min-height: 0;
     flex: 1 1 0;
     overflow: auto;
+  }
+
+  .altra-container {
+    max-width: 1196px;
+    margin-inline: auto;
+    padding-inline: 16px;
   }
 }
 

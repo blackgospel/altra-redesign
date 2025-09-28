@@ -1,6 +1,13 @@
 import { IconProps } from "./types";
 
-export function Check2({ className = "" }: IconProps) {
+interface Check2Props extends IconProps {
+  stroke?: string;
+}
+
+export function Check2({
+  className = "",
+  stroke = "currentColor",
+}: Check2Props) {
   return (
     <svg
       width="24"
@@ -26,7 +33,7 @@ export function Check2({ className = "" }: IconProps) {
         />
         <path
           d="M8 12L11 15L17 9"
-          stroke="currentColor"
+          stroke={stroke}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"

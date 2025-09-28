@@ -15,14 +15,12 @@ export function SeeForYourself() {
         </Typography>
       </div>
 
-      <div>
-        <Button variant="primary">
-          <Link href="#" className="flex items-center gap-2">
-            <span>Pick a Time</span>
-            <ArrowRight className="size-6" />
-          </Link>
-        </Button>
-      </div>
+      <Button variant="primary" className="self-start">
+        <Link href="#" className="flex items-center gap-2">
+          <span>Pick a Time</span>
+          <ArrowRight className="size-6" />
+        </Link>
+      </Button>
     </div>
   );
 }

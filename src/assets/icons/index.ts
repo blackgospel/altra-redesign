@@ -37,6 +37,7 @@ export { Plus } from "./Plus";
 export { Residents } from "./Residents";
 export { Search } from "./Search";
 export { Smile } from "./Smile";
+export { SpeechMarks } from "./SpeechMarks";
 export { Star } from "./Star";
 export { Trash } from "./Trash";
 export { TrashFill } from "./TrashFill";

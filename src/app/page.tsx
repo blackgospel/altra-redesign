@@ -1,10 +1,48 @@
+import {
+  Clients,
+  Hero,
+  HeroImage,
+  HowWeHelp,
+  WhoWeServe,
+} from "@/components/sections/home";
+import { ReadyToTransform } from "@/components/sections/home/ready-to-transform";
+import { WhatOurPartnersSay } from "@/components/sections/home/what-our-partners-say";
+import { WhatYouCanAchieve } from "@/components/sections/home/what-you-can-achieve";
+
 export default function Home() {
   return (
-    <main className="container mx-auto px-4 py-8">
-      <h1 className="text-h1 text-navy">Welcome to Altra</h1>
-      <p className="text-body-m text-gray-40 mt-4">
-        Testing the header component with Outfit font
-      </p>
+    <main>
+      <section className="altra-container pt-36">
+        <Hero />
+      </section>
+
+      <section className="altra-container pt-12">
+        <Clients />
+      </section>
+
+      <section className="container mx-auto pt-24 px-4">
+        <HeroImage />
+      </section>
+
+      <section className="altra-container pt-24">
+        <WhoWeServe />
+      </section>
+
+      <section className="altra-container pt-36">
+        <HowWeHelp />
+      </section>
+
+      <section className="altra-container pt-24">
+        <WhatYouCanAchieve />
+      </section>
+
+      <section className="altra-container pt-24">
+        <WhatOurPartnersSay />
+      </section>
+
+      <section className="w-full pt-24">
+        <ReadyToTransform />
+      </section>
     </main>
   );
 }

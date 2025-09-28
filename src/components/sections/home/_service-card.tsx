@@ -1,0 +1,40 @@
+import { ArrowRight } from "@/assets/icons";
+import { Typography } from "@/components/ui/typography";
+import Image from "next/image";
+
+interface ServiceCardProps {
+  title: string;
+  description?: string;
+  image: string;
+}
+
+export function ServiceCard({ title, description, image }: ServiceCardProps) {
+  return (
+    <div className="relative w-full rounded-lg overflow-hidden group cursor-pointer aspect-square md:aspect-[281/460]">
+      <Image src={image} alt={title} fill className="object-cover" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/80 pointer-events-none z-10"></div>
+      <div
+        className="absolute bottom-0 left-0 right-0 bg-light-blue-50 transition-all duration-500 ease-out h-0 group-hover:h-full pointer-events-none z-20"
+        style={{
+          transformOrigin: "bottom",
+        }}
+      ></div>
+      <div className="absolute inset-0 p-6 text-white flex flex-col justify-end z-30">
+        <div className="absolute left-6 right-6 bottom-6 transition-all duration-300 ease-out opacity-100 translate-y-0 group-hover:opacity-0 group-hover:-translate-y-1">
+          <Typography variant="h5">{title}</Typography>
+        </div>
+
+        <div className="absolute left-6 right-6 bottom-6 transition-all duration-400 ease-out opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0">
+          <div className="flex flex-col gap-4">
+            <Typography variant="h5">{title}</Typography>
+            <Typography variant="text-l">{description}</Typography>
+            <Typography variant="btn-s" className="flex items-center gap-2">
+              View details
+              <ArrowRight className="size-4" />
+            </Typography>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

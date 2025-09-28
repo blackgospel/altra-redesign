@@ -4,13 +4,13 @@ import { MobileFooter } from "./_mobile-footer";
 
 export function Footer() {
   return (
-    <div className="@container flex w-full">
+    <footer className="@container flex w-full bg-background">
       <div className={cn("flex @[1024px]:hidden flex-1")}>
         <MobileFooter />
       </div>
       <div className={cn("hidden @[1024px]:flex flex-1")}>
         <DesktopFooter />
       </div>
-    </div>
+    </footer>
   );
 }

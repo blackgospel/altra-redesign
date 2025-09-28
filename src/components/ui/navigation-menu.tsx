@@ -72,7 +72,7 @@ function NavigationMenuTrigger({
       className={cn(
         navigationMenuTriggerStyle(),
         "group",
-        "text-subtitle-m",
+        "typography-subtitle-m",
         className
       )}
       {...props}

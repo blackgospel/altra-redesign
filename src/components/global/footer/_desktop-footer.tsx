@@ -1,4 +1,4 @@
-import { Typography } from "@/components/ui/typography";
+import { Copyright } from "./_copyright";
 import { FooterHeader } from "./_footer-header";
 import { GetInTouch } from "./_get-in-touch";
 import { MenuNavItems } from "./_menu-nav-items";
@@ -6,7 +6,7 @@ import { SeeForYourself } from "./_see-for-yourself";
 
 export function DesktopFooter() {
   return (
-    <footer className="container mx-auto px-4 py-8 flex flex-col gap-12">
+    <div className="container mx-auto px-4 py-8 flex flex-col gap-12">
       <FooterHeader logoWidth={164} logoHeight={28} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -25,21 +25,9 @@ export function DesktopFooter() {
         </section>
       </div>
 
-      <div
-        className="pt-9"
-        style={{
-          borderTop: "1px solid",
-          borderImageSource:
-            "linear-gradient(90deg, rgba(134, 151, 169, 0.5) 0%, #8697A9 50.1%, rgba(134, 151, 169, 0.5) 100%)",
-          borderImageSlice: 1,
-        }}
-      >
-        <div>
-          <Typography variant="caption-m" className="text-[#3D6A78]">
-            © 2025 Altra
-          </Typography>
-        </div>
-      </div>
-    </footer>
+      <section className="pt-9 shadow-linear-t">
+        <Copyright />
+      </section>
+    </div>
   );
 }

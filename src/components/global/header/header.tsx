@@ -12,26 +12,26 @@ interface HeaderProps {
 }
 
 export function Header({ sticky = true, container = true }: HeaderProps) {
-  const heightClass = `h-[${MOBILE_HEADER_HEIGHT}px] @[1024px]:h-[${DESKTOP_HEADER_HEIGHT}px]`;
   const stickyClass = sticky ? "sticky top-6 z-50" : "";
-  const containerClass = container ? "container mx-auto" : "";
+  const containerClass = container ? "container mx-auto px-4" : "";
+  const navbarStyles =
+    "bg-background border border-border rounded-xl shadow-header z-20";
 
   return (
     <MobileOverlayStoreProvider>
-      <div
-        className={cn(
-          "@container flex w-full bg-background border border-border rounded-xl shadow-header z-20",
-          stickyClass,
-          containerClass
-        )}
+      <header
+        className={cn("@container flex", stickyClass, containerClass)}
+        style={{
+          height: `clamp(${MOBILE_HEADER_HEIGHT}px, 10vw, ${DESKTOP_HEADER_HEIGHT}px)`,
+        }}
       >
-        <div className={cn("flex @[1024px]:hidden flex-1", heightClass)}>
-          <MobileHeader />
+        <div className="flex @[1024px]:hidden flex-1">
+          <MobileHeader navbarStyles={navbarStyles} />
         </div>
-        <div className={cn("hidden @[1024px]:flex flex-1", heightClass)}>
-          <DesktopHeader />
+        <div className="hidden @[1024px]:flex flex-1">
+          <DesktopHeader navbarStyles={navbarStyles} />
         </div>
-      </div>
+      </header>
     </MobileOverlayStoreProvider>
   );
 }

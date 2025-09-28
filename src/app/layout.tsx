@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${geistMono.variable} bg-background-1 font-outfit antialiased`}
+        className={`${outfit.variable} ${geistMono.variable} bg-background-0 font-outfit antialiased`}
       >
         <Header sticky />
         {children}

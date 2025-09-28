@@ -6,7 +6,7 @@ import { SeeForYourself } from "./_see-for-yourself";
 
 export function MobileFooter() {
   return (
-    <footer className="container mx-auto px-4 py-8 flex flex-col gap-10">
+    <div className="container mx-auto px-4 py-8 flex flex-col gap-10">
       <FooterHeader logoWidth={164} logoHeight={28} />
 
       <GetInTouch />
@@ -15,7 +15,9 @@ export function MobileFooter() {
 
       <SeeForYourself />
 
-      <Copyright />
-    </footer>
+      <section className="pt-9 shadow-linear-t">
+        <Copyright />
+      </section>
+    </div>
   );
 }

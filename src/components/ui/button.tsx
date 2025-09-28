@@ -13,22 +13,24 @@ const buttonVariants = cva(
         destructive:
           "[color:var(--color-white)] bg-red hover:bg-red-60 rounded-full shadow-button",
         outline:
-          "border border-gray-20 [background-color:var(--color-white)] [color:var(--color-dark-navy-80)] hover:bg-gray-5 rounded-full shadow-card",
+          "border border-[#95CFF0] [background-color:transparent] [color:var(--color-light-blue-70)] hover:bg-gray-5 rounded-full shadow-card",
         ghost:
           "[color:var(--color-dark-navy-60)] hover:bg-navy-5 hover:[color:var(--color-dark-navy-80)] rounded-full",
+        white:
+          "[color:var(--color-dark-navy-60)] bg-white hover:bg-gray-5 rounded-full shadow-button",
         link: "[color:var(--color-blue)] hover:[color:var(--color-blue-60)] underline-offset-4 hover:underline rounded-none",
       },
       size: {
-        md: "px-12 py-[15px] text-btn-l",
-        sm: "px-6 py-[15px] text-btn-s",
+        md: "px-12 py-[15px] typography-btn-l",
+        sm: "px-6 py-[15px] typography-btn-s",
         icon: "size-12 p-0",
         "icon-sm": "size-10 p-0",
         "icon-lg": "size-14 p-0",
       },
       textSize: {
-        md: "text-btn-m",
-        sm: "text-btn-s",
-        lg: "text-btn-l",
+        md: "typography-btn-m",
+        sm: "typography-btn-s",
+        lg: "typography-btn-l",
       },
     },
     defaultVariants: {

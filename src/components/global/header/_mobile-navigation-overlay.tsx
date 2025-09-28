@@ -4,7 +4,7 @@ import { Portal } from "@/components/global/portal/portal";
 import { MOBILE_HEADER_HEIGHT } from "@/config/header";
 import { useMobileOverlayStore } from "@/lib/stores/mobile-overlay/mobile-overlay-provider";
 import { MobileNavMenu } from "./_mobile-nav-menu";
-import { MobileSubmenu } from "./_mobile-submenu";
+import { MobileSubmenu } from "./_mobile-sub-menu";
 
 interface MobileNavigationOverlayProps {
   onClose: () => void;
