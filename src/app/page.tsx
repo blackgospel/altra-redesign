@@ -8,10 +8,15 @@ import {
 import { ReadyToTransform } from "@/components/sections/home/ready-to-transform";
 import { WhatOurPartnersSay } from "@/components/sections/home/what-our-partners-say";
 import { WhatYouCanAchieve } from "@/components/sections/home/what-you-can-achieve";
+import { heightTopOffsetClassName } from "@/config/header";
 
 export default function Home() {
   return (
-    <main>
+    <main
+      style={{
+        paddingTop: heightTopOffsetClassName(),
+      }}
+    >
       <section className="altra-container pt-36">
         <Hero />
       </section>

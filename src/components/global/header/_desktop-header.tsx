@@ -19,7 +19,7 @@ export function DesktopHeader({ navbarStyles }: DesktopHeaderProps) {
         "flex items-center justify-between flex-1 px-6 py-4"
       )}
     >
-      <Logo />
+      <Logo enableLink />
 
       <AltraNavigationMenu />
 

@@ -24,7 +24,7 @@ export function MobileHeader({ navbarStyles }: MobileHeaderProps) {
           "flex items-center justify-between w-full h-full px-4 py-3"
         )}
       >
-        <Logo />
+        <Logo enableLink />
 
         <Button
           variant="ghost"

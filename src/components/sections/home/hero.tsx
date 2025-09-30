@@ -20,7 +20,7 @@ export function Hero() {
           {t("subtitle")}
         </Typography>
       </div>
-      <Link href="#">
+      <Link href="/our-solutions">
         <Button variant="primary" size="md" className="self-start">
           <span>{t("cta")}</span>
           <ArrowRight className="size-5" />

@@ -2,7 +2,7 @@ import { ArrowRight } from "@/assets/icons";
 import { INavigationDropdownItem } from "@/config/navigation";
 import { Link } from "@/i18n/navigation";
 import { useHover } from "@/lib/hooks/use-hover";
-import { cn } from "@/lib/utils";
+import { cn, omitClassName } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
 interface GenericDropdownItemProps {
@@ -28,11 +28,7 @@ export function GenericDropdownItem({ item, slots }: GenericDropdownItemProps) {
     >
       <span
         className={cn("flex-1", slots?.label?.className)}
-        {...(slots?.label
-          ? Object.fromEntries(
-              Object.entries(slots.label).filter(([key]) => key !== "className")
-            )
-          : {})}
+        {...omitClassName(slots?.label)}
       >
         {parent && slug
           ? t(`nav.${parent}.items.${slug}`)
@@ -45,11 +41,7 @@ export function GenericDropdownItem({ item, slots }: GenericDropdownItemProps) {
           }`,
           slots?.icon?.className
         )}
-        {...(slots?.icon
-          ? Object.fromEntries(
-              Object.entries(slots.icon).filter(([key]) => key !== "className")
-            )
-          : {})}
+        {...omitClassName(slots?.icon)}
       />
     </Link>
   );

@@ -6,7 +6,7 @@ import { SeeForYourself } from "./_see-for-yourself";
 
 export function DesktopFooter() {
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col gap-12">
+    <div className="container mx-auto px-4 pt-12 pb-8 flex flex-col gap-12">
       <FooterHeader logoWidth={164} logoHeight={28} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">

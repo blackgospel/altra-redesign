@@ -21,7 +21,7 @@ export function Clients({ style }: ClientsProps) {
             width={100}
             height={100}
             className="object-contain"
-            style={{ width: "auto", height: "auto", ...(style || {}) }}
+            // style={{ width: "auto", height: "auto", ...(style || {}) }}
           />
         </div>
       ))}

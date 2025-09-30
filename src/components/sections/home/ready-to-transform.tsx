@@ -34,7 +34,7 @@ export function ReadyToTransform() {
             width={713}
             height={501}
             className="object-contain absolute bottom-0 left-[50%] translate-x-[-50%]"
-            style={{ width: "auto", height: "auto" }}
+            // style={{ width: "auto", height: "auto" }}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
           />

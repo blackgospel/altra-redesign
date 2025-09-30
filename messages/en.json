@@ -35,7 +35,11 @@
           "ld-supported-living": "LD & Supported Living",
           "independent-living": "Independent Living",
           "elderly-care": "Elderly Care",
-          "day-services-respite-outpatient": "Day Services, Respite, Outpatient & More"
+          "day-services-respite-outpatient": "Day Services, Respite, Outpatient & More",
+          "elderlycare": "Elderly Care",
+          "ldSupportedLiving": "LD & Supported Living",
+          "independentLiving": "Independent Living",
+          "dayServicesRespiteOutpatient": "Day Services, Respite, Outpatient & More"
         }
       },
       "customer-testimonials": { "label": "Customer Testimonials" },
@@ -177,6 +181,106 @@
           "name": "Mike Tonery",
           "role": "CEO, DomusVi Ireland"
         }
+      }
+    }
+  },
+  "whoWeServe": {
+    "elderlycare": {
+      "hero": {
+        "subtitle": "Elderly Care",
+        "title": "Enhance Quality of Life. Strengthen Family Connection. Streamline Care.",
+        "description": "Altra supports elderly care services in delivering high-quality, person-centred care while reducing administrative load. Whether you're running a single home or managing a larger group, our platform helps you engage families, empower staff, and improve outcomes for your residents — every day."
+      }
+    },
+    "ldSupportedLiving": {
+      "hero": {
+        "subtitle": "LD & Supported Living",
+        "title": "Empower Independence. Build Community. Deliver Person-Centred Support.",
+        "description": "Altra helps LD and supported living services create meaningful experiences that promote independence, build stronger communities, and deliver truly person-centred support. Our platform reduces admin while enhancing engagement for the people you support and their families."
+      },
+      "aboutGrid": {
+        "title": "How Altra Supports Better Outcomes for People Supported",
+        "items": [
+          {
+            "id": "daily-structure",
+            "title": "Promote Daily Structure and Independence",
+            "description": "Use the Resident Content Library to deliver personalised guides that help people start their day, navigate routines, or feel more confident going out in the community — tailored to their needs and abilities.",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)",
+            "ctaText": "See more"
+          },
+          {
+            "id": "voice-assistants",
+            "title": "Empower with Voice Assistants",
+            "description": "With Voice Assistants, individuals can access their daily schedule, request support, or check what's happening in the home using simple, natural commands. It builds confidence and reduces reliance on staff for routine questions.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          },
+          {
+            "id": "visual-planning",
+            "title": "Support Routine Through Visual Planning",
+            "description": "The Activities Calendar provides visibility into what's happening each day, supports planning around routines, and helps people supported build confidence in joining in. Participation can be logged and shared easily.",
+            "iconBgColor": "#00D39C",
+            "ctaText": "See more"
+          },
+          {
+            "id": "family-engagement",
+            "title": "Keep Families Informed and Involved",
+            "description": "Our Family Engagement module allow services to proactively share updates, moments and communication with loved ones. This reduces anxiety and helps build a shared support network around the individual.",
+            "iconBgColor": "#4DA8DA",
+            "ctaText": "See more"
+          },
+          {
+            "id": "track-outcomes",
+            "title": "Track What Matters",
+            "description": "With Reporting, services can measure activity participation, engagement, and preferences — helping teams personalise support and evidence meaningful outcomes for each person.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          }
+        ]
+      },
+      "checklist": {
+        "title": "Why Supported Living Providers Choose Altra",
+        "ctaText": "Book a Demo",
+        "items": [
+          {
+            "id": "individual-goals",
+            "title": "Supports Individual Goals",
+            "description": "Content and tools can be tailored to encourage skill-building and greater autonomy."
+          },
+          {
+            "id": "clear-communication",
+            "title": "Clear Communication",
+            "description": "Everyone — including families — stays in the loop, improving trust and reducing confusion or duplication."
+          },
+          {
+            "id": "consistency-teams",
+            "title": "Consistency Across Teams",
+            "description": "No matter who's on shift, teams follow the same processes and have access to the same information."
+          },
+          {
+            "id": "visual-accessible",
+            "title": "Visual and Accessible",
+            "description": "Tools are designed to support varying abilities — with image-based content, voice control and simplified interfaces."
+          }
+        ]
+      },
+      "cta": {
+        "text": "See how Altra helps supported living services empower every person supported.",
+        "buttonText": "Book Demo"
+      }
+    },
+    "independentLiving": {
+      "hero": {
+        "subtitle": "Independent Living",
+        "title": "Enhance Lifestyle. Foster Connection. Simplify Service Access.",
+        "description": "Altra transforms independent living communities by creating seamless experiences that enhance lifestyle, foster meaningful connections, and simplify access to services. Our platform helps you deliver modern amenities while building stronger community engagement."
+      }
+    },
+    "dayServicesRespiteOutpatient": {
+      "hero": {
+        "subtitle": "Day Services, Respite, Outpatient & More",
+        "title": "Deliver Flexible Care. Engage Families. Streamline Operations.",
+        "description": "Altra supports diverse care services in delivering flexible, high-quality experiences that engage families and streamline operations. Whether you're providing day services, respite care, or outpatient support, our platform helps you focus on what matters most."
       }
     }
   }
