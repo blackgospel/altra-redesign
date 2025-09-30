@@ -11,12 +11,22 @@ interface BreadcrumbItem {
   href?: string;
 }
 
-interface WhoWeServeHeroProps extends React.ComponentProps<"section"> {
+interface OurSolutionsHeroProps extends React.ComponentProps<"section"> {
   slug:
-    | "elderlycare"
-    | "ldSupportedLiving"
-    | "independentLiving"
-    | "dayServicesRespiteOutpatient";
+    | "familyEngagement"
+    | "newsletters"
+    | "activityCalendar"
+    | "voiceAssistants"
+    | "surveys"
+    | "wellbeingLibrary"
+    | "menu"
+    | "contentLibraries"
+    | "concierge"
+    | "groupIntelligence"
+    | "brandedApp"
+    | "staffEngagement"
+    | "digitalSignage"
+    | "workflow";
   slots?: {
     blob1?: React.ComponentProps<"div">;
     blob2?: React.ComponentProps<"div">;
@@ -24,9 +34,13 @@ interface WhoWeServeHeroProps extends React.ComponentProps<"section"> {
   };
 }
 
-export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
-  const t = useTranslations("whoWeServe");
-  const headerT = useTranslations("header.nav.who-we-serve.items");
+export function OurSolutionsHero({
+  slug,
+  slots,
+  ...props
+}: OurSolutionsHeroProps) {
+  const t = useTranslations("ourSolutions");
+  const headerT = useTranslations("header.nav.our-solutions.items");
 
   const content = {
     subtitle: t(`${slug}.hero.subtitle`),
@@ -34,7 +48,13 @@ export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
     description: t(`${slug}.hero.description`),
   };
 
-  const breadcrumbItems: BreadcrumbItem[] = [{ label: headerT(slug) }];
+  // Convert camelCase to kebab-case for header translation key
+  const kebabSlug = slug
+    .replace(/([A-Z])/g, "-$1")
+    .toLowerCase()
+    .replace(/^-/, "");
+
+  const breadcrumbItems: BreadcrumbItem[] = [{ label: headerT(kebabSlug) }];
 
   return (
     <section

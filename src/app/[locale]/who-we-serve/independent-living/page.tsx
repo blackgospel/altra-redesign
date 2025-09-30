@@ -1,11 +1,26 @@
-import { SectionTitle } from "@/components/sections/home/_section-title";
-import { useTranslations } from "next-intl";
+import { AboutGrid } from "@/components/sections/who-we-serve/about-grid";
+import { Checklist } from "@/components/sections/who-we-serve/checklist";
+import { CTA } from "@/components/sections/who-we-serve/cta";
+import { WhoWeServeHero } from "@/components/sections/who-we-serve/hero";
 
 export default function IndependentLivingPage() {
-  const t = useTranslations("home.whoWeServe.items.independent-living");
   return (
-    <section className="altra-container pt-24">
-      <SectionTitle title={t("title")} description={t("description")} />
-    </section>
+    <>
+      <WhoWeServeHero
+        slug="independentLiving"
+        slots={{
+          blob1: {
+            className: "bg-light-blue-30",
+          },
+          blob2: {
+            className: "bg-yellow-20",
+          },
+        }}
+        className="bg-dark-navy-40"
+      />
+      <AboutGrid slug="independentLiving" className="pt-6" />
+      <Checklist slug="independentLiving" className="pt-24" />
+      <CTA slug="independentLiving" className="pt-24" />
+    </>
   );
 }

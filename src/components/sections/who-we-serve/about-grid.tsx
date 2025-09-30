@@ -1,24 +1,42 @@
 "use client";
 
-import { SectionTitle } from "@/components/sections/home/_section-title";
-import { useTranslations } from "next-intl";
 import {
-  NoteIcon,
-  VoiceIcon,
-  CalendarIcon,
-  MessageIcon,
-  GraphIcon,
-} from "@/components/ui/icons/about-grid-icons";
-import { AboutGridItem } from "./who-we-serve.types";
-import { AboutGridCard } from "./_about-grid-card";
+  Calendar,
+  Comment,
+  Edit,
+  Envelope,
+  Heart,
+  Notifications,
+  Star,
+  User,
+} from "@/assets/icons";
+import { SectionTitle } from "@/components/sections/home/_section-title";
 import { cn, omitClassName } from "@/lib/utils";
+import { useTranslations } from "next-intl";
+import { AboutGridCard } from "./_about-grid-card";
+import { AboutGridItem } from "./who-we-serve.types";
 
 const iconMap: Record<string, React.ReactNode> = {
-  "daily-structure": <NoteIcon />,
-  "voice-assistants": <VoiceIcon />,
-  "visual-planning": <CalendarIcon />,
-  "family-engagement": <MessageIcon />,
-  "track-outcomes": <GraphIcon />,
+  "daily-structure": <Edit className="w-8 h-8" />,
+  "voice-assistants": <Notifications className="w-8 h-8" />,
+  "visual-planning": <Calendar className="w-8 h-8" />,
+  "family-engagement": <Comment className="w-8 h-8" />,
+  "track-outcomes": <Star className="w-8 h-8" />,
+  "resident-wellbeing": <Heart className="w-8 h-8" />,
+  "family-communication": <Envelope className="w-8 h-8" />,
+  "digital-displays": <Notifications className="w-8 h-8" />,
+  "resident-onboarding": <User className="w-8 h-8" />,
+  "staff-communication": <Comment className="w-8 h-8" />,
+  "reporting-insights": <Star className="w-8 h-8" />,
+  "resident-app": <User className="w-8 h-8" />,
+  "concierge-services": <Calendar className="w-8 h-8" />,
+  "activities-calendar": <Calendar className="w-8 h-8" />,
+  "branded-app": <Star className="w-8 h-8" />,
+  "engaging-experiences": <Heart className="w-8 h-8" />,
+  "family-connection": <Comment className="w-8 h-8" />,
+  "keep-informed": <Notifications className="w-8 h-8" />,
+  "short-stay-onboarding": <Edit className="w-8 h-8" />,
+  "evidence-outcomes": <Star className="w-8 h-8" />,
 };
 
 interface AboutGridProps extends React.ComponentProps<"section"> {

@@ -1,13 +1,30 @@
-import { SectionTitle } from "@/components/sections/home/_section-title";
-import { useTranslations } from "next-intl";
+import { AboutGrid } from "@/components/sections/who-we-serve/about-grid";
+import { Checklist } from "@/components/sections/who-we-serve/checklist";
+import { CTA } from "@/components/sections/who-we-serve/cta";
+import { WhoWeServeHero } from "@/components/sections/who-we-serve/hero";
 
 export default function DayServicesRespiteOutpatientPage() {
-  const t = useTranslations(
-    "home.whoWeServe.items.day-services-respite-outpatient"
-  );
   return (
-    <section className="altra-container pt-24">
-      <SectionTitle title={t("title")} description={t("description")} />
-    </section>
+    <>
+      <WhoWeServeHero
+        slug="dayServicesRespiteOutpatient"
+        slots={{
+          blob1: {
+            className: "bg-pink",
+          },
+          blob2: {
+            className: "bg-purple",
+          },
+          breadcrumb: {
+            className: "text-dark-gray-100",
+            variant: "dark-gray",
+          },
+        }}
+        className="bg-light-blue-20 text-dark-gray-100"
+      />
+      <AboutGrid slug="dayServicesRespiteOutpatient" className="pt-6" />
+      <Checklist slug="dayServicesRespiteOutpatient" className="pt-24" />
+      <CTA slug="dayServicesRespiteOutpatient" className="pt-24" />
+    </>
   );
 }

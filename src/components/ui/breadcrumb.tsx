@@ -10,9 +10,9 @@ interface BreadcrumbItem {
   href?: string;
 }
 
-interface BreadcrumbProps extends React.ComponentProps<"nav"> {
+export interface BreadcrumbProps extends React.ComponentProps<"nav"> {
   items: BreadcrumbItem[];
-  variant?: "default" | "white";
+  variant?: "default" | "white" | "dark-gray";
 }
 
 export function Breadcrumb({
@@ -22,6 +22,7 @@ export function Breadcrumb({
   ...props
 }: BreadcrumbProps) {
   const isWhite = variant === "white";
+  const isDarkGray = variant === "dark-gray";
 
   return (
     <nav
@@ -31,13 +32,24 @@ export function Breadcrumb({
     >
       <div className="flex items-center gap-2">
         <HomeFill
-          className={cn("size-5", isWhite ? "text-white" : "text-gray-600")}
+          className={cn(
+            "size-5",
+            isWhite
+              ? "text-white"
+              : isDarkGray
+              ? "text-dark-gray-100"
+              : "text-gray-600"
+          )}
         />
         <Link
           href="/"
           className={cn(
             "typography-m hover:underline",
-            isWhite ? "text-white" : "text-gray-600"
+            isWhite
+              ? "text-white"
+              : isDarkGray
+              ? "text-dark-gray-100"
+              : "text-gray-600"
           )}
         >
           <Typography variant="text-m">Home</Typography>
@@ -47,7 +59,14 @@ export function Breadcrumb({
       {items.map((item, index) => (
         <div key={index} className="flex items-center gap-2">
           <ChevronRight
-            className={cn("size-3", isWhite ? "text-white" : "text-gray-400")}
+            className={cn(
+              "size-3",
+              isWhite
+                ? "text-white"
+                : isDarkGray
+                ? "text-dark-gray-100"
+                : "text-gray-400"
+            )}
           />
           {item.href ? (
             <Link
@@ -63,7 +82,11 @@ export function Breadcrumb({
             <span
               className={cn(
                 "typography-m",
-                isWhite ? "text-white/50" : "text-gray-400"
+                isWhite
+                  ? "text-white/50"
+                  : isDarkGray
+                  ? "text-dark-gray-100/50"
+                  : "text-gray-400"
               )}
             >
               {item.label}

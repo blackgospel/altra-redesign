@@ -190,13 +190,90 @@
         "subtitle": "Elderly Care",
         "title": "Enhance Quality of Life. Strengthen Family Connection. Streamline Care.",
         "description": "Altra supports elderly care services in delivering high-quality, person-centred care while reducing administrative load. Whether you're running a single home or managing a larger group, our platform helps you engage families, empower staff, and improve outcomes for your residents — every day."
+      },
+      "aboutGrid": {
+        "title": "What Altra Helps You Achieve in Elderly Care",
+        "items": [
+          {
+            "id": "resident-wellbeing",
+            "title": "Support Resident Wellbeing",
+            "description": "Keep minds active and spirits high with our Wellbeing Library, a hub of expert-led content including seated fitness, music, mindfulness and more — designed specifically for older adults in care.",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)",
+            "ctaText": "See more"
+          },
+          {
+            "id": "family-communication",
+            "title": "Improve Communication with Families",
+            "description": "Share regular updates, photos, and videos using our Family Engagement module. Families stay connected and reassured, which improves satisfaction and reduces complaints.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          },
+          {
+            "id": "digital-displays",
+            "title": "Keep Everyone Informed",
+            "description": "Use Digital Displays to show menus, activities and announcements in common areas, and automatically update these from a central dashboard — no USB sticks or slideshows needed.",
+            "iconBgColor": "#00D39C",
+            "ctaText": "See more"
+          },
+          {
+            "id": "resident-onboarding",
+            "title": "Streamline New Resident Onboarding",
+            "description": "Ensure consistency and save time with our Workflow engine. From room prep to 7-day reviews, every task is tracked and nothing falls through the cracks.",
+            "iconBgColor": "#4DA8DA",
+            "ctaText": "See more"
+          },
+          {
+            "id": "staff-communication",
+            "title": "Communicate Seamlessly with Staff",
+            "description": "Use Staff Communication module to keep caregivers updated on schedule changes, new appointments or urgent messages — all within the Altra app, with no need for separate messaging platforms.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          },
+          {
+            "id": "reporting-insights",
+            "title": "Get the Insights You Need",
+            "description": "With Reporting, track activity attendance, engagement trends and satisfaction scores. Identify what's working and where to improve — all in one place.",
+            "iconBgColor": "#BDD86C",
+            "ctaText": "See more"
+          }
+        ]
+      },
+      "checklist": {
+        "title": "Why Elderly Care Providers Choose Altra",
+        "ctaText": "Book a Demo",
+        "items": [
+          {
+            "id": "family-satisfaction",
+            "title": "Better Family Satisfaction",
+            "description": "By keeping families connected and informed, homes reduce complaints and increase peace of mind."
+          },
+          {
+            "id": "engaged-residents",
+            "title": "Happier, More Engaged Residents",
+            "description": "Structured activity tools and wellbeing content support both physical and mental health."
+          },
+          {
+            "id": "less-admin",
+            "title": "Less Time on Admin",
+            "description": "From digital menus to task automation, Altra cuts back paperwork so your team can focus on care."
+          },
+          {
+            "id": "inspection-ready",
+            "title": "Inspection-Ready",
+            "description": "Evidence resident engagement, communication and compliance with easy-to-access logs and dashboards."
+          }
+        ]
+      },
+      "cta": {
+        "text": "See how Altra supports person-centred care in elderly services.",
+        "buttonText": "Book Demo"
       }
     },
     "ldSupportedLiving": {
       "hero": {
         "subtitle": "LD & Supported Living",
-        "title": "Empower Independence. Build Community. Deliver Person-Centred Support.",
-        "description": "Altra helps LD and supported living services create meaningful experiences that promote independence, build stronger communities, and deliver truly person-centred support. Our platform reduces admin while enhancing engagement for the people you support and their families."
+        "title": "Support Greater Independence, Communication and Inclusion.",
+        "description": "Altra helps supported living and learning disability services provide person-led care through better communication, engaging content, and tools that promote independence. With a focus on outcomes for People Supported, our platform empowers care teams to deliver consistent support while giving individuals more control, visibility and connection."
       },
       "aboutGrid": {
         "title": "How Altra Supports Better Outcomes for People Supported",
@@ -269,18 +346,265 @@
         "buttonText": "Book Demo"
       }
     },
-    "independentLiving": {
-      "hero": {
-        "subtitle": "Independent Living",
-        "title": "Enhance Lifestyle. Foster Connection. Simplify Service Access.",
-        "description": "Altra transforms independent living communities by creating seamless experiences that enhance lifestyle, foster meaningful connections, and simplify access to services. Our platform helps you deliver modern amenities while building stronger community engagement."
-      }
-    },
     "dayServicesRespiteOutpatient": {
       "hero": {
         "subtitle": "Day Services, Respite, Outpatient & More",
-        "title": "Deliver Flexible Care. Engage Families. Streamline Operations.",
-        "description": "Altra supports diverse care services in delivering flexible, high-quality experiences that engage families and streamline operations. Whether you're providing day services, respite care, or outpatient support, our platform helps you focus on what matters most."
+        "title": "Support Meaningful Visits. Keep Everyone Informed. Streamline Operations.",
+        "description": "Altra helps day services, respite care and outpatient providers deliver engaging, person-centred experiences while reducing the pressure on staff. Whether your clients are with you for a few hours, a short stay or regular visits, our platform makes it simple to connect families, engage individuals, and keep operations running smoothly."
+      },
+      "aboutGrid": {
+        "title": "How Altra Supports Day and Short-Stay Services",
+        "items": [
+          {
+            "id": "engaging-experiences",
+            "title": "Create Engaging Experiences",
+            "description": "Use the Wellbeing Library to deliver tailored activities — from fitness to music and mindfulness — that make every visit meaningful and enjoyable.",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)",
+            "ctaText": "See more"
+          },
+          {
+            "id": "family-connection",
+            "title": "Strengthen Family Connection",
+            "description": "Keep families in the loop with updates, photos and messages through the Family Engagement module. This reassures loved ones and improves satisfaction.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          },
+          {
+            "id": "keep-informed",
+            "title": "Keep Everyone Informed",
+            "description": "Share schedules, menus and announcements on Digital Displays so clients and families know what is happening — updated instantly from a central dashboard.",
+            "iconBgColor": "#00D39C",
+            "ctaText": "See more"
+          },
+          {
+            "id": "short-stay-onboarding",
+            "title": "Streamline Short-Stay Onboarding",
+            "description": "Track every step of a respite admission with Workflows. From arrival to departure, tasks are clear and nothing is missed.",
+            "iconBgColor": "#4DA8DA",
+            "ctaText": "See more"
+          },
+          {
+            "id": "staff-communication",
+            "title": "Communicate Seamlessly with Staff",
+            "description": "Send updates on bookings, schedule changes or urgent messages directly to staff within the Altra app — no need for separate systems.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          },
+          {
+            "id": "evidence-outcomes",
+            "title": "Evidence Engagement and Outcomes",
+            "description": "With Reporting, track attendance, engagement and feedback across day, respite and outpatient services to show impact and support compliance.",
+            "iconBgColor": "#BDD86C",
+            "ctaText": "See more"
+          }
+        ]
+      },
+      "checklist": {
+        "title": "Why Providers Choose Altra for Day and Short-Stay Services",
+        "ctaText": "Book a Demo",
+        "items": [
+          {
+            "id": "client-family-experience",
+            "title": "Better Client and Family Experience",
+            "description": "Families stay connected and informed, while clients enjoy structured, engaging activities."
+          },
+          {
+            "id": "reduced-admin",
+            "title": "Reduced Admin Load",
+            "description": "Digital tools replace paper processes so staff spend more time supporting people, not chasing tasks."
+          },
+          {
+            "id": "consistency",
+            "title": "Consistency and Reliability",
+            "description": "Standardised workflows and central communication keep services running smoothly across teams and shifts."
+          },
+          {
+            "id": "inspection-ready",
+            "title": "Inspection-Ready",
+            "description": "Evidence engagement, communication and compliance with clear dashboards and logs."
+          }
+        ]
+      },
+      "cta": {
+        "text": "See how Altra supports meaningful, person-centred visits in day, respite and outpatient services.",
+        "buttonText": "Book Demo"
+      }
+    },
+    "independentLiving": {
+      "hero": {
+        "subtitle": "Independent Living",
+        "title": "A Modern Experience for Active, Independent Older Adults",
+        "description": "Altra helps independent living communities deliver a more connected, informed and resident-led experience. From digital signage to personalised resident apps, Altra enhances everyday life for active older adults — while giving teams the tools to manage communication, services and scheduling with ease."
+      },
+      "aboutGrid": {
+        "title": "How Altra Supports Independent Living Communities",
+        "items": [
+          {
+            "id": "digital-displays",
+            "title": "Keep Residents Informed in Real Time",
+            "description": "Use Digital Displays to show daily menus, activity calendars, event highlights and community updates in shared spaces — no paper, no PowerPoint, just real-time info where residents need it most.",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)",
+            "ctaText": "See more"
+          },
+          {
+            "id": "resident-app",
+            "title": "Empower with the Resident App",
+            "description": "Give residents direct access to their Activities Calendar, menus, notices, and important updates through the Altra app. It supports greater autonomy while reducing demand on front desk teams.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          },
+          {
+            "id": "concierge-services",
+            "title": "Book Services with Ease",
+            "description": "With Concierge, residents can request services, report maintenance needs or book extras (like guest meals or wellbeing treatments) directly from their app — all tracked and managed by your team in one dashboard.",
+            "iconBgColor": "#00D39C",
+            "ctaText": "See more"
+          },
+          {
+            "id": "activities-calendar",
+            "title": "Build an Active, Engaging Schedule",
+            "description": "From fitness classes to movie nights and community outings, Altra's Activities Calendar makes it easy to plan, share and adapt events for a vibrant lifestyle — with participation logging and resident preferences built in.",
+            "iconBgColor": "#4DA8DA",
+            "ctaText": "See more"
+          },
+          {
+            "id": "branded-app",
+            "title": "Launch Your Own Branded App",
+            "description": "For groups and premium providers, Altra offers a Fully Branded App — your own branded app in the App Store. Give residents and families a modern, fully branded digital experience while reinforcing your brand identity.",
+            "iconBgColor": "#ED4789",
+            "ctaText": "See more"
+          }
+        ]
+      },
+      "checklist": {
+        "title": "Why Independent Living Communities Choose Altra",
+        "ctaText": "Book a Demo",
+        "items": [
+          {
+            "id": "enhances-lifestyle",
+            "title": "Enhances Lifestyle",
+            "description": "Residents enjoy clear communication, easy service access and a stronger sense of connection with their community."
+          },
+          {
+            "id": "reduces-admin",
+            "title": "Reduces Admin for Teams",
+            "description": "Digital tools reduce repetitive tasks and allow teams to focus on service, not logistics."
+          },
+          {
+            "id": "promotes-autonomy",
+            "title": "Promotes Autonomy",
+            "description": "Residents can view, choose and act independently across events, requests and updates."
+          },
+          {
+            "id": "branded-experience",
+            "title": "Professional, Branded Experience",
+            "description": "From the app to signage, everything reflects your brand and values."
+          }
+        ]
+      },
+      "cta": {
+        "text": "See how Altra helps you deliver a modern experience for independent older adults.",
+        "buttonText": "Book Demo"
+      }
+    }
+  },
+  "ourSolutions": {
+    "familyEngagement": {
+      "hero": {
+        "subtitle": "Family Engagement",
+        "title": "Keep Families Connected, Reassured and Informed",
+        "description": "Build trust and peace of mind with proactive updates, rich media sharing, and real-time communication that keeps families meaningfully connected to their loved ones."
+      }
+    },
+    "newsletters": {
+      "hero": {
+        "subtitle": "Newsletters",
+        "title": "Share Updates That Families Actually Read",
+        "description": "Create beautiful, branded newsletters in minutes and deliver them directly to family inboxes or through your app — keeping everyone informed without the admin."
+      }
+    },
+    "activityCalendar": {
+      "hero": {
+        "subtitle": "Activity Calendar",
+        "title": "Plan, Share and Track Activities with Ease",
+        "description": "Bring structure and visibility to your activity programme. From planning to participation tracking, everything is designed to save time and support person-centred care."
+      }
+    },
+    "voiceAssistants": {
+      "hero": {
+        "subtitle": "Voice Assistants",
+        "title": "Empower Independence Through Voice",
+        "description": "Give residents and people supported the ability to check schedules, request support, and access information using simple voice commands — building confidence and reducing reliance on staff."
+      }
+    },
+    "surveys": {
+      "hero": {
+        "subtitle": "Surveys",
+        "title": "Gather Feedback That Drives Improvement",
+        "description": "Create custom surveys, collect feedback from residents and families, and track responses in real time — all linked to individual profiles for easy reporting and compliance."
+      }
+    },
+    "wellbeingLibrary": {
+      "hero": {
+        "subtitle": "Wellbeing Library",
+        "title": "Expert Content for Mind, Body and Spirit",
+        "description": "Access a curated library of wellbeing content including seated fitness, music therapy, mindfulness, and more — all designed specifically for care settings."
+      }
+    },
+    "menu": {
+      "hero": {
+        "subtitle": "Menu",
+        "title": "Share Menus Clearly and Instantly",
+        "description": "Display daily menus on digital signage, resident apps, or family portals — updated centrally in real time with no printing or manual updates needed."
+      }
+    },
+    "contentLibraries": {
+      "hero": {
+        "subtitle": "Content Libraries",
+        "title": "Deliver Personalised Content to Every Individual",
+        "description": "Create and share tailored guides, routines, and resources that help people supported build skills, follow routines, and live more independently."
+      }
+    },
+    "concierge": {
+      "hero": {
+        "subtitle": "Concierge",
+        "title": "Manage Resident Requests with Ease",
+        "description": "Let residents book services, report maintenance, or request extras directly from their app — while your team tracks and manages everything from one central dashboard."
+      }
+    },
+    "groupIntelligence": {
+      "hero": {
+        "subtitle": "Group Intelligence",
+        "title": "Get Real-Time Insights Across Your Whole Group",
+        "description": "For multi-site providers, Group Intelligence brings together engagement data, participation trends, and performance metrics across all your services in one powerful dashboard."
+      }
+    },
+    "brandedApp": {
+      "hero": {
+        "subtitle": "Branded App",
+        "title": "Your Own App in the App Store",
+        "description": "Offer residents and families a fully branded mobile experience that reflects your identity — available on iOS and Android with your logo, colours, and name."
+      }
+    },
+    "staffEngagement": {
+      "hero": {
+        "subtitle": "Staff Engagement",
+        "title": "Keep Your Team Informed and Aligned",
+        "description": "Cut through the noise with a single platform for team communication, task management, and updates — helping staff stay connected, informed, and focused on care."
+      }
+    },
+    "digitalSignage": {
+      "hero": {
+        "subtitle": "Digital Signage",
+        "title": "Keep Everyone Informed with Smart Displays",
+        "description": "Show menus, activities, announcements, and updates on screens throughout your service — all managed from one dashboard with no USB sticks or manual updates."
+      }
+    },
+    "workflow": {
+      "hero": {
+        "subtitle": "Workflow",
+        "title": "Standardise Processes and Track Every Task",
+        "description": "Build custom workflows for onboarding, reviews, or any recurring process — ensuring consistency, accountability, and nothing falling through the cracks."
       }
     }
   }

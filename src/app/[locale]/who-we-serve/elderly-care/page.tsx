@@ -1,11 +1,26 @@
-import { SectionTitle } from "@/components/sections/home/_section-title";
-import { useTranslations } from "next-intl";
+import { AboutGrid } from "@/components/sections/who-we-serve/about-grid";
+import { Checklist } from "@/components/sections/who-we-serve/checklist";
+import { CTA } from "@/components/sections/who-we-serve/cta";
+import { WhoWeServeHero } from "@/components/sections/who-we-serve/hero";
 
 export default function ElderlyCarePage() {
-  const t = useTranslations("home.whoWeServe.items.elderly-care");
   return (
-    <section className="altra-container pt-24">
-      <SectionTitle title={t("title")} description={t("description")} />
-    </section>
+    <>
+      <WhoWeServeHero
+        slug="elderlycare"
+        slots={{
+          blob1: {
+            className: "bg-violet",
+          },
+          blob2: {
+            className: "bg-lime",
+          },
+        }}
+        className="bg-purple"
+      />
+      <AboutGrid slug="elderlycare" className="pt-6" />
+      <Checklist slug="elderlycare" className="pt-24" />
+      <CTA slug="elderlycare" className="pt-24" />
+    </>
   );
 }
