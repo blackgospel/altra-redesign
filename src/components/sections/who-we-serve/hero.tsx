@@ -1,15 +1,14 @@
 "use client";
 
-import { Breadcrumb, BreadcrumbProps } from "@/components/ui/breadcrumb";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbProps,
+} from "@/components/ui/breadcrumb";
 import { Typography } from "@/components/ui/typography";
 import { heightTopOffsetClassName } from "@/config/header";
 import { cn, omitClassName } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-
-interface BreadcrumbItem {
-  label: string;
-  href?: string;
-}
 
 interface WhoWeServeHeroProps extends React.ComponentProps<"section"> {
   slug:

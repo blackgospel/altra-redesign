@@ -18,8 +18,11 @@ export default function LdSupportedLivingPage() {
         }}
         className="bg-light-blue-60"
       />
+
       <AboutGrid slug="ldSupportedLiving" className="pt-6" />
+
       <Checklist slug="ldSupportedLiving" className="pt-24" />
+
       <CTA slug="ldSupportedLiving" className="pt-24" />
     </>
   );

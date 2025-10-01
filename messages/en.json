@@ -82,27 +82,33 @@
       "cta": "Book Demo"
     },
     "heroImage": {
-      "alt": "Altra Dashboard"
+      "alt": "Altra Dashboard",
+      "imagePath": "/images/home/hero-splash/hero-splash.png"
     },
     "whoWeServe": {
       "title": "Who We Serve",
       "description": "We work with care providers across a wide range of services:",
+      "viewDetails": "View details",
       "items": {
         "elderly-care": {
           "title": "Elderly Care",
-          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access",
+          "imagePath": "/images/home/who-we-serve/elderly-care.png"
         },
         "ld-supported-living": {
           "title": "LD & Supported Living",
-          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access",
+          "imagePath": "/images/home/who-we-serve/ld-supported-living-21fdb2.png"
         },
         "independent-living": {
           "title": "Independent Living",
-          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access",
+          "imagePath": "/images/home/who-we-serve/independent-living.png"
         },
         "day-services-respite-outpatient": {
           "title": "Day Services, Respite, Outpatient & More",
-          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access"
+          "description": "Deliver a modern experience with branded apps, digital signage and seamless service access",
+          "imagePath": "/images/home/who-we-serve/day-services-respite-outpatient-1549ee.png"
         }
       }
     },
@@ -113,27 +119,33 @@
       "items": {
         "keep-families-connected": {
           "title": "Keep Families Connected, Reassured and Informed – Every Day",
-          "description": "Give families what they want most: meaningful connection, proactive updates and peace of mind. Whether near or far, families stay closely connected to the day-to-day lives of their loved ones through real-time updates, media-rich moments and smart notification"
+          "description": "Give families what they want most: meaningful connection, proactive updates and peace of mind. Whether near or far, families stay closely connected to the day-to-day lives of their loved ones through real-time updates, media-rich moments and smart notification",
+          "imagePath": "/images/home/how-we-help/keep-families-connected.png"
         },
         "make-every-day-count": {
           "title": "Make Every Day Count with Smarter Life Enrichment Planning",
-          "description": "Run engaging, person-centred life enrichment programming with far less admin. From planning to participation tracking, everything is built for speed, clarity and impact – helping your team focus more on what matters most: the people you support."
+          "description": "Run engaging, person-centred life enrichment programming with far less admin. From planning to participation tracking, everything is built for speed, clarity and impact – helping your team focus more on what matters most: the people you support.",
+          "imagePath": "/images/home/how-we-help/make-every-day-count.png"
         },
         "empower-every-individual": {
           "title": "Empower Every Individual with Personalised Content and Routines",
-          "description": "Bring learning, leisure and independence into the hands of those you support. From tailored content to structured routines, everything is designed to engage, empower and enrich daily living experiences."
+          "description": "Bring learning, leisure and independence into the hands of those you support. From tailored content to structured routines, everything is designed to engage, empower and enrich daily living experiences.",
+          "imagePath": "/images/home/how-we-help/empower-every-individual.png"
         },
         "unite-and-simplify": {
           "title": "Unite and Simplify Team Communication and Tasks",
-          "description": "Cut through the noise with a single hub for communication, workflows and task management. Your team stays aligned, informed and focused – with less admin and more time for meaningful care."
+          "description": "Cut through the noise with a single hub for communication, workflows and task management. Your team stays aligned, informed and focused – with less admin and more time for meaningful care.",
+          "imagePath": "/images/home/how-we-help/unity-and-simplify.png"
         },
         "turn-everyday-data": {
           "title": "Turn Everyday Data into Actionable Insights",
-          "description": "Capture participation, feedback and outcomes in real time. With clear dashboards, instant reports and built-in surveys, you get the clarity you need to measure impact and make better decisions, faster."
+          "description": "Capture participation, feedback and outcomes in real time. With clear dashboards, instant reports and built-in surveys, you get the clarity you need to measure impact and make better decisions, faster.",
+          "imagePath": "/images/home/how-we-help/turn-everyday-data.png"
         },
         "seemlessly-connect": {
           "title": "Seamlessly Connect with Your Care Management Systems",
-          "description": "No duplicate work, no silos. Altra integrates directly with your care management software, so data flows where it should – saving time, improving accuracy and giving your team a single source of truth."
+          "description": "No duplicate work, no silos. Altra integrates directly with your care management software, so data flows where it should – saving time, improving accuracy and giving your team a single source of truth.",
+          "imagePath": "/images/home/how-we-help/seemlessly-connect.png"
         }
       }
     },
@@ -146,39 +158,67 @@
         "Clear insights for better decisions",
         "Inspection-ready communication and feedback evidence"
       ],
-      "cta": "Explore Our Solutions"
+      "cta": "Explore Our Solutions",
+      "backgroundImage": "/images/home/what-you-can-achieve/ellipsis.png",
+      "splashImage": "/images/home/what-you-can-achieve/what-you-can-achieve.png"
     },
     "readyToTransform": {
       "title": "Ready to transform experience and engagement in your care service?",
-      "cta": "Explore Our Solutions"
+      "cta": "Explore Our Solutions",
+      "backgroundImage": "/images/home/ready-to-transform/background.png",
+      "splashImage": "/images/home/ready-to-transform/splash.png"
     },
     "clients": {
       "items": {
-        "emeio": { "alt": "Emeio" },
-        "carechoice": { "alt": "CareChoice" },
-        "athena": { "alt": "Athena" },
-        "avondale": { "alt": "Avondale" },
-        "virtue": { "alt": "Virtue" },
-        "windmill": { "alt": "Windmill" },
-        "stmartins": { "alt": "St Martins" }
+        "emeio": {
+          "alt": "Emeio",
+          "imagePath": "/images/clients/emeio-logo.png"
+        },
+        "carechoice": {
+          "alt": "CareChoice",
+          "imagePath": "/images/clients/carechoice-logo.png"
+        },
+        "athena": {
+          "alt": "Athena",
+          "imagePath": "/images/clients/athena-logo.png"
+        },
+        "avondale": {
+          "alt": "Avondale",
+          "imagePath": "/images/clients/avondale-logo.png"
+        },
+        "virtue": {
+          "alt": "Virtue",
+          "imagePath": "/images/clients/virtue-logo.png"
+        },
+        "windmill": {
+          "alt": "Windmill",
+          "imagePath": "/images/clients/windmill-logo.png"
+        },
+        "stmartins": {
+          "alt": "St Martins",
+          "imagePath": "/images/clients/stmartins-logo.png"
+        }
       }
     },
     "testimonials": {
       "title": "What Our Partners Say",
       "items": {
         "lisa-vila": {
-          "quote": "“The Altra platform has been a game-changer for us in enhancing service delivery through the effective measurement of set KPIs. The reporting function has allowed us to effectively gather the evidence needed for all external stakeholders, ensuring transparency and accountability in our operations.”",
+          "quote": "The Altra platform has been a game-changer for us in enhancing service delivery through the effective measurement of set KPIs. The reporting function has allowed us to effectively gather the evidence needed for all external stakeholders, ensuring transparency and accountability in our operations.",
           "name": "Lisa Vila",
-          "role": "Sales & Hospitality Manager, Athena Care Homes"
+          "role": "Sales & Hospitality Manager, Athena Care Homes",
+          "avatar": "/images/home/what-our-partners-say/avatar-1.png"
         },
         "laura-collins": {
-          "quote": "“Concierge has made it so much easier for us to stay on top of resident requests. It’s helping us build more trust with residents and families, and our team finds it so easy to use.”",
+          "quote": "Concierge has made it so much easier for us to stay on top of resident requests. It's helping us build more trust with residents and families, and our team finds it so easy to use.",
           "name": "Laura Collins",
-          "role": "Curam Care"
+          "role": "Curam Care",
+          "avatar": "/images/home/what-our-partners-say/avatar-2.png"
         },
         "mike-tonery": {
-          "quote": "“We have transformed our approach to feedback by using Altra’s survey tool to stay in tune with our community’s needs. Everything is now linked to resident and family profiles in one place, saving us a lot of time.”",
+          "quote": "We have transformed our approach to feedback by using Altra's survey tool to stay in tune with our community's needs. Everything is now linked to resident and family profiles in one place, saving us a lot of time.",
           "name": "Mike Tonery",
+          "avatar": "/images/home/what-our-partners-say/avatar-3.png",
           "role": "CEO, DomusVi Ireland"
         }
       }
@@ -196,6 +236,7 @@
         "items": [
           {
             "id": "resident-wellbeing",
+            "icon": "heart",
             "title": "Support Resident Wellbeing",
             "description": "Keep minds active and spirits high with our Wellbeing Library, a hub of expert-led content including seated fitness, music, mindfulness and more — designed specifically for older adults in care.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
@@ -203,6 +244,7 @@
           },
           {
             "id": "family-communication",
+            "icon": "envelope",
             "title": "Improve Communication with Families",
             "description": "Share regular updates, photos, and videos using our Family Engagement module. Families stay connected and reassured, which improves satisfaction and reduces complaints.",
             "iconBgColor": "#ED4789",
@@ -210,6 +252,7 @@
           },
           {
             "id": "digital-displays",
+            "icon": "notifications",
             "title": "Keep Everyone Informed",
             "description": "Use Digital Displays to show menus, activities and announcements in common areas, and automatically update these from a central dashboard — no USB sticks or slideshows needed.",
             "iconBgColor": "#00D39C",
@@ -217,6 +260,7 @@
           },
           {
             "id": "resident-onboarding",
+            "icon": "user",
             "title": "Streamline New Resident Onboarding",
             "description": "Ensure consistency and save time with our Workflow engine. From room prep to 7-day reviews, every task is tracked and nothing falls through the cracks.",
             "iconBgColor": "#4DA8DA",
@@ -224,6 +268,7 @@
           },
           {
             "id": "staff-communication",
+            "icon": "comment",
             "title": "Communicate Seamlessly with Staff",
             "description": "Use Staff Communication module to keep caregivers updated on schedule changes, new appointments or urgent messages — all within the Altra app, with no need for separate messaging platforms.",
             "iconBgColor": "#ED4789",
@@ -231,6 +276,7 @@
           },
           {
             "id": "reporting-insights",
+            "icon": "star",
             "title": "Get the Insights You Need",
             "description": "With Reporting, track activity attendance, engagement trends and satisfaction scores. Identify what's working and where to improve — all in one place.",
             "iconBgColor": "#BDD86C",
@@ -280,6 +326,7 @@
         "items": [
           {
             "id": "daily-structure",
+            "icon": "edit",
             "title": "Promote Daily Structure and Independence",
             "description": "Use the Resident Content Library to deliver personalised guides that help people start their day, navigate routines, or feel more confident going out in the community — tailored to their needs and abilities.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
@@ -287,6 +334,7 @@
           },
           {
             "id": "voice-assistants",
+            "icon": "notifications",
             "title": "Empower with Voice Assistants",
             "description": "With Voice Assistants, individuals can access their daily schedule, request support, or check what's happening in the home using simple, natural commands. It builds confidence and reduces reliance on staff for routine questions.",
             "iconBgColor": "#ED4789",
@@ -294,6 +342,7 @@
           },
           {
             "id": "visual-planning",
+            "icon": "calendar",
             "title": "Support Routine Through Visual Planning",
             "description": "The Activities Calendar provides visibility into what's happening each day, supports planning around routines, and helps people supported build confidence in joining in. Participation can be logged and shared easily.",
             "iconBgColor": "#00D39C",
@@ -301,6 +350,7 @@
           },
           {
             "id": "family-engagement",
+            "icon": "comment",
             "title": "Keep Families Informed and Involved",
             "description": "Our Family Engagement module allow services to proactively share updates, moments and communication with loved ones. This reduces anxiety and helps build a shared support network around the individual.",
             "iconBgColor": "#4DA8DA",
@@ -308,6 +358,7 @@
           },
           {
             "id": "track-outcomes",
+            "icon": "star",
             "title": "Track What Matters",
             "description": "With Reporting, services can measure activity participation, engagement, and preferences — helping teams personalise support and evidence meaningful outcomes for each person.",
             "iconBgColor": "#ED4789",
@@ -357,6 +408,7 @@
         "items": [
           {
             "id": "engaging-experiences",
+            "icon": "heart",
             "title": "Create Engaging Experiences",
             "description": "Use the Wellbeing Library to deliver tailored activities — from fitness to music and mindfulness — that make every visit meaningful and enjoyable.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
@@ -364,6 +416,7 @@
           },
           {
             "id": "family-connection",
+            "icon": "comment",
             "title": "Strengthen Family Connection",
             "description": "Keep families in the loop with updates, photos and messages through the Family Engagement module. This reassures loved ones and improves satisfaction.",
             "iconBgColor": "#ED4789",
@@ -371,6 +424,7 @@
           },
           {
             "id": "keep-informed",
+            "icon": "notifications",
             "title": "Keep Everyone Informed",
             "description": "Share schedules, menus and announcements on Digital Displays so clients and families know what is happening — updated instantly from a central dashboard.",
             "iconBgColor": "#00D39C",
@@ -378,6 +432,7 @@
           },
           {
             "id": "short-stay-onboarding",
+            "icon": "edit",
             "title": "Streamline Short-Stay Onboarding",
             "description": "Track every step of a respite admission with Workflows. From arrival to departure, tasks are clear and nothing is missed.",
             "iconBgColor": "#4DA8DA",
@@ -385,6 +440,7 @@
           },
           {
             "id": "staff-communication",
+            "icon": "comment",
             "title": "Communicate Seamlessly with Staff",
             "description": "Send updates on bookings, schedule changes or urgent messages directly to staff within the Altra app — no need for separate systems.",
             "iconBgColor": "#ED4789",
@@ -392,6 +448,7 @@
           },
           {
             "id": "evidence-outcomes",
+            "icon": "star",
             "title": "Evidence Engagement and Outcomes",
             "description": "With Reporting, track attendance, engagement and feedback across day, respite and outpatient services to show impact and support compliance.",
             "iconBgColor": "#BDD86C",
@@ -441,6 +498,7 @@
         "items": [
           {
             "id": "digital-displays",
+            "icon": "notifications",
             "title": "Keep Residents Informed in Real Time",
             "description": "Use Digital Displays to show daily menus, activity calendars, event highlights and community updates in shared spaces — no paper, no PowerPoint, just real-time info where residents need it most.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
@@ -448,6 +506,7 @@
           },
           {
             "id": "resident-app",
+            "icon": "user",
             "title": "Empower with the Resident App",
             "description": "Give residents direct access to their Activities Calendar, menus, notices, and important updates through the Altra app. It supports greater autonomy while reducing demand on front desk teams.",
             "iconBgColor": "#ED4789",
@@ -455,6 +514,7 @@
           },
           {
             "id": "concierge-services",
+            "icon": "calendar",
             "title": "Book Services with Ease",
             "description": "With Concierge, residents can request services, report maintenance needs or book extras (like guest meals or wellbeing treatments) directly from their app — all tracked and managed by your team in one dashboard.",
             "iconBgColor": "#00D39C",
@@ -462,6 +522,7 @@
           },
           {
             "id": "activities-calendar",
+            "icon": "calendar",
             "title": "Build an Active, Engaging Schedule",
             "description": "From fitness classes to movie nights and community outings, Altra's Activities Calendar makes it easy to plan, share and adapt events for a vibrant lifestyle — with participation logging and resident preferences built in.",
             "iconBgColor": "#4DA8DA",
@@ -469,6 +530,7 @@
           },
           {
             "id": "branded-app",
+            "icon": "star",
             "title": "Launch Your Own Branded App",
             "description": "For groups and premium providers, Altra offers a Fully Branded App — your own branded app in the App Store. Give residents and families a modern, fully branded digital experience while reinforcing your brand identity.",
             "iconBgColor": "#ED4789",
@@ -513,98 +575,245 @@
       "hero": {
         "subtitle": "Family Engagement",
         "title": "Keep Families Connected, Reassured and Informed",
-        "description": "Build trust and peace of mind with proactive updates, rich media sharing, and real-time communication that keeps families meaningfully connected to their loved ones."
+        "description": "Build trust and peace of mind with proactive updates, rich media sharing, and real-time communication that keeps families meaningfully connected to their loved ones.",
+        "note": "*See how families stay connected and informed every day.",
+        "imagePath": "/images/our-solutions/family-engagement/hero.png"
       }
     },
     "newsletters": {
       "hero": {
         "subtitle": "Newsletters",
         "title": "Share Updates That Families Actually Read",
-        "description": "Create beautiful, branded newsletters in minutes and deliver them directly to family inboxes or through your app — keeping everyone informed without the admin."
+        "description": "Create beautiful, branded newsletters in minutes and deliver them directly to family inboxes or through your app — keeping everyone informed without the admin.",
+        "note": "*See how to create engaging newsletters in minutes.",
+        "imagePath": "/images/our-solutions/newsletters/hero.png"
       }
     },
     "activityCalendar": {
       "hero": {
         "subtitle": "Activity Calendar",
         "title": "Plan, Share and Track Activities with Ease",
-        "description": "Bring structure and visibility to your activity programme. From planning to participation tracking, everything is designed to save time and support person-centred care."
+        "description": "Bring structure and visibility to your activity programme. From planning to participation tracking, everything is designed to save time and support person-centred care.",
+        "note": "*See how your team can plan, track and share activities with ease.",
+        "imagePath": "/images/our-solutions/activity-calendar/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Altra's Activities Calendar",
+        "description": "Streamline Planning. Boost Participation. Elevate Quality of Life. Care providers use Altra's Activities Calendar to:",
+        "items": [
+          "Save time planning and reporting on weekly programming",
+          "Track resident participation, mood and feedback in minutes",
+          "Print branded, accessible calendars for residents and families",
+          "Tailor future activities using real participation data",
+          "Keep families informed and engaged through shared updates"
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "Plan and Share Weekly Activities in Minutes",
+            "description": "Activities teams can easily add recurring and one-time events, filter by service level, location or person supported, and build schedules in just a few clicks.",
+            "keyFeatures": {
+              "title": "Key Features:",
+              "list": [
+                "Recurring Events",
+                "Filter by Service Level, Location, or Person Supported",
+                "Track Engagement and Participation",
+                "Customisable Print Layouts"
+              ]
+            },
+            "note": "Shared Calendar View Across Teams",
+            "imagePath": "/images/our-solutions/activity-calendar/how-it-works-1.png"
+          },
+          {
+            "title": "Log Participation and Gather Feedback Effortlessly",
+            "description": "Staff can record participation and mood scores during or immediately after an activity, right from the mobile app.",
+            "captureItems": {
+              "title": "Capture:",
+              "items": [
+                {
+                  "icon": "users",
+                  "title": "Attendance"
+                },
+                {
+                  "icon": "smile",
+                  "title": "Mood score"
+                },
+                {
+                  "icon": "communication",
+                  "title": "Personalised comments"
+                },
+                {
+                  "icon": "note",
+                  "title": "Follow-up notes"
+                }
+              ]
+            },
+            "note": "This data builds a profile of resident engagement over time - useful for care planning, inspections and tailoring your programme.",
+            "imagePath": "/images/our-solutions/activity-calendar/how-it-works-2.png"
+          },
+          {
+            "title": "Designed for the Mobile Workforce",
+            "description": "Built for teams that move – not sit at desks.",
+            "keyFeatures": {
+              "title": "With the Altra app, teams can:",
+              "list": [
+                "Create and edit activities",
+                "Take attendance",
+                "Share real-time updates with families",
+                "Post announcements",
+                "Access event history from anywhere"
+              ]
+            },
+            "imagePath": "/images/our-solutions/activity-calendar/how-it-works-3.png"
+          },
+          {
+            "title": "Customize and Print with Ease",
+            "keyFeatures": {
+              "title": "Our Print Styler makes it easy to:",
+              "list": [
+                "Adjust colours and formatting",
+                "Add logos and visual branding",
+                "Tailor the calendar layout for visibility and readability",
+                "Print daily or weekly calendars in accessible formats"
+              ]
+            },
+            "imagePath": "/images/our-solutions/activity-calendar/how-it-works-4.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra for Activities Management",
+        "benefits": [
+          {
+            "title": "Time Saved",
+            "description": "Staff save up to 45 minutes per day on admin compared to traditional care systems."
+          },
+          {
+            "title": "Inspection-Ready Documentation",
+            "description": "Easily evidence how activities are tailored to resident needs and preferences."
+          },
+          {
+            "title": "Improved Family Communication",
+            "description": "Families can view their loved one's participation, which fosters peace of mind and strengthens community ties."
+          },
+          {
+            "title": "Better Programming",
+            "description": "Track and adjust activity types to meet wellbeing goals and ensure a varied schedule."
+          }
+        ],
+        "cta": "Book a Demo",
+        "screenshot": "/images/our-solutions/activity-calendar/benefit-screenshot-cutoff.png"
+      },
+      "customerStory": {
+        "title": "Customer Story: Emeis Ireland",
+        "subtitle": "Hours Saved. Families Engaged.",
+        "testimonial": "\"On a daily basis, my teams can access their activities plan for each resident, log all activities they participated in and at the same time share all that with resident's family members. Absolutely handy and saves hours of work each week in each home. Altra is great and provides excellent support.\"",
+        "authorName": "Lukas Peh",
+        "authorTitle": "Social Care Lead, Emeis Ireland",
+        "authorImage": "/images/our-solutions/activity-calendar/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": "Find out how leading care providers are improving programming with Altra."
       }
     },
     "voiceAssistants": {
       "hero": {
         "subtitle": "Voice Assistants",
         "title": "Empower Independence Through Voice",
-        "description": "Give residents and people supported the ability to check schedules, request support, and access information using simple voice commands — building confidence and reducing reliance on staff."
+        "description": "Give residents and people supported the ability to check schedules, request support, and access information using simple voice commands — building confidence and reducing reliance on staff.",
+        "note": "*See how voice technology empowers independence.",
+        "imagePath": "/images/our-solutions/voice-assistants/hero.png"
       }
     },
     "surveys": {
       "hero": {
         "subtitle": "Surveys",
         "title": "Gather Feedback That Drives Improvement",
-        "description": "Create custom surveys, collect feedback from residents and families, and track responses in real time — all linked to individual profiles for easy reporting and compliance."
+        "description": "Create custom surveys, collect feedback from residents and families, and track responses in real time — all linked to individual profiles for easy reporting and compliance.",
+        "note": "*See how to gather actionable feedback effortlessly.",
+        "imagePath": "/images/our-solutions/surveys/hero.png"
       }
     },
     "wellbeingLibrary": {
       "hero": {
         "subtitle": "Wellbeing Library",
         "title": "Expert Content for Mind, Body and Spirit",
-        "description": "Access a curated library of wellbeing content including seated fitness, music therapy, mindfulness, and more — all designed specifically for care settings."
+        "description": "Access a curated library of wellbeing content including seated fitness, music therapy, mindfulness, and more — all designed specifically for care settings.",
+        "note": "*See our curated wellbeing content library.",
+        "imagePath": "/images/our-solutions/wellbeing-library/hero.png"
       }
     },
     "menu": {
       "hero": {
         "subtitle": "Menu",
         "title": "Share Menus Clearly and Instantly",
-        "description": "Display daily menus on digital signage, resident apps, or family portals — updated centrally in real time with no printing or manual updates needed."
+        "description": "Display daily menus on digital signage, resident apps, or family portals — updated centrally in real time with no printing or manual updates needed.",
+        "note": "*See how to digitise and share your menus instantly.",
+        "imagePath": "/images/our-solutions/menu/hero.png"
       }
     },
     "contentLibraries": {
       "hero": {
         "subtitle": "Content Libraries",
         "title": "Deliver Personalised Content to Every Individual",
-        "description": "Create and share tailored guides, routines, and resources that help people supported build skills, follow routines, and live more independently."
+        "description": "Create and share tailored guides, routines, and resources that help people supported build skills, follow routines, and live more independently.",
+        "note": "*See how personalised content supports independence.",
+        "imagePath": "/images/our-solutions/content-libraries/hero.png"
       }
     },
     "concierge": {
       "hero": {
         "subtitle": "Concierge",
         "title": "Manage Resident Requests with Ease",
-        "description": "Let residents book services, report maintenance, or request extras directly from their app — while your team tracks and manages everything from one central dashboard."
+        "description": "Let residents book services, report maintenance, or request extras directly from their app — while your team tracks and manages everything from one central dashboard.",
+        "note": "*See how concierge simplifies service requests.",
+        "imagePath": "/images/our-solutions/concierge/hero.png"
       }
     },
     "groupIntelligence": {
       "hero": {
         "subtitle": "Group Intelligence",
         "title": "Get Real-Time Insights Across Your Whole Group",
-        "description": "For multi-site providers, Group Intelligence brings together engagement data, participation trends, and performance metrics across all your services in one powerful dashboard."
+        "description": "For multi-site providers, Group Intelligence brings together engagement data, participation trends, and performance metrics across all your services in one powerful dashboard.",
+        "note": "*See how group insights drive better decisions.",
+        "imagePath": "/images/our-solutions/group-intelligence/hero.png"
       }
     },
     "brandedApp": {
       "hero": {
         "subtitle": "Branded App",
         "title": "Your Own App in the App Store",
-        "description": "Offer residents and families a fully branded mobile experience that reflects your identity — available on iOS and Android with your logo, colours, and name."
+        "description": "Offer residents and families a fully branded mobile experience that reflects your identity — available on iOS and Android with your logo, colours, and name.",
+        "note": "*See how a branded app elevates your service.",
+        "imagePath": "/images/our-solutions/branded-app/hero.png"
       }
     },
     "staffEngagement": {
       "hero": {
         "subtitle": "Staff Engagement",
         "title": "Keep Your Team Informed and Aligned",
-        "description": "Cut through the noise with a single platform for team communication, task management, and updates — helping staff stay connected, informed, and focused on care."
+        "description": "Cut through the noise with a single platform for team communication, task management, and updates — helping staff stay connected, informed, and focused on care.",
+        "note": "*See how to unite and empower your care team.",
+        "imagePath": "/images/our-solutions/staff-engagement/hero.png"
       }
     },
     "digitalSignage": {
       "hero": {
         "subtitle": "Digital Signage",
         "title": "Keep Everyone Informed with Smart Displays",
-        "description": "Show menus, activities, announcements, and updates on screens throughout your service — all managed from one dashboard with no USB sticks or manual updates."
+        "description": "Show menus, activities, announcements, and updates on screens throughout your service — all managed from one dashboard with no USB sticks or manual updates.",
+        "note": "*See how digital signage transforms communication.",
+        "imagePath": "/images/our-solutions/digital-signage/hero.png"
       }
     },
     "workflow": {
       "hero": {
         "subtitle": "Workflow",
         "title": "Standardise Processes and Track Every Task",
-        "description": "Build custom workflows for onboarding, reviews, or any recurring process — ensuring consistency, accountability, and nothing falling through the cracks."
+        "description": "Build custom workflows for onboarding, reviews, or any recurring process — ensuring consistency, accountability, and nothing falling through the cracks.",
+        "note": "*See how workflows ensure nothing gets missed.",
+        "imagePath": "/images/our-solutions/workflow/hero.png"
       }
     }
   }

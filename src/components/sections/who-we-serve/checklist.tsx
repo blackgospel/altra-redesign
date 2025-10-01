@@ -66,7 +66,7 @@ export function Checklist({ slug, ...props }: ChecklistProps) {
               </div>
 
               <Button size="md" variant="white" className="self-start">
-                <span>{ctaText}</span>
+                {ctaText}
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </div>

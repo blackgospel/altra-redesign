@@ -8,20 +8,20 @@ interface ClientsProps {
 
 export function Clients({ style }: ClientsProps) {
   const t = useTranslations("home.clients");
+
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 justify-center items-center gap-8 md:gap-12">
       {CLIENTS.map((client) => (
         <div
           className="flex justify-center items-center gap-8"
-          key={client.image}
+          key={client.slug}
         >
           <Image
-            src={client.image}
-            alt={t(`items.${client.slug}.alt`, { default: client.slug })}
+            src={t(`items.${client.slug}.imagePath`)}
+            alt={t(`items.${client.slug}.alt`)}
             width={100}
             height={100}
             className="object-contain"
-            // style={{ width: "auto", height: "auto", ...(style || {}) }}
           />
         </div>
       ))}

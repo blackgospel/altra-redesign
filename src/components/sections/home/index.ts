@@ -1,4 +1,4 @@
-export { SectionTitle } from "./_section-title";
+export { SectionTitle } from "../../global/section-title/section-title";
 export { ServiceCard } from "./_service-card";
 export { Clients } from "./clients";
 export { Hero } from "./hero";

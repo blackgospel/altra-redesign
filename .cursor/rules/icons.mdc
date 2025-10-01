@@ -1,0 +1,64 @@
+---
+alwaysApply: true
+---
+
+# ICON IMPLEMENTATION RULE
+
+## MANDATORY STEP 1: DOWNLOAD FROM FIGMA FIRST
+
+**YOU HAVE FIGMA MCP ACCESS. USE IT.**
+
+When implementing icons:
+
+1. **DOWNLOAD THE ACTUAL SVG FROM FIGMA** using `download_figma_images` tool
+   - Find the component node ID from Figma MCP data
+   - Download as SVG to a temp location
+   - Read the SVG file
+   - Copy the EXACT SVG paths into the icon component
+   - Change `fill="black"` or `fill="#ED4789"` to `fill="currentColor"` for CSS styling
+2. **NEVER CREATE ICONS FROM SCRATCH** - You have the actual design, use it!
+
+3. **CHECK FIGMA COMPONENT PROPERTIES FIRST**:
+
+   - "Property 1=Users" (multiple people) ≠ "Property 1=User" (single person)
+   - "Property 1=communication" (two chat bubbles) ≠ Comment.tsx (single bubble)
+   - Verify exact component names from the Figma component set
+
+4. **AFTER downloading**, check existing `/src/assets/icons/` for duplicates
+
+5. **CREATE icon component**:
+   - Use the EXACT SVG from Figma
+   - Follow `IconProps` pattern
+   - Add to `/src/assets/icons/index.ts` exports
+   - Update any icon mappings
+
+## CRITICAL REMINDER
+
+**YOU LITERALLY HAVE ACCESS TO THE EXACT SVG DATA FROM FIGMA.**
+**THERE IS NO EXCUSE FOR MAKING UP ICONS.**
+**DOWNLOAD. READ. USE.**
+
+## EXAMPLE PROCESS:
+
+```typescript
+// Step 1: Get Figma data to find node ID
+mcp_figma - mcp_get_figma_data({ nodeId: "1665-1172" });
+// Finds: "1825:1114" is the note icon
+
+// Step 2: DOWNLOAD THE ACTUAL SVG
+download_figma_images({
+  nodes: [{ nodeId: "1825:1114", fileName: "note-icon.svg" }],
+});
+
+// Step 3: READ THE SVG
+read_file("note-icon.svg");
+// Returns: <svg>...<path d="M25.6667..." fill="black"/>...</svg>
+
+// Step 4: CREATE ICON COMPONENT WITH EXACT SVG
+// Change fill="black" to fill="currentColor"
+// Wrap in IconProps pattern
+
+// Step 5: Export and map
+```
+
+**NO GUESSING. DOWNLOAD FIRST. EXACT MATCH REQUIRED.**

@@ -1,5 +1,4 @@
 import { Typography } from "@/components/ui/typography";
-import { omitProps } from "@/lib/utils";
 
 interface SectionTitleProps {
   slots?: {

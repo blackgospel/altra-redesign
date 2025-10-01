@@ -4,10 +4,11 @@ import { Typography } from "@/components/ui/typography";
 import { HOW_WE_HELP } from "@/config/home";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { SectionTitle } from "./_section-title";
+import { SectionTitle } from "../../global/section-title/section-title";
 
 export function HowWeHelp() {
   const t = useTranslations("home.howWeHelp");
+
   return (
     <div className="flex flex-col gap-12">
       <SectionTitle title={t("title")} description={t("description")} />
@@ -32,14 +33,14 @@ export function HowWeHelp() {
               </div>
 
               <Button variant="outline" size="sm" className="self-start">
-                {t("cta", { default: "Learn more" })}
+                {t("cta")}
                 <ArrowRight className="size-5" />
               </Button>
             </div>
 
             <div className="relative aspect-[689/500] w-full lg:w-auto flex-1 xl:flex-none">
               <Image
-                src={item.image}
+                src={t(`items.${item.slug}.imagePath`)}
                 alt={t(`items.${item.slug}.title`)}
                 width={689}
                 height={500}

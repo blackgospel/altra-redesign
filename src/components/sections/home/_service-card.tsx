@@ -1,5 +1,6 @@
 import { ArrowRight } from "@/assets/icons";
 import { Typography } from "@/components/ui/typography";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 interface ServiceCardProps {
@@ -9,6 +10,8 @@ interface ServiceCardProps {
 }
 
 export function ServiceCard({ title, description, image }: ServiceCardProps) {
+  const t = useTranslations("home.whoWeServe");
+
   return (
     <div className="relative w-full rounded-lg overflow-hidden group cursor-pointer aspect-square md:aspect-[281/460]">
       <Image
@@ -35,7 +38,7 @@ export function ServiceCard({ title, description, image }: ServiceCardProps) {
             <Typography variant="h5">{title}</Typography>
             <Typography variant="text-l">{description}</Typography>
             <Typography variant="btn-s" className="flex items-center gap-2">
-              View details
+              {t("viewDetails")}
               <ArrowRight className="size-4" />
             </Typography>
           </div>

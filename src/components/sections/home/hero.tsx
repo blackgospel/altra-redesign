@@ -22,7 +22,7 @@ export function Hero() {
       </div>
       <Link href="/our-solutions">
         <Button variant="primary" size="md" className="self-start">
-          <span>{t("cta")}</span>
+          {t("cta")}
           <ArrowRight className="size-5" />
         </Button>
       </Link>

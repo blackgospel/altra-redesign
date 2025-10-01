@@ -17,8 +17,8 @@ type Breakpoint = keyof typeof BREAKPOINTS;
  * @returns boolean indicating if screen width is at or above the breakpoint
  *
  * @example
- * useResponsive('md') // true when width >= 768px
- * useResponsive('lg') // true when width >= 1024px
+ * useResponsive('md')
+ * useResponsive('lg')
  */
 export function useResponsive(
   breakpoint: Breakpoint,

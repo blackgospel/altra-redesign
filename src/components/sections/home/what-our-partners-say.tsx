@@ -6,11 +6,10 @@ import Image from "next/image";
 
 export function WhatOurPartnersSay() {
   const t = useTranslations("home.testimonials");
+
   return (
     <section className="flex flex-col items-center gap-10">
-      <Typography variant="h3">
-        {t("title", { default: "What Our Partners Say" })}
-      </Typography>
+      <Typography variant="h3">{t("title")}</Typography>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
         {TESTIMONIALS.map((item) => (
@@ -27,7 +26,7 @@ export function WhatOurPartnersSay() {
             <div className="flex items-center gap-4">
               <div className="size-[55px] aspect-square rounded-full overflow-hidden relative">
                 <Image
-                  src={item.avatar}
+                  src={t(`items.${item.slug}.avatar`)}
                   alt={t(`items.${item.slug}.name`)}
                   fill
                   className="object-cover"

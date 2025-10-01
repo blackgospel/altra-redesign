@@ -6,15 +6,12 @@ import Image from "next/image";
 
 export function WhatYouCanAchieve() {
   const t = useTranslations("home.achieve");
-  return (
-    <div className="relative rounded-[15px] shadow-[0_4px_50px_rgba(135,105,220,0.15)] overflow-hidden xl:aspect-[1199/541] bg-[url('/images/home/what-you-can-achieve/ellipsis.png')] bg-cover bg-center bg-no-repeat">
-      {/* <Image
-        src="/images/home/what-you-can-achieve/ellipsis.png"
-        alt="Ellipsis"
-        fill
-        className="object-cover z-1 absolute inset-0"
-      /> */}
 
+  return (
+    <div
+      className="relative rounded-[15px] shadow-[0_4px_50px_rgba(135,105,220,0.15)] overflow-hidden xl:aspect-[1199/541] bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${t("backgroundImage")})` }}
+    >
       <div className="relative px-10 py-12 md:py-16 flex flex-col lg:flex-row items-start gap-10 z-2 text-white">
         <div className="flex-1 flex flex-col gap-10">
           <div className="flex flex-col gap-8">
@@ -35,7 +32,7 @@ export function WhatYouCanAchieve() {
             size="md"
             className="self-start flex items-center gap-3"
           >
-            <span>{t("cta")}</span>
+            {t("cta")}
             <ArrowRight className="size-5" />
           </Button>
         </div>
@@ -43,8 +40,8 @@ export function WhatYouCanAchieve() {
         <div className="hidden xl:flex flex-1 w-full">
           <div className="relative w-full aspect-[532/556]">
             <Image
-              src="/images/home/what-you-can-achieve/what-you-can-achieve.png"
-              alt="What You Can Achieve"
+              src={t("splashImage")}
+              alt={t("title")}
               width={532}
               height={556}
               className="object-contain absolute inset-0"

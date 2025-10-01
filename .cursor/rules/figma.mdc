@@ -1,0 +1,13 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+FIGMA CONTENT RENDERING RULE:
+When implementing Figma designs, ALWAYS render content exactly as it appears visually:
+
+- Bulleted lists in Figma = HTML <ul> with bullet points (•), NOT joined text with \n
+- Verify the VISUAL STRUCTURE matches Figma, not just the content text
+- Test that lists, spacing, and formatting render exactly as designed
+- Don't assume text joining is sufficient for list content

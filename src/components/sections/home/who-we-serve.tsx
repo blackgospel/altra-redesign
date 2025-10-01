@@ -1,10 +1,11 @@
 import { WHO_WE_SERVE } from "@/config/home";
 import { useTranslations } from "next-intl";
-import { SectionTitle } from "./_section-title";
+import { SectionTitle } from "../../global/section-title/section-title";
 import { ServiceCard } from "./_service-card";
 
 export function WhoWeServe() {
   const t = useTranslations("home.whoWeServe");
+
   return (
     <div className="flex flex-col gap-10">
       <SectionTitle title={t("title")} description={t("description")} />
@@ -15,7 +16,7 @@ export function WhoWeServe() {
             key={service.slug}
             title={t(`items.${service.slug}.title`)}
             description={t(`items.${service.slug}.description`)}
-            image={service.image}
+            image={t(`items.${service.slug}.imagePath`)}
           />
         ))}
       </div>

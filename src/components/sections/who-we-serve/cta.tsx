@@ -1,9 +1,9 @@
 "use client";
 
+import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { cn, omitClassName } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { CtaBackdrop } from "./_cta-backdrop";
