@@ -3,5 +3,7 @@ export default function OurSolutionsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main className="flex flex-col relative">{children}</main>;
+  return (
+    <main className="flex flex-col relative bg-background">{children}</main>
+  );
 }
