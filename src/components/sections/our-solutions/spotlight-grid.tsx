@@ -7,15 +7,14 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import React from "react";
 
-export interface SpotlightItem {
-  id: string;
+interface SpotlightItemData {
+  title: string;
   icon: IconKey;
   iconBgColor: string;
 }
 
 interface SpotlightGridProps extends React.ComponentProps<"section"> {
   translationKey: string;
-  items: SpotlightItem[];
   gridClass?: string;
   button?: {
     translationKey: string;
@@ -29,7 +28,6 @@ interface SpotlightGridProps extends React.ComponentProps<"section"> {
 
 export function SpotlightGrid({
   translationKey,
-  items,
   gridClass = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
   button,
   slots,
@@ -37,6 +35,9 @@ export function SpotlightGrid({
   ...props
 }: SpotlightGridProps) {
   const t = useTranslations(translationKey);
+
+  // Read items from translations
+  const itemsRaw = t.raw("items") as SpotlightItemData[];
 
   return (
     <section
@@ -53,9 +54,9 @@ export function SpotlightGrid({
       />
 
       <div className={gridClass}>
-        {items.map((item, index) => (
+        {itemsRaw.map((item, index) => (
           <div
-            key={item.id}
+            key={index}
             className="flex flex-col gap-5 p-6 pb-5 bg-background-1 border border-line-4 rounded-[10px]"
           >
             <div
@@ -69,7 +70,7 @@ export function SpotlightGrid({
             </div>
 
             <Typography variant="title-s" className="text-dark-gray-100">
-              {t(`items.${index}`)}
+              {item.title}
             </Typography>
           </div>
         ))}

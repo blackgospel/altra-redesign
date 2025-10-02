@@ -6,7 +6,7 @@ import { SeeForYourself } from "./_see-for-yourself";
 
 export function MobileFooter() {
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col gap-10">
+    <div className="altra-container py-8 flex flex-col gap-10">
       <FooterHeader logoWidth={164} logoHeight={28} />
 
       <GetInTouch />

@@ -31,6 +31,7 @@
       },
       "who-we-serve": {
         "label": "Who we serve",
+        "title": "Who we serve",
         "items": {
           "ld-supported-living": "LD & Supported Living",
           "independent-living": "Independent Living",
@@ -571,24 +572,6 @@
     }
   },
   "ourSolutions": {
-    "familyEngagement": {
-      "hero": {
-        "subtitle": "Family Engagement",
-        "title": "Keep Families Connected, Reassured and Informed",
-        "description": "Build trust and peace of mind with proactive updates, rich media sharing, and real-time communication that keeps families meaningfully connected to their loved ones.",
-        "note": "*See how families stay connected and informed every day.",
-        "imagePath": "/images/our-solutions/family-engagement/hero.png"
-      }
-    },
-    "newsletters": {
-      "hero": {
-        "subtitle": "Newsletters",
-        "title": "Share Updates That Families Actually Read",
-        "description": "Create beautiful, branded newsletters in minutes and deliver them directly to family inboxes or through your app — keeping everyone informed without the admin.",
-        "note": "*See how to create engaging newsletters in minutes.",
-        "imagePath": "/images/our-solutions/newsletters/hero.png"
-      }
-    },
     "activityCalendar": {
       "hero": {
         "subtitle": "Activity Calendar",
@@ -601,11 +584,31 @@
         "title": "What You Can Achieve with Altra's Activities Calendar",
         "description": "Streamline Planning. Boost Participation. Elevate Quality of Life. Care providers use Altra's Activities Calendar to:",
         "items": [
-          "Save time planning and reporting on weekly programming",
-          "Track resident participation, mood and feedback in minutes",
-          "Print branded, accessible calendars for residents and families",
-          "Tailor future activities using real participation data",
-          "Keep families informed and engaged through shared updates"
+          {
+            "title": "Save time planning and reporting on weekly programming",
+            "icon": "clock",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Track resident participation, mood and feedback in minutes",
+            "icon": "smile",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Print branded, accessible calendars for residents and families",
+            "icon": "calendar",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Tailor future activities using real participation data",
+            "icon": "graphic",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Keep families informed and engaged through shared updates",
+            "icon": "messageOne",
+            "iconBgColor": "#BDD86C"
+          }
         ]
       },
       "howItWorks": {
@@ -729,11 +732,31 @@
         "title": "What You Can Achieve with Family Engagement",
         "description": "Strengthen Trust. Reduce Complaints. Increase Referrals. Care providers use Altra to:",
         "items": [
-          "Build stronger bonds between families, residents and care teams",
-          "Reduce complaints driven by lack of communication",
-          "Provide real-time visibility into daily life in the home",
-          "Improve family satisfaction scores by up to 50%",
-          "Demonstrate daily communication efforts to inspectors"
+          {
+            "title": "Build stronger bonds between families, residents and care teams",
+            "icon": "heart",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Reduce complaints driven by lack of communication",
+            "icon": "communication",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Provide real-time visibility into daily life in the home",
+            "icon": "eye",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Improve family satisfaction scores by up to 50%",
+            "icon": "graphic",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Demonstrate daily communication efforts to inspectors",
+            "icon": "document",
+            "iconBgColor": "#BDD86C"
+          }
         ],
         "button": {
           "cta": "Talk to Our Team"
@@ -823,12 +846,36 @@
         "title": "What You Can Achieve with Newsletters",
         "description": "Spark Conversations. Deepen Connections. Build Community. Altra makes it easy for care teams to:",
         "items": [
-          "Deliver printed memories and messages from families to residents each week",
-          "Craft beautiful newsletters with personalised content",
-          "Maintain a consistent brand across all communication",
-          "Create shared moments between staff and residents beyond day-to-day care",
-          "Foster stronger family-resident-team relationships",
-          "Provide inspection-ready evidence of family communication"
+          {
+            "title": "Deliver printed memories and messages from families to residents each week",
+            "icon": "envelope",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Craft beautiful newsletters with personalised content",
+            "icon": "edit",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Maintain a consistent brand across all communication",
+            "icon": "star",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Create shared moments between staff and residents beyond day-to-day care",
+            "icon": "heart",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Foster stronger family-resident-team relationships",
+            "icon": "users",
+            "iconBgColor": "#BDD86C"
+          },
+          {
+            "title": "Provide inspection-ready evidence of family communication",
+            "icon": "document",
+            "iconBgColor": "#ED4789"
+          }
         ],
         "button": {
           "cta": "Talk to Our Team"
@@ -902,11 +949,31 @@
         "title": "What You Can Achieve with Voice Assistants",
         "description": "Deliver Resident-Centered Innovation That Saves Time and Sets You Apart. Care providers use Altra's voice technology to:",
         "items": [
-          "Offer a more intuitive way for residents to stay informed",
-          "Improve resident independence and digital inclusion",
-          "Reduce repetitive queries and staff interruptions",
-          "Manage voice devices campus-wide through one central dashboard",
-          "Position their service as tech-forward and future-ready"
+          {
+            "title": "Offer a more intuitive way for residents to stay informed",
+            "icon": "voice",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Improve resident independence and digital inclusion",
+            "icon": "user",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Reduce repetitive queries and staff interruptions",
+            "icon": "clock",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Manage voice devices campus-wide through one central dashboard",
+            "icon": "dashboard",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Position their service as tech-forward and future-ready",
+            "icon": "rocket",
+            "iconBgColor": "#BDD86C"
+          }
         ]
       },
       "howItWorks": {
@@ -1011,11 +1078,31 @@
         "title": "What You Can Achieve with Surveys",
         "description": "Be More Responsive. More Person-Centred. More Informed. With Altra's Surveys, you can:",
         "items": [
-          "Collect feedback regularly from residents, families and staff",
-          "Identify trends across homes and services",
-          "Improve communication and decision-making based on real data",
-          "Offer accessible, customisable surveys tailored to your population",
-          "Centralise all survey activity in one dashboard for ease of analysis"
+          {
+            "title": "Collect feedback regularly from residents, families and staff",
+            "icon": "communication",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Identify trends across homes and services",
+            "icon": "graphic",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Improve communication and decision-making based on real data",
+            "icon": "idea",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Offer accessible, customisable surveys tailored to your population",
+            "icon": "edit",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Centralise all survey activity in one dashboard for ease of analysis",
+            "icon": "dashboard",
+            "iconBgColor": "#BDD86C"
+          }
         ]
       },
       "benefits": {
@@ -1101,11 +1188,31 @@
         "title": "What You Can Achieve with the Wellbeing Library",
         "description": "Boost Resident Wellbeing While Saving Time on Programming. Care providers use Altra's Wellbeing Library to:",
         "items": [
-          "Offer consistent, high-quality activities with minimal prep",
-          "Stimulate residents' minds, bodies and spirits with expert-led content",
-          "Reduce the burden of finding fresh, purposeful ideas",
-          "Build more inclusive and varied activity schedules",
-          "Support residents in leading more independent and fulfilling lives"
+          {
+            "title": "Offer consistent, high-quality activities with minimal prep",
+            "icon": "calendar",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Stimulate residents' minds, bodies and spirits with expert-led content",
+            "icon": "heart",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Reduce the burden of finding fresh, purposeful ideas",
+            "icon": "idea",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Build more inclusive and varied activity schedules",
+            "icon": "users",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Support residents in leading more independent and fulfilling lives",
+            "icon": "rocket",
+            "iconBgColor": "#BDD86C"
+          }
         ]
       },
       "benefits": {
@@ -1158,10 +1265,26 @@
         "title": "What You Can Achieve with Altra's Menu Module",
         "description": "Keep Everyone Informed. Avoid Repetition. Promote Resident Choice. Care services use Altra to:",
         "items": [
-          "Create clear, structured menus in just a few clicks",
-          "Share menus instantly with residents and families via the app",
-          "Display menus on digital signage in dining or common areas",
-          "Print branded menus for use in rooms, lounges or notice boards"
+          {
+            "title": "Create clear, structured menus in just a few clicks",
+            "icon": "food",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Share menus instantly with residents and families via the app",
+            "icon": "communication",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Display menus on digital signage in dining or common areas",
+            "icon": "notifications",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Print branded menus for use in rooms, lounges or notice boards",
+            "icon": "document",
+            "iconBgColor": "#4DA8DA"
+          }
         ]
       },
       "howItWorks": {
@@ -1218,11 +1341,31 @@
         "title": "What You Can Achieve with Content Libraries",
         "description": "Support Families. Empower Residents. Share Meaningful Content with Precision. Care teams use Content Libraries to:",
         "items": [
-          "Share important service information and guides with families",
-          "Offer educational and support content for specific family situations",
-          "Provide accessible, personalised content to support resident independence",
-          "Deliver multi-format resources across homes, groups or individuals",
-          "Save time by storing, scheduling and managing content from one place"
+          {
+            "title": "Share important service information and guides with families",
+            "icon": "document",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Offer educational and support content for specific family situations",
+            "icon": "heart",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Provide accessible, personalised content to support resident independence",
+            "icon": "user",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Deliver multi-format resources across homes, groups or individuals",
+            "icon": "communication",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Save time by storing, scheduling and managing content from one place",
+            "icon": "clock",
+            "iconBgColor": "#BDD86C"
+          }
         ]
       },
       "howItWorks": {
@@ -1368,11 +1511,31 @@
         "title": "What You Can Achieve with Concierge",
         "description": "Raise Service Standards. Reduce Delays. Respond Faster. Care providers use Concierge to:",
         "items": [
-          "Offer a clear, centralised way for residents and families to make requests",
-          "Keep teams aligned on open tasks, statuses and completion timelines",
-          "Reduce missed or forgotten requests",
-          "Log all service activity for accountability and auditing",
-          "Improve satisfaction by delivering a more responsive and personalised experience"
+          {
+            "title": "Offer a clear, centralised way for residents and families to make requests",
+            "icon": "handshake",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Keep teams aligned on open tasks, statuses and completion timelines",
+            "icon": "users",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Reduce missed or forgotten requests",
+            "icon": "check",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Log all service activity for accountability and auditing",
+            "icon": "document",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Improve satisfaction by delivering a more responsive and personalised experience",
+            "icon": "smile",
+            "iconBgColor": "#BDD86C"
+          }
         ]
       },
       "benefits": {
@@ -1416,46 +1579,502 @@
     "groupIntelligence": {
       "hero": {
         "subtitle": "Group Intelligence",
-        "title": "Get Real-Time Insights Across Your Whole Group",
-        "description": "For multi-site providers, Group Intelligence brings together engagement data, participation trends, and performance metrics across all your services in one powerful dashboard.",
-        "note": "*See how group insights drive better decisions.",
+        "title": "One Platform to Lead, Manage and Elevate Your Entire Group",
+        "description": "Altra's Group Intelligence empowers care groups to manage all homes in one place — driving consistent quality, standardising services, and providing real-time oversight across your organisation. From communication and branding to reporting and service offerings, everything you need to lead with clarity is built in.",
+        "note": "*See how care groups use Altra to simplify operations and scale excellence.",
         "imagePath": "/images/our-solutions/group-intelligence/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Group Intelligence",
+        "description": "See Everything. Shape Everything. Share Everything — Across Every Home. Care groups use Altra to:",
+        "items": [
+          {
+            "title": "Track engagement and KPIs across all locations",
+            "icon": "graphic",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Deliver consistent communication and branding",
+            "icon": "communication",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Launch group-wide surveys, menus and messaging",
+            "icon": "envelope",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Identify high-performing homes and spot gaps at a glance",
+            "icon": "eye",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Standardise experiences while allowing local flexibility",
+            "icon": "star",
+            "iconBgColor": "#BDD86C"
+          }
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "Key Capabilities",
+        "items": [
+          {
+            "title": "Real-Time Dashboards and Reporting",
+            "description": "See what's happening in every home — from activity participation and family engagement to survey results and feedback trends. All key metrics are visualised at group and home levels for clear performance insight.",
+            "imagePath": "/images/our-solutions/group-intelligence/how-it-works-1.png"
+          },
+          {
+            "title": "Company-Wide Communication",
+            "description": "Send group messages or posts to families across your entire network in just a few clicks. Keep your voice consistent while making every home feel connected.",
+            "imagePath": "/images/our-solutions/group-intelligence/how-it-works-2.png"
+          },
+          {
+            "title": "Survey and Feedback Management",
+            "description": "Push surveys to all homes at once — and review results at group, region or site level. Support compliance, drive improvement and maintain a customer-first mindset across your network.",
+            "imagePath": "/images/our-solutions/group-intelligence/how-it-works-3.png"
+          },
+          {
+            "title": "Multi-Location Menu and Concierge Tools",
+            "description": "Distribute branded menus, activity templates and even services (like chiropody or welcome hampers) to multiple homes. Standardise your offering while allowing local teams to tailor where needed.",
+            "imagePath": "/images/our-solutions/group-intelligence/how-it-works-4.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Care Groups Choose Altra",
+        "benefits": [
+          {
+            "title": "Total Visibility",
+            "description": "View performance, engagement and communications across every service."
+          },
+          {
+            "title": "Standardised Excellence",
+            "description": "Launch consistent processes, content and communications while enabling local adaptation."
+          },
+          {
+            "title": "Simplified Oversight",
+            "description": "No spreadsheets, email chains or manual updates. Everything is in one place, live and accessible"
+          },
+          {
+            "title": "Group Branding and Templates",
+            "description": "Share branded menus, newsletters, surveys and digital signage that reinforce your identity group-wide."
+          },
+          {
+            "title": "New Revenue Potential",
+            "description": "Offer uniform resident services (e.g. partner physiotherapy, personal items) across homes with a group concierge."
+          }
+        ],
+        "screenshot": "/images/our-solutions/group-intelligence/benefits-screenshot.png",
+        "cta": "Book a Demo"
+      },
+      "customerStory": {
+        "title": "Customer Story: Athena Care Homes",
+        "subtitle": "Transparent, Consistent, and Strategic",
+        "testimonial": "\"The Altra Platform has been a game-changer for us in enhancing service delivery through the effective measurement of set KPIs. The reporting function has allowed us to effectively gather the evidence needed for all external stakeholders, ensuring transparency and accountability in our operations. The survey section has allowed us to effectively monitor resident and relative satisfaction, enabling us to further improve and enhance our services.\"",
+        "authorName": "Lisa Vila",
+        "authorTitle": "Sales & Hospitality Manager, Athena Care Homes",
+        "authorImage": "/images/our-solutions/group-intelligence/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": ""
       }
     },
     "brandedApp": {
       "hero": {
         "subtitle": "Branded App",
-        "title": "Your Own App in the App Store",
-        "description": "Offer residents and families a fully branded mobile experience that reflects your identity — available on iOS and Android with your logo, colours, and name.",
-        "note": "*See how a branded app elevates your service.",
+        "title": "Your Brand. Your Experience. Powered by Altra.",
+        "description": "With our Branded App, care groups can launch their own branded version of the Altra App — fully custom, publicly available in app stores, and designed to elevate both engagement and brand visibility. It's your service, your voice, your community — wrapped in a world-class user experience.",
+        "note": "*See how your own branded app can transform family engagement and positioning",
         "imagePath": "/images/our-solutions/branded-app/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with the Branded App",
+        "description": "Deliver a Distinctive Family Experience While Elevating Your Brand. Premium Care providers use the Branded App to:",
+        "items": [
+          {
+            "title": "Build deeper trust with families through a branded, familiar interface",
+            "icon": "users",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Strengthen their reputation as a modern, forward-thinking provider",
+            "icon": "smile",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Create consistency across homes, groups or regions",
+            "icon": "communication",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Improve adoption and usage of digital family communication tools",
+            "icon": "communication",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Expand brand recognition in a competitive market",
+            "icon": "smile",
+            "iconBgColor": "#BDD86C"
+          }
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "How It Works",
+        "items": [
+          {
+            "title": "Your Brand, Our Software. A Custom App Experience, End-to-End",
+            "description": "Our Branded App is a white-label solution that gives your care group:\n\nA dedicated app in the Google Play and Apple App Store\nYour name, logo, colour palette and brand messaging\nLanguage support for international rollout\nThe full power of Altra's communication and engagement tools — inside your brand",
+            "imagePath": "/images/our-solutions/branded-app/how-it-works-1.png"
+          },
+          {
+            "title": "Establish Yourself as a Market Leader",
+            "description": "Custom branding shows families and future clients that you're committed to innovation and quality. The Branded App positions you as a modern provider, with a user experience that feels exclusive, polished and personal.\n\nPerfect for:\n\nPremium medium and large care groups\nProviders expanding across regions or countries\nHomes looking to stand out in local competitive markets",
+            "imagePath": "/images/our-solutions/branded-app/how-it-works-2.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra's Branded App",
+        "benefits": [
+          {
+            "title": "Enhanced Brand Visibility",
+            "description": "Your group's app name and logo appear in app stores and on users' phones."
+          },
+          {
+            "title": "Improved Family Adoption",
+            "description": "A branded experience feels more official and builds confidence among families."
+          },
+          {
+            "title": "Multi-Language Ready",
+            "description": "Support for global operations, right out of the box."
+          },
+          {
+            "title": "Consistent Identity Across Sites",
+            "description": "Reinforce your values and visual identity across every interaction."
+          },
+          {
+            "title": "Backed by Altra's Infrastructure",
+            "description": "You get full platform reliability, updates and support — without managing the tech stack."
+          }
+        ],
+        "screenshot": "/images/our-solutions/branded-app/benefits-screenshot.png",
+        "cta": "Book a Demo"
+      },
+      "customerStory": {
+        "title": "Customer Story: Curam Care",
+        "subtitle": "Branded. Trusted. Loved by Families.",
+        "testimonial": "\"Having our own branded app — Curam Connect — has been a huge success. Families recognise it as part of our service, and it builds trust straight away. It's helped us reinforce our values while offering a world-class experience through Altra's platform. Families love the simplicity, and our team love that it feels truly ours.\"",
+        "authorName": "Laura Collins",
+        "authorTitle": "Resident Experience Manager, Curam Care",
+        "authorImage": "/images/our-solutions/branded-app/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": "Learn how care groups are using their Branded App to lead the market."
       }
     },
     "staffEngagement": {
       "hero": {
         "subtitle": "Staff Engagement",
-        "title": "Keep Your Team Informed and Aligned",
-        "description": "Cut through the noise with a single platform for team communication, task management, and updates — helping staff stay connected, informed, and focused on care.",
-        "note": "*See how to unite and empower your care team.",
+        "title": "One Hub for Team Messaging, Workforce Resources & Engagement.",
+        "description": "Altra's Staff Engagement module brings all your internal communication and resources into one secure, easy-to-use platform. Whether you're sharing updates, filling shifts, aligning teams or storing key documents, everything happens in one place — built specifically for care teams on the move.",
+        "note": "*See how care homes are simplifying staff comms with Altra.",
         "imagePath": "/images/our-solutions/staff-engagement/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with better Staff Engagement",
+        "description": "Communicate Clearly. Engage Teams. Save Time. Care providers use Altra to:",
+        "items": [
+          {
+            "title": "Eliminate the mess of fragmented messaging via WhatsApp, email or paper",
+            "icon": "communication",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Streamline team communication across shifts, roles and locations",
+            "icon": "users",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Speed up shift-filling with direct, in-app messaging and acknowledgements",
+            "icon": "clock",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Give staff instant access to policies, rotas, training and key documents in a central hub",
+            "icon": "document",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Improve staff morale and engagement by keeping everyone connected",
+            "icon": "heart",
+            "iconBgColor": "#BDD86C"
+          }
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "How It Works",
+        "items": [
+          {
+            "title": "One Communication Hub — Built for Frontline Teams. Say Goodbye to WhatsApp Groups, Email Threads and Lost Documents",
+            "description": "Everything your team needs is in one place:\n\nSend group or 1:1 messages instantly\nPost team-wide announcements with comment threads for quick feedback\nNotify staff about shift vacancies or rota changes\nTrack message opens, responses and engagement rates\nShare and store critical documents, policies and training resources in the Document Hub\nTailor visibility by role, department or location",
+            "imagePath": "/images/our-solutions/staff-engagement/how-it-works-1.png"
+          },
+          {
+            "title": "Fill Shifts in Seconds, Not Hours",
+            "description": "Scheduling gaps are inevitable. Altra helps managers stay on top of them with simple, app-based tools:\n\nManagers post vacant shifts\nTeam members receive real-time push notifications\nStaff respond instantly by accepting or declining\n\nNo calls. No text threads. No follow-ups.",
+            "imagePath": "/images/our-solutions/staff-engagement/how-it-works-2.png"
+          },
+          {
+            "title": "Reduce Burnout by Strengthening Connection",
+            "description": "Disengaged teams are more likely to burn out, miss shifts and leave.\n\nAltra helps reduce that risk by:\n\nKeeping employees informed and included, regardless of shift or location\n\nAllowing staff to give feedback or ask questions in real time\nSupporting wellness by giving teams clarity and connection throughout the day\nPromoting a sense of belonging and shared purpose",
+            "imagePath": "/images/our-solutions/staff-engagement/how-it-works-3.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra for Staff Engagement",
+        "benefits": [
+          {
+            "title": "Built for Care Teams",
+            "description": "Designed for mobile, shift-based and deskless workers — not just head office."
+          },
+          {
+            "title": "Real-Time Updates",
+            "description": "Push out critical news, rota changes, health and safety info or event updates instantly."
+          },
+          {
+            "title": "One App, Everything Together",
+            "description": "Staff can see their schedule, team messages, group updates and key documents in the same place."
+          },
+          {
+            "title": "Boost Engagement",
+            "description": "Give every employee a voice with comment threads, feedback tools and open communication lines."
+          },
+          {
+            "title": "Measure What Works",
+            "description": "Track message engagement to refine your internal comms strategy over time."
+          }
+        ],
+        "screenshot": "/images/our-solutions/staff-engagement/benefits-screenshot.png",
+        "cta": "Book a Demo"
       }
     },
     "digitalSignage": {
       "hero": {
         "subtitle": "Digital Signage",
-        "title": "Keep Everyone Informed with Smart Displays",
-        "description": "Show menus, activities, announcements, and updates on screens throughout your service — all managed from one dashboard with no USB sticks or manual updates.",
-        "note": "*See how digital signage transforms communication.",
+        "title": "Engage Residents. Welcome Guests. Stream Updates with Ease.",
+        "description": "Altra TV's Digital Signage module turns your TV screens into dynamic communication hubs for residents, families and guests. From activity calendars and menus to general notices and announcements, everything is kept up to date automatically — no hardware or daily slide edits required.",
+        "note": "*See how your care home can share real-time updates across your service.",
         "imagePath": "/images/our-solutions/digital-signage/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Altra TV",
+        "description": "Create a More Informed, Connected and Welcoming Environment. Care providers use Altra to:",
+        "items": [
+          {
+            "title": "Share important updates and schedules on common area screens",
+            "icon": "notifications",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Personalise content for each location or resident room",
+            "icon": "user",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Reduce manual admin work for reception and activity teams",
+            "icon": "clock",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Reinforce a consistent, professional brand presence throughout the home",
+            "icon": "star",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Keep residents and families informed and engaged without added effort",
+            "icon": "communication",
+            "iconBgColor": "#BDD86C"
+          }
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "How It Works",
+        "items": [
+          {
+            "title": "Built for Daily Use, Without the Daily Hassle. Set It and Forget It.",
+            "keyFeatures": {
+              "title": "Stream content like:",
+              "list": [
+                "Activity Calendars",
+                "Recent Resident Posts and Photos",
+                "Event Notices",
+                "Digital Menu Boards",
+                "Live News",
+                "Welcome Messages",
+                "Staff Spotlights"
+              ]
+            },
+            "description": "Your team can schedule content days, weeks or months in advance with automation and real-time syncing across screens. Whether it's a last-minute menu change or a month-long calendar of events, Altra makes display management easy.",
+            "imagePath": "/images/our-solutions/digital-signage/how-it-works-1.png"
+          },
+          {
+            "title": "No Hardware, No Fuss",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "Display to one or many screens at once",
+                "Customise each screen with its own unique slideshow",
+                "Stream to individual resident rooms or shared common areas"
+              ]
+            },
+            "description": "You don't need a proprietary player or complex setup. Just download the Altra TV app on a smart TV or device like an Amazon Firestick or Google TV Streamer (Chromecast) and you're ready to stream.",
+            "imagePath": "/images/our-solutions/digital-signage/how-it-works-2.png"
+          },
+          {
+            "title": "Real-Time Editing and Automation",
+            "keyFeatures": {
+              "title": "Altra lets you:",
+              "list": [
+                "Edit slides and media from any device",
+                "Preview changes before publishing",
+                "Push real-time updates across all connected screens",
+                "Schedule recurring messages like birthdays, meal times or activity reminders"
+              ]
+            },
+            "description": "Make changes in one place and publish them everywhere instantly. No need to update a USB slideshow or adjust PowerPoint decks across sites.",
+            "imagePath": "/images/our-solutions/digital-signage/how-it-works-3.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra TV",
+        "benefits": [
+          {
+            "title": "Zero Hardware Investment",
+            "description": "Any smart TV or plug-in device works — no need to purchase or install new equipment."
+          },
+          {
+            "title": "Centralised Control",
+            "description": "Manage slideshows, screen locations, schedules and user permissions from one dashboard."
+          },
+          {
+            "title": "Brand Aligned",
+            "description": "Customise fonts, colours and logos to maintain a strong and professional brand identity across all content."
+          },
+          {
+            "title": "Location-Specific Messaging",
+            "description": "Tailor screen content to what's most relevant in each area — from reception to activity rooms to resident bedrooms."
+          }
+        ],
+        "screenshot": "/images/our-solutions/digital-signage/benefits-screenshot.png",
+        "cta": "Book a Demo"
       }
     },
     "workflow": {
       "hero": {
-        "subtitle": "Workflow",
-        "title": "Standardise Processes and Track Every Task",
-        "description": "Build custom workflows for onboarding, reviews, or any recurring process — ensuring consistency, accountability, and nothing falling through the cracks.",
-        "note": "*See how workflows ensure nothing gets missed.",
+        "subtitle": "Workflows: Standardise Quality, Streamline Care.",
+        "title": "Replace Reactive Workarounds with Reliable, Repeatable Processes",
+        "description": "Altra's Workflow module help care providers save time, ensure consistency, and maintain compliance across every touchpoint — from new resident onboarding to incident follow-up and beyond. Whether it's a one-time task or a recurring process, Altra ensures that nothing is missed, and everything is tracked.",
+        "note": "*See how Workflows help your team focus on care, not chasing tasks.",
         "imagePath": "/images/our-solutions/workflow/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Workflows",
+        "description": "Structure Every Process. Track Every Action. Raise the Standard. Care teams use Altra Workflows to:",
+        "items": [
+          {
+            "title": "Manage complex processes like onboarding and offboardings with ease",
+            "icon": "users",
+            "iconBgColor": "rgba(203, 110, 226, 0.9)"
+          },
+          {
+            "title": "Assign tasks automatically to the right roles, not just individuals",
+            "icon": "task",
+            "iconBgColor": "#ED4789"
+          },
+          {
+            "title": "Provide full visibility across teams and departments",
+            "icon": "workflow",
+            "iconBgColor": "#00D39C"
+          },
+          {
+            "title": "Trigger alerts, reminders and escalations when things fall behind",
+            "icon": "alert",
+            "iconBgColor": "#4DA8DA"
+          },
+          {
+            "title": "Build audit-ready records for inspections and quality reviews",
+            "icon": "rocket",
+            "iconBgColor": "#BDD86C"
+          }
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "Where Workflows Make the Difference.",
+        "items": [
+          {
+            "title": "New Resident Onboarding",
+            "description": "Guide teams through every stage — from room prep and care plan drafting to family check-ins and 7-day reviews. Ensure each shift knows what's done and what's still needed.",
+            "imagePath": "/images/our-solutions/workflow/how-it-works-1.png"
+          },
+          {
+            "title": "Incident Reporting",
+            "description": "Trigger structured follow-ups, alert managers and log documentation in one place — from injury assessments to family updates and audit-ready records.",
+            "imagePath": "/images/our-solutions/workflow/how-it-works-2.png"
+          },
+          {
+            "title": "Staff Induction",
+            "description": "Assign tasks for training, orientation and shadow shifts. Track completion with automatic reminders and overdue flags.",
+            "imagePath": "/images/our-solutions/workflow/how-it-works-3.png"
+          },
+          {
+            "title": "Audits and Quality Checks",
+            "description": "Schedule regular audits across key care areas, assign follow-up actions, and ensure nothing is missed — all fully documented.",
+            "imagePath": "/images/our-solutions/workflow/how-it-works-4.png"
+          },
+          {
+            "title": "How It Works",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "Workflows can be triggered manually, scheduled or based on system events",
+                "Each step is assigned to a role or individual, ensuring clarity and accountability",
+                "Use conditional logic to adapt based on input (e.g. escalate if a risk score is high)",
+                "Set due dates, reminders and escalation rules",
+                "All progress is visible from a central dashboard",
+                "Every action is timestamped, building a full audit trail"
+              ]
+            },
+            "description": "",
+            "imagePath": "/images/our-solutions/workflow/how-it-works-5.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra Workflows",
+        "benefits": [
+          {
+            "title": "Consistency Across Shifts and Teams",
+            "description": "Everyone follows the same process, no matter who is on shift"
+          },
+          {
+            "title": "Real Accountability",
+            "description": "Timestamped task history and clear ownership on every item"
+          },
+          {
+            "title": "Audit-Ready",
+            "description": "Ideal for inspections — every step is tracked, and every outcome logged"
+          },
+          {
+            "title": "Time Saved",
+            "description": "Reduce repetitive communication and eliminate guesswork"
+          },
+          {
+            "title": "Staff Confidence",
+            "description": "Teams know exactly what's expected, with nothing falling through the cracks"
+          }
+        ],
+        "screenshot": "/images/our-solutions/workflow/benefits-screenshot.png",
+        "cta": "Book a Demo"
       }
     }
   }
