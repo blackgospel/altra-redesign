@@ -31,47 +31,50 @@ export function Benefits({ translationKey, ...props }: BenefitsProps) {
     >
       <div className="relative flex flex-col w-full text-white">
         <BenefitsBackdrop />
-        <div className="relative z-10 p-6 md:p-10 lg:p-16 pr-0!">
-          <div className="flex flex-wrap gap-8 lg:gap-16 items-center">
+        <div className="relative z-10 p-6 md:p-10 lg:px-10 lg:py-12 pr-0!">
+          <div className="flex flex-col gap-8 lg:gap-16 items-center">
             <Typography variant="h3" className="text-center lg:text-left">
               {t("title")}
             </Typography>
-            <div className="flex flex-col gap-8 flex-1">
-              <div className="flex flex-col gap-6">
-                {benefits.map((benefit, index) => (
-                  <div
-                    key={index}
-                    className="flex gap-5 items-start text-white"
-                  >
-                    <Check2 className="min-w-6 min-h-6" stroke="#8265d4" />
-                    <div className="flex flex-col gap-1">
-                      <Typography variant="title-l-medium">
-                        {benefit.title}
-                      </Typography>
-                      <Typography variant="text-xl">
-                        {benefit.description}
-                      </Typography>
+
+            <div className="flex gap-20 w-full ">
+              <div className="flex flex-col gap-8 flex-1">
+                <div className="flex flex-col gap-6">
+                  {benefits.map((benefit, index) => (
+                    <div
+                      key={index}
+                      className="flex gap-5 items-start text-white"
+                    >
+                      <Check2 className="min-w-6 min-h-6" stroke="#8265d4" />
+                      <div className="flex flex-col gap-1">
+                        <Typography variant="title-l-medium">
+                          {benefit.title}
+                        </Typography>
+                        <Typography variant="text-xl">
+                          {benefit.description}
+                        </Typography>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
+
+                <Button size="md" variant="white" className="self-start">
+                  {t("cta")}
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
               </div>
 
-              <Button size="md" variant="white" className="self-start">
-                {t("cta")}
-                <ArrowRight className="w-5 h-5" />
-              </Button>
-            </div>
-
-            <div className="hidden lg:flex flex-1">
-              <div className="relative w-full aspect-[676/453]">
-                <Image
-                  src={t("screenshot")}
-                  alt={t("title")}
-                  width={676}
-                  height={453}
-                  className="object-contain absolute inset-0 top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
-                  priority
-                />
+              <div className="hidden lg:flex flex-1">
+                <div className="relative w-full aspect-[676/453]">
+                  <Image
+                    src={t("screenshot")}
+                    alt={t("title")}
+                    width={676}
+                    height={453}
+                    className="object-contain absolute inset-0 top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>

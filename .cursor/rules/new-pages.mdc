@@ -1,0 +1,92 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# OUR-SOLUTIONS PAGE IMPLEMENTATION RULE
+
+## MANDATORY PRE-IMPLEMENTATION CHECKLIST
+
+Before implementing ANY our-solutions page, you MUST:
+
+### 1. VERIFY FIGMA STRUCTURE ORDER (Y-POSITION)
+
+- **Check node `locationRelativeToParent.y` values** to determine correct section order
+- **NEVER assume** component order - always verify from Figma data
+- Common mistake: Spotlight/How-it-works order varies by page
+- Example: Wellbeing Library has Spotlight (y:800) BEFORE How It Works (y:1271)
+
+### 2. DOWNLOAD COMPLETE SECTION FRAMES (NOT INDIVIDUAL ELEMENTS)
+
+- **Identify the PARENT frame** that contains all visual elements (phones, backgrounds, decorative elements)
+- **NEVER download** individual child nodes (like single iPhone components)
+- Look for frame types like "Section 1" or full layout containers
+- **Target nodes with dimensions ~1000-1200px** wide, not 200-300px single elements
+- Example: Download "Section 1" frame (1104x1000px), NOT "iPhone 12 Pro" node (263x543px)
+
+### 3. SLUG NAMING CONVENTION
+
+- **Route folder**: kebab-case (`/wellbeing-library/`)
+- **Component slug prop**: camelCase (`slug="wellbeingLibrary"`)
+- **JSON translation keys**: camelCase (`ourSolutions.wellbeingLibrary.*`)
+- **ALWAYS use camelCase** for slug prop, even if URL is kebab-case
+- This prevents IntlError: MISSING_MESSAGE errors
+
+### 4. VERIFY TRANSLATION KEYS EXIST
+
+- After adding translations, **grep the JSON file** to confirm keys exist
+- **Test the translation path** matches the component structure
+- Pattern: `ourSolutions.{camelCaseSlug}.{section}.{property}`
+- Run a test lookup before declaring work complete
+
+### 5. POST-IMPLEMENTATION VERIFICATION
+
+- **Check dev server console** for IntlError messages
+- **Visually compare** rendered page to Figma design
+- **Verify image dimensions** match expected section sizes (not individual element sizes)
+- **Confirm section order** matches Figma y-positions
+
+## IMAGE DOWNLOAD STRATEGY
+
+When downloading "how-it-works" or section screenshots:
+
+1. Find the outermost **FRAME** containing all visual elements
+2. Check if it contains multiple children (phones, backgrounds, ellipses)
+3. Download the PARENT frame, not its children
+4. Expected dimensions: 1000-1200px wide for full sections
+
+## COMMON MISTAKES TO AVOID
+
+❌ Downloading `iPhone 12 Pro` node (263x543px)
+✅ Downloading `Section 1` frame containing phones (1104x1000px)
+
+❌ Order: Hero → How It Works → Spotlight
+✅ Order: Check y-position in Figma data first
+
+❌ `slug="wellbeing-library"` in component
+✅ `slug="wellbeingLibrary"` (camelCase)
+
+❌ Assuming component order based on previous pages
+✅ Verify y-position for EACH page individually
+
+## VERIFICATION CHECKLIST BEFORE RESPONDING
+
+Before presenting work as complete, verify:
+
+- [ ] Component order matches Figma y-positions
+- [ ] Images are complete sections (1000+ px wide)
+- [ ] Translation keys use camelCase slug
+- [ ] No IntlError in browser console (check dev server)
+- [ ] Visual output matches Figma design
+- [ ] All translation paths tested and working
+
+## WHY THIS MATTERS
+
+These errors waste the user's time and require them to repeat themselves. Each of these steps is verifiable and should be checked BEFORE responding. There is NO excuse for:
+
+- Wrong component order (Figma provides y-positions)
+- Incomplete images (node dimensions are visible)
+- Translation key mismatches (easily testable)
+
+**Get it right the first time.**

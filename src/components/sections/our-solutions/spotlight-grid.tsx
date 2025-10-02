@@ -20,6 +20,7 @@ interface SpotlightGridProps extends React.ComponentProps<"section"> {
   button?: {
     translationKey: string;
     onClick?: () => void;
+    showNote?: boolean;
   };
   slots?: {
     sectionTitle?: Partial<React.ComponentProps<typeof SectionTitle>>;
@@ -85,6 +86,14 @@ export function SpotlightGrid({
             {t(`button.${button.translationKey}`)}
             <ArrowRight className="size-5" />
           </Button>
+          {button.showNote && (
+            <Typography
+              variant="text-l"
+              className="text-dark-gray-50 text-center"
+            >
+              {t("note")}
+            </Typography>
+          )}
         </div>
       )}
     </section>

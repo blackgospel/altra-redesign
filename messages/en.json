@@ -717,58 +717,700 @@
         "description": "Find out how leading care providers are improving programming with Altra."
       }
     },
+    "familyEngagement": {
+      "hero": {
+        "subtitle": "Family Engagement",
+        "title": "Keep Families Connected, Reassured and Informed – Every Day",
+        "description": "Altra's Family Engagement module empowers care providers to give families what they want most: meaningful connection, proactive updates and peace of mind. Whether near or far, families stay closely connected to the day-to-day lives of their loved ones through real-time updates, media-rich moments and smart notifications – all from one secure app.",
+        "note": "*See how Altra can transform family engagement in your service.",
+        "imagePath": "/images/our-solutions/family-engagement/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Family Engagement",
+        "description": "Strengthen Trust. Reduce Complaints. Increase Referrals. Care providers use Altra to:",
+        "items": [
+          "Build stronger bonds between families, residents and care teams",
+          "Reduce complaints driven by lack of communication",
+          "Provide real-time visibility into daily life in the home",
+          "Improve family satisfaction scores by up to 50%",
+          "Demonstrate daily communication efforts to inspectors"
+        ],
+        "button": {
+          "cta": "Talk to Our Team"
+        },
+        "note": "Get tailored advice on how to implement a proactive communication strategy."
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "Share Moments That Matter",
+            "description": "Capture and share small, everyday moments through:",
+            "keyFeatures": {
+              "list": [
+                "Photos",
+                "Videos",
+                "Voice notes",
+                "Personal messages",
+                "Group updates",
+                "Event highlights",
+                "Activity attendance"
+              ]
+            },
+            "imagePath": "/images/our-solutions/family-engagement/how-it-works-1.png"
+          },
+          {
+            "title": "Smart, Secure, Personalised",
+            "description": "Families only see information relevant to their loved one. Every post is shared securely through the mobile app, with push notifications ensuring nothing is missed. Whether it's a snapshot from the garden, a video from music therapy, or a simple hello from the team, each update reinforces trust and transparency.",
+            "imagePath": "/images/our-solutions/family-engagement/how-it-works-2.png"
+          },
+          {
+            "title": "Lighten the Load for Your Team",
+            "keyFeatures": {
+              "title": "Built for busy care teams:",
+              "list": [
+                "Automated Activity Posts – Families are notified automatically when a resident joins an activity, with no extra effort from your team",
+                "Built for Care – Altra was designed for the unique needs of adult social care, making family engagement easy and effective without disrupting care workflows"
+              ]
+            },
+            "imagePath": "/images/our-solutions/family-engagement/how-it-works-3.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra for Family Engagement",
+        "benefits": [
+          {
+            "title": "Peace of Mind for Families",
+            "description": "Families feel closer to their loved ones and reassured by the consistent, positive updates."
+          },
+          {
+            "title": "Fewer Complaints",
+            "description": "Clear, ongoing communication dramatically reduces family concerns and queries."
+          },
+          {
+            "title": "Regulatory Confidence",
+            "description": "Demonstrate robust communication practices during inspections with documented engagement records."
+          },
+          {
+            "title": "Referral Boost",
+            "description": "Happy families are more likely to recommend your service to others"
+          }
+        ],
+        "cta": "Book a Demo",
+        "screenshot": "/images/our-solutions/family-engagement/benefits-screenshot.png"
+      },
+      "customerStory": {
+        "title": "Customer Story: Athena Care Homes",
+        "subtitle": "Daily Posts. Big Impact. Athena Care Homes set a target of one personal post per resident per day – outside of activity tracking. These quick, simple updates have significantly reduced complaints and improved family relationships across their homes.",
+        "testimonial": "\"The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.\"",
+        "authorName": "Lisa Vile",
+        "authorTitle": "Hospitality Manager",
+        "authorImage": "/images/our-solutions/family-engagement/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": "Find out how leading care providers are improving programming with Altra."
+      }
+    },
+    "newsletters": {
+      "hero": {
+        "subtitle": "Newsletters",
+        "title": "Turn Digital Moments into Something Tangible, Personal and Joyful",
+        "description": "With Altra's Newsletters module, care providers can easily turn posts from staff and families into beautifully designed, print-ready newsletters for residents. It's a simple way to strengthen connections, create moments of joy and spark meaningful conversations every week.",
+        "note": "*See how care homes use Altra to create personalised newsletters in minutes.",
+        "imagePath": "/images/our-solutions/newsletters/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Newsletters",
+        "description": "Spark Conversations. Deepen Connections. Build Community. Altra makes it easy for care teams to:",
+        "items": [
+          "Deliver printed memories and messages from families to residents each week",
+          "Craft beautiful newsletters with personalised content",
+          "Maintain a consistent brand across all communication",
+          "Create shared moments between staff and residents beyond day-to-day care",
+          "Foster stronger family-resident-team relationships",
+          "Provide inspection-ready evidence of family communication"
+        ],
+        "button": {
+          "cta": "Talk to Our Team"
+        },
+        "note": "Get tailored advice on how to implement a proactive communication strategy."
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "Step 1: Collect Content",
+            "description": "Every post, message and photo shared by families and staff on Altra can be pulled directly into a newsletter with just a few clicks.",
+            "keyFeatures": {
+              "list": [
+                "Family messages and photos are added to each resident's Family Newsletter",
+                "Staff updates, birthdays, events and activity snapshots can be shared in a Facility Newsletter"
+              ]
+            },
+            "imagePath": "/images/our-solutions/newsletters/how-it-works-1.png"
+          },
+          {
+            "title": "Step 2: Print or Share Instantly",
+            "description": "With Altra's built-in tools, newsletters can be:",
+            "keyFeatures": {
+              "list": [
+                "Printed for residents in seconds",
+                "Shared with families directly through the app",
+                "Stored in a resident's room folder to create a living history of shared moments"
+              ]
+            },
+            "imagePath": "/images/our-solutions/newsletters/how-it-works-2.png"
+          },
+          {
+            "title": "Design that Reflects Your Brand",
+            "keyFeatures": {
+              "title": "Facility Newsletters, Flyers and More",
+              "list": [
+                "Customise your newsletters with:",
+                "Editorials",
+                "Resident interviews",
+                "Staff spotlights",
+                "Birthday callouts",
+                "Event highlights"
+              ]
+            },
+            "note": "Maintain consistency across homes or groups with: Brand kits and visual standards, Group-wide newsletter templates, Shared content uploads across multiple sites",
+            "imagePath": "/images/our-solutions/newsletters/how-it-works-3.png"
+          }
+        ]
+      },
+      "customerStory": {
+        "title": "Customer Story: St Martins Care",
+        "subtitle": "Immediate Engagement. Instant Smiles. St Martins Care saw immediate results within 24 hours of launching Altra.",
+        "testimonial": "\"Altra has been live for less than 24 hours and we've already had amazing engagement with families – just look at the posts received already. You can't put a price on the smiles on the faces of residents when they see pictures and comments from their loved ones.\"",
+        "authorName": "Keith Milton",
+        "authorTitle": "CEO",
+        "authorImage": "/images/our-solutions/newsletters/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": "Discover how other care providers are using newsletters to improve resident wellbeing."
+      }
+    },
     "voiceAssistants": {
       "hero": {
         "subtitle": "Voice Assistants",
-        "title": "Empower Independence Through Voice",
-        "description": "Give residents and people supported the ability to check schedules, request support, and access information using simple voice commands — building confidence and reducing reliance on staff.",
-        "note": "*See how voice technology empowers independence.",
+        "title": "Independence Through Innovation",
+        "description": "Voice Assistants with Altra' Alexa Integration make resident life easier, richer and more independent. Voice technology delivers a natural, accessible way for people supported in elderly care and learning disability services to stay connected with their community, get updates and carry out daily tasks without needing to rely on staff.",
+        "note": "*See how voice assistants can support your residents and your team.",
         "imagePath": "/images/our-solutions/voice-assistants/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Voice Assistants",
+        "description": "Deliver Resident-Centered Innovation That Saves Time and Sets You Apart. Care providers use Altra's voice technology to:",
+        "items": [
+          "Offer a more intuitive way for residents to stay informed",
+          "Improve resident independence and digital inclusion",
+          "Reduce repetitive queries and staff interruptions",
+          "Manage voice devices campus-wide through one central dashboard",
+          "Position their service as tech-forward and future-ready"
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "A Natural Way to Stay Connected",
+            "keyFeatures": {
+              "title": "Common requests include:",
+              "list": [
+                "Activity Updates – \"Alexa, ask Altra what's on the activity calendar this afternoon?\"",
+                "Meal Planning – \"Alexa, ask Altra what's for dinner?\"",
+                "Daily Schedule – \"Alexa, ask Altra what I have planned today\"",
+                "Social Connection – \"Alexa, ask Altra to message John.\"",
+                "Mail Checks – \"Alexa, as Altra to read the last message sent by my family.\""
+              ]
+            },
+            "description": "Residents interact with Alexa devices through simple voice commands to get the information they need, when they need it – no smartphones or tablets required.",
+            "imagePath": "/images/our-solutions/voice-assistants/how-it-works-1.png"
+          },
+          {
+            "title": "Visual Support with Echo Show",
+            "keyFeatures": {
+              "title": "When paired with Echo Show devices, residents can:",
+              "list": [
+                "View announcements with full images and descriptions",
+                "Identify who Alexa is speaking to through profile photos",
+                "Initial video calls with family members"
+              ]
+            },
+            "imagePath": "/images/our-solutions/voice-assistants/how-it-works-2.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Voice Assistants",
+        "benefits": [
+          {
+            "title": "Independence for Residents",
+            "description": "Residents can access key information on their own terms, without needing to rely on staff."
+          },
+          {
+            "title": "Improved Staff Efficiency",
+            "description": "Voice reduces repetitive, low-priority interruptions so staff can focus on care."
+          },
+          {
+            "title": "Stand Out from Competitors",
+            "description": "Offering cutting-edge, inclusive technology helps position your service as forward-thinking."
+          },
+          {
+            "title": "Enhance the Daily Experience",
+            "description": "Voice helps turn daily routines into empowering, tech-enabled moments for residents."
+          }
+        ],
+        "cta": "Book a Demo",
+        "screenshot": "/images/our-solutions/voice-assistants/benefits-screenshot.png"
       }
     },
     "surveys": {
       "hero": {
         "subtitle": "Surveys",
-        "title": "Gather Feedback That Drives Improvement",
-        "description": "Create custom surveys, collect feedback from residents and families, and track responses in real time — all linked to individual profiles for easy reporting and compliance.",
-        "note": "*See how to gather actionable feedback effortlessly.",
+        "title": "Continuous Feedback Made Effortless",
+        "description": "Altra's Survey module helps care providers collect meaningful, actionable feedback from residents, families and staff – all in one platform. Replace time-consuming manual processes with a digital tool built for speed, clarity and better decisions.",
+        "note": "* Discover how your team can collect and act on feedback more effectively.",
         "imagePath": "/images/our-solutions/surveys/hero.png"
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "Feedback from Every Angle.\nOne System for All Your Surveys",
+            "description": "Whether it's understanding satisfaction, getting input on upcoming changes, or following up after a respite stay, Altra makes it easy to create, send and review surveys.",
+            "keyFeatures": {
+              "title": "Use Altra for:",
+              "list": [
+                "Resident Surveys – Preferences, wellbeing, food quality, activity interest, environment",
+                "Family Surveys – Satisfaction, communication, engagement, referral likelihood",
+                "Staff Surveys – Morale, training needs, work environment, retention feedback"
+              ]
+            },
+            "note": "Surveys can be anonymised or linked to a profile, depending on your needs.",
+            "imagePath": "/images/our-solutions/surveys/how-it-works-1.png"
+          },
+          {
+            "title": "Built-In Automation and Smart Insights",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "Create surveys in just a few clicks",
+                "Share instantly through the Altra app or email",
+                "Use pictures and visual supports for residents with cognitive impairments",
+                "Track completion and response rates in real time",
+                "Access AI-generated insights to spot trends and priorities",
+                "Run surveys group-wide with consolidated reporting across multiple sites"
+              ]
+            },
+            "imagePath": "/images/our-solutions/surveys/how-it-works-2.png"
+          }
+        ]
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Surveys",
+        "description": "Be More Responsive. More Person-Centred. More Informed. With Altra's Surveys, you can:",
+        "items": [
+          "Collect feedback regularly from residents, families and staff",
+          "Identify trends across homes and services",
+          "Improve communication and decision-making based on real data",
+          "Offer accessible, customisable surveys tailored to your population",
+          "Centralise all survey activity in one dashboard for ease of analysis"
+        ]
+      },
+      "benefits": {
+        "title": "Why Teams Choose Altra for Surveys",
+        "benefits": [
+          {
+            "title": "Easy to Launch and Manage",
+            "description": "No need for third-party survey tools or paper forms. Everything lives in one place."
+          },
+          {
+            "title": "Better Engagement",
+            "description": "Surveys are visual, mobile-friendly, and can be adapted for different abilities."
+          },
+          {
+            "title": "Continuous Feedback Loop",
+            "description": "Share quarterly surveys to track progress and stay tuned in to changing needs."
+          },
+          {
+            "title": "Actionable Insights",
+            "description": "View clean, centralised data to make better decisions at both the home and group level."
+          }
+        ],
+        "cta": "Book a Demo",
+        "screenshot": "/images/our-solutions/surveys/benefits-screenshot.png"
+      },
+      "customerStory": {
+        "title": "Customer Story: Consensus Support",
+        "subtitle": "",
+        "testimonial": "\"Surveys are now live in 5 services, showing a 43.3% increase in responses on Altra within the first two weeks, compared to their TOTAL responses in Radar last year!.\"",
+        "authorName": "Victoria Nema",
+        "authorTitle": "Group Quality Lead, Consensus Support:",
+        "authorImage": "/images/our-solutions/surveys/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": " Find out how leading care providers are improving programming with Altra.",
+        "usedFor": "Menu updates     •    Quarterly engagement surveys \n  •     Housekeeping satisfaction\n  •     Respite discharge feedback\n  •     Activities surveys    "
       }
     },
     "wellbeingLibrary": {
       "hero": {
         "subtitle": "Wellbeing Library",
-        "title": "Expert Content for Mind, Body and Spirit",
-        "description": "Access a curated library of wellbeing content including seated fitness, music therapy, mindfulness, and more — all designed specifically for care settings.",
-        "note": "*See our curated wellbeing content library.",
+        "title": "Enriched Aging, On Demand",
+        "description": "Altra's Wellbeing Library gives your team instant access to expertly designed content that supports physical health, mental stimulation and emotional wellbeing. It's your all-in-one digital hub to build a more varied, meaningful and fulfilling activity programme without the time-consuming prep.",
+        "note": "*See how Altra's Wellbeing Library enhances engagement in your care service.",
         "imagePath": "/images/our-solutions/wellbeing-library/hero.png"
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "Your On-Demand Wellbeing Library. Expert Content for Every Interest",
+            "keyFeatures": {
+              "title": "Choose from a wide selection of regularly updated programmes:",
+              "list": [
+                "Fitness (chair yoga, low-impact movement, strength and balance)",
+                "Lifelong Learning (culture, nature, history, language)",
+                "Music (sing-alongs, relaxation, music therapy)",
+                "Wellness (guided meditation, breathing, sleep support)",
+                "Arts & Entertainment (creative workshops, live performances)",
+                "Memory & Brain Health (games, puzzles, reminiscence sessions)"
+              ]
+            },
+            "note": "Content is accessible anytime, on any device, and linked directly to your Altra Activities Calendar for easy integration.",
+            "imagePath": "/images/our-solutions/wellbeing-library/how-it-works-1.png"
+          },
+          {
+            "title": "Easy to Launch, Even Easier to Use",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "No equipment required",
+                "No complex setup or installation",
+                "Low-cost, scalable solution that fits any home or budget",
+                "Content is refreshed weekly, including seasonal and themed programming",
+                "Curated by international experts in active ageing, dementia care and wellness"
+              ]
+            },
+            "note": "Whether you use it for daily group sessions or personal wellbeing time, Altra helps you deliver meaningful content that matters.",
+            "imagePath": "/images/our-solutions/wellbeing-library/how-it-works-2.png"
+          }
+        ]
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with the Wellbeing Library",
+        "description": "Boost Resident Wellbeing While Saving Time on Programming. Care providers use Altra's Wellbeing Library to:",
+        "items": [
+          "Offer consistent, high-quality activities with minimal prep",
+          "Stimulate residents' minds, bodies and spirits with expert-led content",
+          "Reduce the burden of finding fresh, purposeful ideas",
+          "Build more inclusive and varied activity schedules",
+          "Support residents in leading more independent and fulfilling lives"
+        ]
+      },
+      "benefits": {
+        "title": "Why Teams Choose Altra's Wellbeing Library",
+        "benefits": [
+          {
+            "title": "Time-Saving",
+            "description": "Stop spending hours searching for new ideas. Everything is pre-built, on-demand and easy to use."
+          },
+          {
+            "title": "Expert-Led",
+            "description": "Content is created and delivered by trusted professionals in wellness, fitness and cognitive health."
+          },
+          {
+            "title": "Always Fresh",
+            "description": "Regularly updates keep things interesting for both residents and staff."
+          },
+          {
+            "title": "Purposeful Variety",
+            "description": "Support physical, emotional and cognitive wellbeing with a wide range of formats and themes."
+          },
+          {
+            "title": "Fits Any Programme",
+            "description": "Use it to enhance your existing offerings or replace ad-hoc sessions with something more structured."
+          }
+        ],
+        "cta": "Book a Demo",
+        "screenshot": "/images/our-solutions/wellbeing-library/benefits-screenshot.png"
+      },
+      "customerStory": {
+        "title": "Customer Story: SignaCare",
+        "subtitle": "Chair Zumba and Yoga Residents Love",
+        "testimonial": "\"We are really loving the Wellbeing Hub. The seated yoga and chair zumba videos have been a great hit! The residents said it's better than what I used to do, coming up with my own moves. Thanks again for these amazing services. It's brilliant to have resources all in one place.\"",
+        "authorName": "Lisa Lawlor",
+        "authorTitle": "Activities Coordinator, SignaCare",
+        "authorImage": "/images/our-solutions/wellbeing-library/customer-story-author.png",
+        "ctaText": "See More Success Stories",
+        "description": " Discover how other homes are using the Wellbeing Library every week."
       }
     },
     "menu": {
       "hero": {
         "subtitle": "Menu",
-        "title": "Share Menus Clearly and Instantly",
-        "description": "Display daily menus on digital signage, resident apps, or family portals — updated centrally in real time with no printing or manual updates needed.",
-        "note": "*See how to digitise and share your menus instantly.",
+        "title": "Share What's on the Menu — Simply, Clearly and Consistently",
+        "description": "With Altra's Menu module, care teams can easily create, manage and share menus across your entire service. Whether printed, posted to the app, or displayed on digital signage, menus are now easy to update and accessible to everyone.",
+        "note": "*See how Altra helps you modernise your food and dining communication.",
         "imagePath": "/images/our-solutions/menu/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Altra's Menu Module",
+        "description": "Keep Everyone Informed. Avoid Repetition. Promote Resident Choice. Care services use Altra to:",
+        "items": [
+          "Create clear, structured menus in just a few clicks",
+          "Share menus instantly with residents and families via the app",
+          "Display menus on digital signage in dining or common areas",
+          "Print branded menus for use in rooms, lounges or notice boards"
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "How it works",
+        "items": [
+          {
+            "title": "Key Capabilities",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "Central Menu Builder – Create daily, weekly or monthly menus with breakfast, lunch, dinner and snack options",
+                "Multi-Channel Sharing – Share menus directly to resident and family feeds, or push to screens using Altra Digital Signage",
+                "Print-Ready Layouts – Export and print menus in clean, branded formats for display across your home",
+                "Group-Level Distribution – Push menus to all homes in your group, while allowing each home to customise needed"
+              ]
+            },
+            "imagePath": "/images/our-solutions/menu/how-it-works-1.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra for Menus",
+        "benefits": [
+          {
+            "title": "Saves Time",
+            "description": "No more juggling Word docs or sending email chains to homes"
+          },
+          {
+            "title": "Improves Transparency",
+            "description": "Families feel more connected and reassured when they can see what their loved ones are eating"
+          },
+          {
+            "title": "Enhances Resident Engagement",
+            "description": "Residents can view menus on digital screens or the app — and provide feedback on preferences"
+          },
+          {
+            "title": "Supports Dietary Planning",
+            "description": "Teams can plan and review meals more effectively by aligning menus with activity schedules and care plans"
+          }
+        ],
+        "screenshot": "/images/our-solutions/menu/benefits-screenshot.png",
+        "cta": "Book a Demo"
       }
     },
     "contentLibraries": {
       "hero": {
         "subtitle": "Content Libraries",
-        "title": "Deliver Personalised Content to Every Individual",
-        "description": "Create and share tailored guides, routines, and resources that help people supported build skills, follow routines, and live more independently.",
-        "note": "*See how personalised content supports independence.",
+        "title": "Deliver the Right Information, to the Right People, at the Right Time",
+        "description": "Altra's Content Libraries give care providers powerful tools to share rich, personalised content with both families and residents. From onboarding guides and medication support to daily prompts and community integration tools, everything is fully customisable, accessible across media formats, and controlled by you — down to the individual level.",
+        "note": "*Discover how Content Libraries streamline communication and support personal independence.",
         "imagePath": "/images/our-solutions/content-libraries/hero.png"
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Content Libraries",
+        "description": "Support Families. Empower Residents. Share Meaningful Content with Precision. Care teams use Content Libraries to:",
+        "items": [
+          "Share important service information and guides with families",
+          "Offer educational and support content for specific family situations",
+          "Provide accessible, personalised content to support resident independence",
+          "Deliver multi-format resources across homes, groups or individuals",
+          "Save time by storing, scheduling and managing content from one place"
+        ]
+      },
+      "howItWorks": {
+        "sectionLabel": "Two Libraries. One Unified Experience.",
+        "items": [
+          {
+            "title": "1. Family Content Library",
+            "description": "Share practical, supportive and service-specific content with families",
+            "keyFeatures": {
+              "title": "Use this space to:",
+              "list": [
+                "Send welcome packs and \"What to Expect on Arrival\" guides",
+                "Share Contracts of Care and financial information",
+                "Provide medication management information for loved ones going on outings or leave",
+                "Explain how specific support models work (e.g. dementia care, palliative support)",
+                "Provide links to resources, meal plans or activity programmes",
+                "Push information to one family, one home, or your entire group"
+              ]
+            },
+            "note": "Families receive content directly through the Altra Family App, and you control access and visibility at a granular level.",
+            "imagePath": "/images/our-solutions/content-libraries/how-it-works-1.png"
+          },
+          {
+            "title": "2. Resident Content Library",
+            "description": "Help residents thrive with content tailored to their goals, needs and daily life.",
+            "keyFeatures": {
+              "title": "Use this space to:",
+              "list": [
+                "Share daily routines (e.g. \"Morning Prep Guide\")",
+                "Provide step-by-step visual prompts for tasks like laundry, cooking or community outings",
+                "Reinforce care goals and independence-building tasks",
+                "Integrate video, voice and images for greater accessibility",
+                "Push content to a resident's personal calendar as a recurring part of their day"
+              ]
+            },
+            "note": "This content is particularly valuable for residents with cognitive or learning support needs, and can help bridge the gap between activities, care and personal development.",
+            "imagePath": "/images/our-solutions/content-libraries/how-it-works-2.png"
+          },
+          {
+            "title": "Rich Media, Made Easy",
+            "keyFeatures": {
+              "title": "Each content piece can include:",
+              "list": [
+                "PDFs and documents",
+                "Photos and illustrations",
+                "Videos and walkthroughs",
+                "Audio clips and voice notes",
+                "Mixed media – all in one content item"
+              ]
+            },
+            "note": "The experience is mobile-friendly, easy to update, and intuitive for both staff and families to navigate.",
+            "imagePath": "/images/our-solutions/content-libraries/how-it-works-3.png"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra's Content Libraries",
+        "benefits": [
+          {
+            "title": "Granular Access Control",
+            "description": "Decide exactly who sees what — by group, home, family or individual resident."
+          },
+          {
+            "title": "Flexible Across Formats",
+            "description": "Mix documents, videos, voice notes and images into a single piece of content."
+          },
+          {
+            "title": "Purpose-Driven Sharing",
+            "description": "Push educational material at the point of need, not just during onboarding."
+          },
+          {
+            "title": "Resident Empowerment",
+            "description": "Provide visual and step-by-step guidance to help residents live more independently."
+          },
+          {
+            "title": "Fully Integrated",
+            "description": "Tie content into resident calendars or family dashboards with ease."
+          }
+        ],
+        "screenshot": "/images/our-solutions/content-libraries/benefits-screenshot.png",
+        "cta": "Book a Demo"
       }
     },
     "concierge": {
       "hero": {
         "subtitle": "Concierge",
-        "title": "Manage Resident Requests with Ease",
-        "description": "Let residents book services, report maintenance, or request extras directly from their app — while your team tracks and manages everything from one central dashboard.",
-        "note": "*See how concierge simplifies service requests.",
+        "title": "One Central Place for Resident Requests and Service Delivery",
+        "description": "Altra's Concierge module gives your team a simple, effective way to manage resident requests, streamline service delivery, and improve the everyday experience in your home. Whether it's maintenance, housekeeping, menu changes or special requests, everything is logged, tracked and fulfilled from one place.",
+        "note": "*Discover how Concierge simplifies day-to-day operations in your care home.",
         "imagePath": "/images/our-solutions/concierge/hero.png"
+      },
+      "howItWorks": {
+        "sectionLabel": "How It Works",
+        "items": [
+          {
+            "title": "One Place for Every Request",
+            "description": "Residents, staff or families can submit requests directly through the Altra platform – everything from fixing a lightbulb to asking for room cleaning or booking an in-room activity.",
+            "keyFeatures": {
+              "title": "Common request types include:",
+              "list": [
+                "Housekeeping (e.g. extra linen, cleaning)",
+                "Dining (e.g. special meal requests, menu feedback)",
+                "Resident experience (e.g. birthday requests, room changes)",
+                "Personal services (e.g. transport booking, activity reminders)"
+              ]
+            },
+            "note": "",
+            "imagePath": "/images/our-solutions/concierge/how-it-works-1.png"
+          },
+          {
+            "title": "Staff Workflow Made Simple",
+            "description": "",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "Requests appear in the dashboard with real-time status updates",
+                "Teams can accept, comment, complete and log follow-up notes",
+                "Request history is linked to the resident profile for future reference",
+                "All actions are recorded to support care documentation and inspections"
+              ]
+            },
+            "note": "You can even allow family members to submit certain request types — like meal preferences or resident birthday wishes — to keep everyone involved and connected.",
+            "imagePath": "/images/our-solutions/concierge/how-it-works-2.png"
+          },
+          {
+            "title": "Designed for Resident Satisfaction and Team Efficiency",
+            "description": "",
+            "keyFeatures": {
+              "title": "",
+              "list": [
+                "Mobile Friendly: Staff can manage requests from their phone or tablet without returning to an office",
+                "Configurable by Department: Route requests automatically to maintenance, kitchen, housekeeping, or activities",
+                "Automated Alerts: Notify staff when requests are overdue or unassigned",
+                "Reporting and Oversight: Track request types, frequency, average resolution time and trends across homes"
+              ]
+            },
+            "note": "",
+            "imagePath": "/images/our-solutions/concierge/how-it-works-3.png"
+          }
+        ]
+      },
+      "spotlight": {
+        "title": "What You Can Achieve with Concierge",
+        "description": "Raise Service Standards. Reduce Delays. Respond Faster. Care providers use Concierge to:",
+        "items": [
+          "Offer a clear, centralised way for residents and families to make requests",
+          "Keep teams aligned on open tasks, statuses and completion timelines",
+          "Reduce missed or forgotten requests",
+          "Log all service activity for accountability and auditing",
+          "Improve satisfaction by delivering a more responsive and personalised experience"
+        ]
+      },
+      "benefits": {
+        "title": "Why Services Choose Altra Concierge",
+        "benefits": [
+          {
+            "title": "Improved Responsiveness",
+            "description": "Handle more requests faster with a streamlined communication loop between residents and teams."
+          },
+          {
+            "title": "Accountability and Transparency",
+            "description": "Create a visible record of service requests and completion for internal tracking or inspections."
+          },
+          {
+            "title": "Family Confidence",
+            "description": "Keep families reassured by showing how resident needs are met quickly and thoughtfully."
+          },
+          {
+            "title": "Better Use of Staff Time",
+            "description": "Reduce back-and-forth and missed messages with a clear, trackable process."
+          },
+          {
+            "title": "Evidence Person-Centred Service",
+            "description": "Log and demonstrate that services are tailored to each resident's evolving needs."
+          }
+        ],
+        "screenshot": "/images/our-solutions/concierge/benefits-screenshot.png",
+        "cta": "Book a Demo"
+      },
+      "customerStory": {
+        "title": "Customer Story: Curam Care",
+        "subtitle": "Resident Experience That Feels Personal",
+        "testimonial": "\"Concierge has made it so much easier for us to stay on top of resident requests. Whether it's a maintenance issue or just something simple like a new pillow or favourite snack, we can now track every request and make sure nothing is missed. It's helping us build more trust with residents and families, and our team finds it so easy to use. It really reinforces our promise of personal, responsive care.\"",
+        "authorName": "Laura Collins",
+        "authorTitle": "Resident Experience Manager, Curam Care",
+        "authorImage": "/images/our-solutions/concierge/customer-story-author.png",
+        "ctaText": "View more Cast Studies",
+        "description": ""
       }
     },
     "groupIntelligence": {

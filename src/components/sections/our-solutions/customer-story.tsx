@@ -26,7 +26,7 @@ export function CustomerStory({
       <div className="relative flex flex-col w-full text-white">
         <CustomerStoryBackdrop />
 
-        <div className="relative z-10 flex flex-col items-center justify-center py-24 px-4">
+        <div className="relative z-10 flex flex-col items-center justify-center gap-10 py-24 px-4">
           <div className="flex flex-col items-center gap-5 max-w-[995px]">
             <Typography variant="h3" className="text-white text-center">
               {t("title")}
@@ -74,12 +74,23 @@ export function CustomerStory({
             </div>
 
             <div
-              className="absolute bottom-[32%] left-1/2 transform -translate-x-1/2 w-full max-w-[911px] h-[150px] pointer-events-none opacity-40"
+              className="absolute bottom-[25%] left-1/2 transform -translate-x-1/2 w-full max-w-[911px] h-[180px] pointer-events-none opacity-40"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(11, 34, 61, 0) 0%, rgba(11, 34, 61, 0.49) 32%, rgba(11, 34, 61, 0.8) 56%, rgba(11, 34, 61, 1) 83%)",
               }}
             />
+
+            {t.has("usedFor") && (
+              <div className="flex flex-col items-center gap-[15px] max-w-[619px]">
+                <Typography variant="title-m" className="text-white">
+                  Used For:
+                </Typography>
+                <Typography variant="text-l" className="text-white text-center">
+                  {t("usedFor")}
+                </Typography>
+              </div>
+            )}
 
             <div className="w-full max-w-[873px] flex flex-col items-center gap-[30px] px-4 z-10">
               <Button variant="primary" size="md">
