@@ -63,4 +63,6 @@ export { User } from "./User";
 export { Users } from "./Users";
 export { Vertical } from "./Vertical";
 export { Voice } from "./Voice";
+export { Wellbeing } from "./Wellbeing";
 export { Workflow } from "./Workflow";
+export { World } from "./World";

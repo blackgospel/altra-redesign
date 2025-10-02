@@ -10,6 +10,7 @@ import {
   Document,
   Edit,
   Envelope,
+  Eye,
   Food,
   Graphic,
   Handshake,
@@ -19,13 +20,16 @@ import {
   Notes,
   Notifications,
   Rocket,
+  Search,
   Smile,
   Star,
   Task,
   User,
   Users,
   Voice,
+  Wellbeing,
   Workflow,
+  World,
 } from "@/assets/icons";
 import { cn } from "@/lib/utils";
 
@@ -41,6 +45,7 @@ const iconMap = {
   document: Document,
   edit: Edit,
   envelope: Envelope,
+  eye: Eye,
   food: Food,
   graphic: Graphic,
   handshake: Handshake,
@@ -50,13 +55,16 @@ const iconMap = {
   notes: Notes,
   notifications: Notifications,
   rocket: Rocket,
+  search: Search,
   smile: Smile,
   star: Star,
   task: Task,
   user: User,
   users: Users,
   voice: Voice,
+  wellbeing: Wellbeing,
   workflow: Workflow,
+  world: World,
 } as const;
 
 export type IconKey = keyof typeof iconMap;

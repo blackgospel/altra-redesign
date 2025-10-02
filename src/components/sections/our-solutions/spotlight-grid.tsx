@@ -36,7 +36,6 @@ export function SpotlightGrid({
 }: SpotlightGridProps) {
   const t = useTranslations(translationKey);
 
-  // Read items from translations
   const itemsRaw = t.raw("items") as SpotlightItemData[];
 
   return (

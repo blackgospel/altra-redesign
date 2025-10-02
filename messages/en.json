@@ -571,6 +571,99 @@
       }
     }
   },
+  "ourMission": {
+    "hero": {
+      "subtitle": "Our Mission",
+      "title": "Be the change you want to see",
+      "description": "Our vision is to be the #1 platform for care services to provide seamless and personalised experiences for all residents through technology.",
+      "ctaText": "Book a Demo"
+    },
+    "values": {
+      "caption": "Altra's Values",
+      "title": "Everything we do at Altra embodies the following values:",
+      "footer": "By embodying these values, Altra can help care services enhance the daily lives of residents and support overall wellbeing.",
+      "items": [
+        {
+          "title": "Accessibility",
+          "description": "Our app is easy to use for all residents, families and caregivers.",
+          "icon": "eye",
+          "iconBgColor": "rgba(203, 110, 226, 0.9)"
+        },
+        {
+          "title": "Transparency",
+          "description": "We facilitate open communication between residents, their loved ones and care service staff, promoting transparency and collaboration.",
+          "icon": "search",
+          "iconBgColor": "#ED4789"
+        },
+        {
+          "title": "Engagement",
+          "description": "We promote the opportunity for residents to engage with loved ones, participate in activities and access educational and entertainment resources.",
+          "icon": "messageOne",
+          "iconBgColor": "#00D39C"
+        },
+        {
+          "title": "Dignity",
+          "description": "Altra promotes the dignity and independence of residents by helping care homes to provide them with tools and resources they need to live a fulfilling life.",
+          "icon": "users",
+          "iconBgColor": "#4DA8DA"
+        },
+        {
+          "title": "Inclusivity",
+          "description": "Everything on Altra is built on inclusivity, taking into account the diverse needs and preferences of residents when interacting with Altra.",
+          "icon": "world",
+          "iconBgColor": "#BDD86C"
+        },
+        {
+          "title": "Support",
+          "description": "Altra provides support to care staff, residents and families they need to navigate Altra, including accessing information and resources and opportunities for feedback to further enhance our offering.",
+          "icon": "wellbeing",
+          "iconBgColor": "#9B8FEF"
+        }
+      ]
+    },
+    "story": {
+      "sections": [
+        {
+          "caption": "Our Story",
+          "title": "Altra was born out of personal experience operating a nursing home in Dublin, Ireland for over 30 years.",
+          "description": "Originally built by Adam's grandfather and father, Adam grew up working in the family nursing home from the age of 15. Using that experience and understanding, Adam set about creating a tool to help other nursing homes improve the quality of care they provide to residents. He saw firsthand the challenges faced by care homes and was determined to build a solution that would make a real difference in the lives of the staff, residents and families.\n\nBy leveraging technology and innovation, Altra aims to provide care homes with tools and resources they need to help their residents live their lives to the fullest and feel supported, engaged and empowered. With its roots in personal experience, Altra is committed to delivering a better future for residents in care homes and supporting the dedicated care home staff who work tirelessly to provide them with quality care.",
+          "imagePath": "/images/our-mission/our-story.png",
+          "reverse": true,
+          "showDivider": true,
+          "showBlobs": true
+        },
+        {
+          "caption": "Altra's Mission",
+          "title": "Our mission is to enhance the daily life of residents in care services by providing the right tools to support everyone.",
+          "description": "Our mission is rooted in the belief that everyone deserves to live a fulfilling and dignified life, regardless of their age or health status. In care homes, residents can face many challenges that can impact their daily life.\n\nTo help address the challenges, we are dedicated to providing the right tools to support the care services' ability to enhance resident's daily experiences. This includes offering technology solutions that allow residents, families and caregivers to stay connected; access entertainment and educational resources; and remove the friction for families to offer gifts and other ancillary services to their loved ones in care homes, all through a single unified app.\n\nOur goal is to help care services create an environment in which residents can thrive, feel supported and connected to families and loved ones. By doing so, we hope to make a positive impact on the daily lives of residents in care homes and help improve the quality of care provided by care homes.",
+          "imagePath": "/images/our-mission/altra-mission.png",
+          "reverse": false,
+          "showDivider": false,
+          "showBlobs": false
+        }
+      ]
+    },
+    "team": {
+      "title": "Altra's Team",
+      "description": "We have unique blend of industry and technology experience in our team to deliver on our mission of providing the #1 resident experience platform for care homes.",
+      "members": [
+        {
+          "name": "Adam Keane",
+          "role": "Founder & Chief Executive Officer",
+          "bio": "After spending several years in corporate finance, Adam embarked on a new challenge, setting up Altra, inspired by his experiences working in his family's nursing home, where he saw firsthand the challenges faced by care providers. Adam is committed to using his skills and expertise to help shape the future of nursing home care.",
+          "quote": "My mother and father ran our family nursing home, and they taught me the importance of compassionate care. They put a big emphasis on person-centred care and how it can truly bring joy to residents. Seeing this in action made a lasting impression on me. I aim to bring that same emphasis of care and dedication to the work we do at Altra.",
+          "imagePath": "/images/our-mission/adam-keane.png"
+        },
+        {
+          "name": "Sebastien Destenbert",
+          "role": "Chief Operating Officer",
+          "bio": "Sebastien has a multi-industry exposure in banking, consulting and e-commerce. Sebastien joined the team as COO, bringing his expertise of eCommerce and Customer Experience to help further digitalize the nursing home industry and make a lasting impact on the whole ecosystem (nursing home, staff, families and residents).",
+          "quote": "For years I had my grandmother in a nursing home that I could not visit because I was abroad, and it was very difficult to organise a video call. My father kept going to the nursing home almost every week despite the distance (1h30 minutes), always wondering what activities my grandmother was participating in, whether she was eating enough, etc... It is time to bring the digital age in the nursing home world, to provide the dearly missing tools to properly keep in touch with our elders, bring more transparency about what nursing homes do to care for their residents, and break the taboo around end of life.",
+          "imagePath": "/images/our-mission/sebastien-destenbert-ff09f6.png"
+        }
+      ]
+    }
+  },
   "ourSolutions": {
     "activityCalendar": {
       "hero": {

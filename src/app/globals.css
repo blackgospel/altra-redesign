@@ -87,11 +87,9 @@
   --color-purple-40: #9b8fef;
   --color-violet: #cb6ee2;
   --color-pink: #ed4789;
-  --color-line-4: #dce0e4;
   --color-background-02-dark: #0b223d;
   --color-lime: #c5e461;
   --color-lime-40: #d9f193;
-  --color-pink: #f19ce5;
   --color-pink-40: #f8cff2;
   --color-green: #b6d873;
   --color-green-40: #d9f193;
@@ -99,6 +97,8 @@
 
   --color-line-2: #e8ebed;
   --color-line-3: #f2f5f7;
+  --color-line-4: #dce0e4;
+  --color-line-5: #24476e;
 
   --color-background-0: #fcfdfe;
   --color-background-1: #f0f4f8;
@@ -420,9 +420,9 @@
     border-top: 1px solid;
     border-image-source: linear-gradient(
       90deg,
-      rgba(134, 151, 169, 0.5) 0%,
-      #8697a9 50.1%,
-      rgba(134, 151, 169, 0.5) 100%
+      rgba(134, 151, 169, 0.3) 0%,
+      rgba(134, 151, 169, 1) 50.1%,
+      rgba(134, 151, 169, 0.3) 100%
     );
     border-image-slice: 1;
   }
