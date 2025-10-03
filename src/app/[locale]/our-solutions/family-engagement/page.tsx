@@ -10,7 +10,7 @@ export default function FamilyEngagementPage() {
 
       <SpotlightGrid
         translationKey="ourSolutions.familyEngagement.spotlight"
-        gridClass="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6"
+        gridClass="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6"
         button={{
           translationKey: "cta",
           showNote: true,

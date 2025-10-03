@@ -10,7 +10,7 @@ export default function MenuPage() {
 
       <SpotlightGrid
         translationKey="ourSolutions.menu.spotlight"
-        gridClass="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        gridClass="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6"
         className="pt-24"
       />
 

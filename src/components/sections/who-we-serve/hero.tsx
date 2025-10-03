@@ -23,7 +23,12 @@ interface WhoWeServeHeroProps extends React.ComponentProps<"section"> {
   };
 }
 
-export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
+export function WhoWeServeHero({
+  slug,
+  slots,
+  className,
+  ...props
+}: WhoWeServeHeroProps) {
   const t = useTranslations("whoWeServe");
   const headerT = useTranslations("header.nav.who-we-serve.items");
 
@@ -38,19 +43,19 @@ export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
   return (
     <section
       className={cn(
-        "w-full relative overflow-hidden text-white h-auto",
-        props.className
+        "@container/who-we-serve w-full relative overflow-hidden text-white h-auto",
+        className
       )}
       style={{
         paddingTop: heightTopOffsetClassName(40),
       }}
-      {...omitClassName(props)}
+      {...props}
     >
       <div className="relative z-10 altra-container flex flex-col justify-center mb-[100px] md:mb-[120px] lg:mb-[140px] xl:mb-[150px] 2xl:mb-[180px]">
         <div className="flex flex-col gap-6 text-center">
-          <div className="flex flex-col gap-16 pb-32">
+          <div className="flex flex-col gap-16 pb-4 @lg/who-we-serve:pb-16 @xl/who-we-serve:pb-32">
             {breadcrumbItems.length > 0 && (
-              <div className="flex justify-center lg:justify-start">
+              <div className="flex justify-center @lg/who-we-serve:justify-start">
                 <Breadcrumb
                   items={breadcrumbItems}
                   variant="white"
@@ -76,7 +81,7 @@ export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
         <div
           className={cn(
             "absolute w-[7%] aspect-square opacity-70",
-            "bottom-[8%] md:bottom-[10%] left-[3%] md:left-[3%]",
+            "bottom-[0%] lg:bottom-[15%] left-[0%] lg:left-[3%]",
             "min-w-[60px] max-w-[110px]",
             slots?.blob1?.className
           )}
@@ -88,7 +93,7 @@ export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
         <div
           className={cn(
             "absolute w-[9%] aspect-square opacity-90",
-            "bottom-[6%] md:bottom-[8%] left-[8%] md:left-[6%]",
+            "-bottom-[1%] lg:bottom-[12%] left-[13%] lg:left-[6%]",
             "min-w-[75px] max-w-[140px]",
             slots?.blob2?.className
           )}
@@ -101,7 +106,7 @@ export function WhoWeServeHero({ slug, slots, ...props }: WhoWeServeHeroProps) {
 
       <div className="absolute bottom-0 left-0 w-full">
         <svg
-          className="w-full h-[100px] md:h-[120px] lg:h-[140px] xl:h-[150px] 2xl:h-[180px]"
+          className="w-full h-[20px] md:h-[60px] lg:h-[80px] xl:h-[150px] 2xl:h-[180px]"
           viewBox="0 0 1400 180"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"

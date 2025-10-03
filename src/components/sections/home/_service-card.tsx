@@ -32,14 +32,14 @@ export function ServiceCard({ title, description, image }: ServiceCardProps) {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/80 pointer-events-none z-10"></div>
       <div
-        className={`absolute bottom-0 left-0 right-0 bg-light-blue-50 transition-all duration-500 ease-out pointer-events-none z-20 ${
+        className={`absolute bottom-0 left-0 right-0 bg-light-blue-50 transition-all duration-500 ease-out pointer-events-none z-10 ${
           isExpanded ? "h-full" : "h-0"
         }`}
         style={{
           transformOrigin: "bottom",
         }}
       ></div>
-      <div className="absolute inset-0 p-6 text-white flex flex-col justify-end z-30">
+      <div className="absolute inset-0 p-6 text-white flex flex-col justify-end z-10">
         <div
           className={`absolute left-6 right-6 bottom-6 transition-all duration-300 ease-out ${
             isExpanded

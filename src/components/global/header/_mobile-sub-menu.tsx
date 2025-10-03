@@ -8,7 +8,11 @@ import { useMobileOverlayStore } from "@/lib/stores/mobile-overlay/mobile-overla
 import { useTranslations } from "next-intl";
 import { GenericDropdownItem } from "./_generic-dropdown-item";
 
-export function MobileSubmenu() {
+interface MobileSubmenuProps {
+  onClose: () => void;
+}
+
+export function MobileSubmenu({ onClose }: MobileSubmenuProps) {
   const t = useTranslations("header");
   const activeSubmenu = useMobileOverlayStore((s) => s.activeSubmenu);
   const setActiveSubmenu = useMobileOverlayStore((s) => s.setActiveSubmenu);
@@ -51,6 +55,7 @@ export function MobileSubmenu() {
               <li key={subItem.href}>
                 <GenericDropdownItem
                   item={subItem}
+                  onClose={onClose}
                   slots={{
                     label: {
                       className: "flex-none",

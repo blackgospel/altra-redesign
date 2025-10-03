@@ -22,7 +22,7 @@ export function MobileNavigationOverlay({
   return (
     <Portal>
       <div
-        className="fixed inset-0 z-5 flex min-h-screen flex-col bg-background-0 overflow-hidden"
+        className="fixed inset-0 z-11 flex min-h-screen flex-col bg-background-0 overflow-hidden"
         style={{
           paddingTop: `${MOBILE_HEADER_HEIGHT + OFFSET_TO_HEADER}px`,
         }}
@@ -30,7 +30,7 @@ export function MobileNavigationOverlay({
         <div className="relative flex-1 overflow-hidden">
           <MobileNavMenu onClose={onClose} />
 
-          <MobileSubmenu />
+          <MobileSubmenu onClose={onClose} />
         </div>
       </div>
     </Portal>

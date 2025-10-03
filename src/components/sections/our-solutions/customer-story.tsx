@@ -20,7 +20,10 @@ export function CustomerStory({
 
   return (
     <section
-      className={cn("flex flex-col relative w-full", props.className)}
+      className={cn(
+        "flex flex-col relative w-full pt-0! lg:pt-24!",
+        props.className
+      )}
       {...omitClassName(props)}
     >
       <div className="relative flex flex-col w-full text-white">

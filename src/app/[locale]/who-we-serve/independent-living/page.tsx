@@ -18,9 +18,9 @@ export default function IndependentLivingPage() {
         }}
         className="bg-dark-navy-40"
       />
-      <AboutGrid slug="independentLiving" className="pt-6" />
+      <AboutGrid slug="independentLiving" className="pt-12 lg:pt-6" />
       <Checklist slug="independentLiving" className="pt-24" />
-      <CTA slug="independentLiving" className="pt-24" />
+      <CTA slug="independentLiving" className="pt-0 lg:pt-24" />
     </>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import { SectionTitle } from "@/components/global/section-title/section-title";
-import { cn, omitClassName } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { AboutGridCard } from "./_about-grid-card";
 import { AboutGridItem } from "./who-we-serve.types";
@@ -14,7 +14,7 @@ interface AboutGridProps extends React.ComponentProps<"section"> {
     | "dayServicesRespiteOutpatient";
 }
 
-export function AboutGrid({ slug, ...props }: AboutGridProps) {
+export function AboutGrid({ slug, className, ...props }: AboutGridProps) {
   const t = useTranslations("whoWeServe");
 
   const sectionTitle = t(`${slug}.aboutGrid.title`);
@@ -22,8 +22,8 @@ export function AboutGrid({ slug, ...props }: AboutGridProps) {
 
   return (
     <section
-      className={cn("flex flex-col altra-container relative", props.className)}
-      {...omitClassName(props)}
+      className={cn("flex flex-col altra-container relative", className)}
+      {...props}
     >
       <div className="flex flex-col gap-10">
         <SectionTitle

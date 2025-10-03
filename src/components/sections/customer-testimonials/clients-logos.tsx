@@ -13,7 +13,7 @@ export function ClientsLogos({ className, ...props }: ClientsLogosProps) {
   const logos: Array<{ src: string; alt: string }> = t.raw("logos");
 
   return (
-    <section className={cn("relative z-20 -mt-[225px]", className)} {...props}>
+    <section className={cn("relative z-10 -mt-[225px]", className)} {...props}>
       <div className="bg-white border border-[#f2f5f7] rounded-2xl shadow-[0px_4px_30px_0px_rgba(135,135,135,0.16)] p-[40px]">
         <div className="flex flex-col gap-[25px]">
           <Typography variant="h4" className="text-center">

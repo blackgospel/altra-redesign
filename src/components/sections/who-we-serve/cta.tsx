@@ -24,13 +24,16 @@ export function CTA({ slug, ...props }: CTAProps) {
 
   return (
     <section
-      className={cn("flex flex-col relative w-full", props.className)}
+      className={cn(
+        "@container/cta flex flex-col relative w-full",
+        props.className
+      )}
       {...omitClassName(props)}
     >
       <div className="relative flex flex-col w-full text-white">
         <CtaBackdrop />
 
-        <div className="relative z-10 flex items-center justify-center min-h-[678px] py-12">
+        <div className="relative z-10 flex items-center justify-center min-h-[678px] pb-12 @lg/cta:py-12">
           <div className="relative w-full max-w-5xl h-[514px] mx-auto">
             <div className="absolute inset-0 flex items-center justify-center px-4">
               <Image

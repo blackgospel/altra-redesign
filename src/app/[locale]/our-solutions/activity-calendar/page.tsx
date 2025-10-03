@@ -10,7 +10,7 @@ export default function ActivityCalendarPage() {
 
       <SpotlightGrid
         translationKey="ourSolutions.activityCalendar.spotlight"
-        gridClass="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6"
+        gridClass="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6"
         className="pt-24"
       />
 
@@ -26,7 +26,7 @@ export default function ActivityCalendarPage() {
 
       <CustomerStory
         translationKey="ourSolutions.activityCalendar.customerStory"
-        className="pt-24"
+        className="pt-0 lg:pt-24"
       />
     </>
   );

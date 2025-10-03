@@ -2,7 +2,7 @@ export function BenefitsBackdrop() {
   return (
     <div className="absolute inset-0 w-full h-full overflow-hidden">
       <div
-        className="absolute inset-0 w-full h-full rounded-2xl bg-light-blue-60 shadow-2xl"
+        className="absolute inset-0 w-full h-full @lg/benefits:rounded-2xl bg-light-blue-60 shadow-2xl"
         style={{
           filter: "drop-shadow(0 4px 50px rgba(135, 105, 220, 0.15))",
         }}

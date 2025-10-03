@@ -7,13 +7,18 @@ import { useTranslations } from "next-intl";
 
 interface GenericDropdownItemProps {
   item: INavigationDropdownItem;
+  onClose?: () => void;
   slots?: {
     label?: React.ComponentProps<"span">;
     icon?: React.ComponentProps<typeof ArrowRight>;
   };
 }
 
-export function GenericDropdownItem({ item, slots }: GenericDropdownItemProps) {
+export function GenericDropdownItem({
+  item,
+  onClose,
+  slots,
+}: GenericDropdownItemProps) {
   const t = useTranslations("header");
   const parts = item.href.split("/").filter(Boolean);
   const parent = parts[0] ?? "";
@@ -24,6 +29,7 @@ export function GenericDropdownItem({ item, slots }: GenericDropdownItemProps) {
     <Link
       ref={ref}
       href={item.href}
+      onClick={onClose}
       className="flex items-center gap-[5px] text-l transition-colors text-dark-gray-100 hover:text-light-blue-70"
     >
       <span
