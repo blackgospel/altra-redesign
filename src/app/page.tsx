@@ -17,37 +17,21 @@ export default function Home() {
         paddingTop: heightTopOffsetClassName(),
       }}
     >
-      <section className="altra-container pt-36">
-        <Hero />
-      </section>
+      <Hero />
 
-      <section className="altra-container pt-12">
-        <Clients />
-      </section>
+      <Clients />
 
-      <section className="container mx-auto pt-24 px-4">
-        <HeroImage />
-      </section>
+      <HeroImage />
 
-      <section className="altra-container pt-24">
-        <WhoWeServe />
-      </section>
+      <WhoWeServe />
 
-      <section className="altra-container pt-36">
-        <HowWeHelp />
-      </section>
+      <HowWeHelp />
 
-      <section className="altra-container pt-24">
-        <WhatYouCanAchieve />
-      </section>
+      <WhatYouCanAchieve />
 
-      <section className="altra-container pt-24">
-        <WhatOurPartnersSay />
-      </section>
+      <WhatOurPartnersSay />
 
-      <section className="w-full pt-24">
-        <ReadyToTransform />
-      </section>
+      <ReadyToTransform />
     </main>
   );
 }

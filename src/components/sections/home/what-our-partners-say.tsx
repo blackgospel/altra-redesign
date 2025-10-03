@@ -1,14 +1,26 @@
 import { SpeechMarks } from "@/assets/icons";
 import { Typography } from "@/components/ui/typography";
 import { TESTIMONIALS } from "@/config/home";
+import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-export function WhatOurPartnersSay() {
+interface WhatOurPartnersSayProps extends React.ComponentProps<"section"> {}
+
+export function WhatOurPartnersSay({
+  className,
+  ...props
+}: WhatOurPartnersSayProps) {
   const t = useTranslations("home.testimonials");
 
   return (
-    <section className="flex flex-col items-center gap-10">
+    <section
+      className={cn(
+        "altra-container pt-24 flex flex-col items-center gap-10",
+        className
+      )}
+      {...props}
+    >
       <Typography variant="h3">{t("title")}</Typography>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
