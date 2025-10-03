@@ -215,63 +215,56 @@
 }
 
 @layer utilities {
+  /* Mobile-first typography with container queries */
   .typography-h1 {
     font-family: var(--font-outfit);
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 32px;
+    line-height: 40px;
     letter-spacing: 0;
   }
 
   .typography-h2 {
     font-family: var(--font-outfit);
     font-weight: 700;
-    font-size: 44px;
-    line-height: 54px;
+    font-size: 36px;
+    line-height: 44px;
     letter-spacing: 0;
   }
 
   .typography-h3 {
     font-family: var(--font-outfit);
     font-weight: 700;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 28px;
+    line-height: 36px;
     letter-spacing: 0;
   }
 
   .typography-h4 {
     font-family: var(--font-outfit);
     font-weight: 700;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 32px;
     letter-spacing: 0;
   }
 
   .typography-h5 {
     font-family: var(--font-outfit);
     font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 26px;
     letter-spacing: 0;
   }
 
   .typography-title-l {
     font-family: var(--font-outfit);
     font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: 0;
   }
 
   .typography-title-l-medium {
-    font-family: var(--font-outfit);
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: 0;
-  }
-
-  .typography-title-m {
     font-family: var(--font-outfit);
     font-weight: 500;
     font-size: 20px;
@@ -279,7 +272,23 @@
     letter-spacing: 0;
   }
 
+  .typography-title-m {
+    font-family: var(--font-outfit);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0;
+  }
+
   .typography-title-s {
+    font-family: var(--font-outfit);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+
+  .typography-subtitle-xl {
     font-family: var(--font-outfit);
     font-weight: 400;
     font-size: 18px;
@@ -287,43 +296,35 @@
     letter-spacing: 0;
   }
 
-  .typography-subtitle-xl {
-    font-family: var(--font-outfit);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0;
-  }
-
   .typography-subtitle-l {
     font-family: var(--font-outfit);
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: 0;
   }
 
   .typography-subtitle-l-semibold {
     font-family: var(--font-outfit);
     font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: 0;
   }
 
   .typography-subtitle-m {
     font-family: var(--font-outfit);
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 22px;
     letter-spacing: 0;
   }
 
   .typography-subtitle-m-medium {
     font-family: var(--font-outfit);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 22px;
     letter-spacing: 0;
   }
 
@@ -412,6 +413,10 @@
     box-shadow: 0px 2px 8px 0px #8198af0c;
   }
 
+  .shadow-button-primary {
+    box-shadow: 0px 4px 30px 0px #4da8da80;
+  }
+
   .shadow-m {
     box-shadow: 0px 4px 30px 0px #87878729;
   }
@@ -437,6 +442,79 @@
     max-width: 1196px;
     margin-inline: auto;
     padding-inline: 16px;
+  }
+
+  /* Container query breakpoints for typography */
+  @container (min-width: 768px) {
+    .typography-h1 {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    .typography-h2 {
+      font-size: 44px;
+      line-height: 54px;
+    }
+
+    .typography-h3 {
+      font-size: 36px;
+      line-height: 45px;
+    }
+
+    .typography-h4 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .typography-h5 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .typography-title-l {
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    .typography-title-l-medium {
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    .typography-title-m {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .typography-title-s {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .typography-subtitle-xl {
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+    .typography-subtitle-l {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    .typography-subtitle-l-semibold {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    .typography-subtitle-m {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    .typography-subtitle-m-medium {
+      font-size: 16px;
+      line-height: 25px;
+    }
   }
 }
 

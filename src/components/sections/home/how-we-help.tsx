@@ -7,13 +7,13 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { SectionTitle } from "../../global/section-title/section-title";
 
-interface HowWeHelpProps extends React.ComponentProps<"section"> {}
+type HowWeHelpProps = React.ComponentProps<"section">;
 
 export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
   const t = useTranslations("home.howWeHelp");
 
   return (
-    <section className={cn("altra-container pt-36", className)} {...props}>
+    <section className={cn("", className)} {...props}>
       <div className="flex flex-col gap-12">
         <SectionTitle title={t("title")} description={t("description")} />
 

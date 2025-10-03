@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-interface WhatOurPartnersSayProps extends React.ComponentProps<"section"> {}
+type WhatOurPartnersSayProps = React.ComponentProps<"section">;
 
 export function WhatOurPartnersSay({
   className,
@@ -15,10 +15,7 @@ export function WhatOurPartnersSay({
 
   return (
     <section
-      className={cn(
-        "altra-container pt-24 flex flex-col items-center gap-10",
-        className
-      )}
+      className={cn("flex flex-col items-center gap-10", className)}
       {...props}
     >
       <Typography variant="h3">{t("title")}</Typography>

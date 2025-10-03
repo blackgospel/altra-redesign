@@ -19,17 +19,14 @@ export function ReadyToTransform({
       <div className="flex items-center justify-center w-full relative overflow-hidden">
         <ReadyToTransformBackdrop />
 
-        <div className="relative z-10 container px-4 py-24 xl:py-0 flex flex-col lg:flex-row items-center justify-center gap-10 text-white">
+        <div className="relative z-10 container px-4 pt-24 xl:pt-0 flex flex-col lg:flex-row items-center justify-center gap-10 text-white">
           <div className="flex-1 flex flex-col gap-10 items-center xl:items-start justify-center xl:justify-start">
-            <Typography
-              variant="h3"
-              className="text-white text-center xl:text-left"
-            >
+            <Typography variant="h3" className="text-white text-left">
               {t("title")}
             </Typography>
 
             <Button
-              variant="white"
+              variant="primary"
               size="md"
               className="self-center xl:self-start flex items-center gap-3"
             >
@@ -38,7 +35,7 @@ export function ReadyToTransform({
             </Button>
           </div>
 
-          <div className="hidden xl:flex flex-1 relative w-full aspect-[713/501]">
+          <div className="flex flex-1 relative w-full aspect-[713/501]">
             <Image
               src={t("splashImage")}
               alt={t("title")}
