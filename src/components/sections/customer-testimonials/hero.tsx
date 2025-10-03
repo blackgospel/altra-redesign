@@ -59,7 +59,7 @@ export function CustomerTestimonialsHero({
 
       <div className="absolute bottom-0 left-0 w-full">
         <svg
-          className="w-full h-[100px] md:h-[120px] lg:h-[140px] xl:h-[150px] 2xl:h-[180px]"
+          className="w-full h-[20px] md:h-[120px] lg:h-[140px] xl:h-[150px] 2xl:h-[180px]"
           viewBox="0 0 1400 180"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"

@@ -5,7 +5,7 @@ import { WhoWeServeHero } from "@/components/sections/who-we-serve/hero";
 
 export default function ElderlyCarePage() {
   return (
-    <>
+    <main>
       <WhoWeServeHero
         slug="elderlycare"
         slots={{
@@ -21,6 +21,6 @@ export default function ElderlyCarePage() {
       <AboutGrid slug="elderlycare" className="pt-6" />
       <Checklist slug="elderlycare" className="pt-24" />
       <CTA slug="elderlycare" className="pt-24" />
-    </>
+    </main>
   );
 }

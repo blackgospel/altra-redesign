@@ -8,16 +8,16 @@ import {
 
 export default function OurMissionPage() {
   return (
-    <>
+    <main>
       <OurMissionHero className="bg-light-blue-60" />
 
       <OurStory className="pt-24" />
 
-      <Divider className="altra-container m t-24" />
+      <Divider className="altra-container mt-24" />
 
       <Values className="py-24" />
 
       <Team />
-    </>
+    </main>
   );
 }

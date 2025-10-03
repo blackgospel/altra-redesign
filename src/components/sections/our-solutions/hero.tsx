@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { heightTopOffsetClassName } from "@/config/header";
-import { cn, omitClassName } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image, { ImageProps } from "next/image";
 import React from "react";
@@ -39,6 +39,7 @@ interface OurSolutionsHeroProps extends React.ComponentProps<"section"> {
 export function OurSolutionsHero({
   slug,
   slots,
+  className,
   ...props
 }: OurSolutionsHeroProps) {
   const t = useTranslations("ourSolutions");
@@ -61,11 +62,11 @@ export function OurSolutionsHero({
 
   return (
     <section
-      className={cn("w-full relative altra-container", props.className)}
+      className={cn("w-full relative altra-container", className)}
       style={{
         paddingTop: heightTopOffsetClassName(40),
       }}
-      {...omitClassName(props)}
+      {...props}
     >
       <div className="flex flex-col gap-14">
         {breadcrumbItems.length > 0 && (

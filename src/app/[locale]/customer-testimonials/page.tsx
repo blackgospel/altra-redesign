@@ -5,7 +5,7 @@ import { TestimonialsSection } from "@/components/sections/customer-testimonials
 
 export default function CustomerTestimonialsPage() {
   return (
-    <>
+    <div>
       <CustomerTestimonialsHero />
 
       <ClientsLogos className="altra-container" />
@@ -33,6 +33,6 @@ export default function CustomerTestimonialsPage() {
       />
 
       <Divider className="altra-container my-16" />
-    </>
+    </div>
   );
 }

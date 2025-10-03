@@ -5,7 +5,7 @@ import { SpotlightGrid } from "@/components/sections/our-solutions/spotlight-gri
 
 export default function ActivityCalendarPage() {
   return (
-    <>
+    <main>
       <OurSolutionsHero slug="activityCalendar" />
 
       <SpotlightGrid
@@ -28,6 +28,6 @@ export default function ActivityCalendarPage() {
         translationKey="ourSolutions.activityCalendar.customerStory"
         className="pt-0 lg:pt-24"
       />
-    </>
+    </main>
   );
 }

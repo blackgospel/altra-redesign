@@ -9,15 +9,11 @@ import { TestimonialCard } from "./testimonial-card";
 interface TestimonialsSectionProps extends React.HTMLAttributes<HTMLElement> {
   titleKey: string;
   category: string;
-  slots?: {
-    title?: Partial<React.ComponentProps<typeof Typography>>;
-  };
 }
 
 export function TestimonialsSection({
   titleKey,
   category,
-  slots,
   className,
   ...props
 }: TestimonialsSectionProps) {
