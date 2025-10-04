@@ -1,4 +1,4 @@
-import { Ref, useCallback, type RefCallback } from "react";
+import { Ref, type RefCallback } from "react";
 
 type PossibleRef<T> = Ref<T> | undefined;
 
@@ -37,8 +37,4 @@ export function mergeRefs<T>(...refs: PossibleRef<T>[]): RefCallback<T> {
       };
     }
   };
-}
-
-export function useMergedRef<T>(...refs: PossibleRef<T>[]) {
-  return useCallback(mergeRefs(...refs), refs);
 }
