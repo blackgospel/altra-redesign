@@ -1,6 +1,6 @@
 "use client";
 
-import { IconMap } from "@/components/global/icon-map/icon-map";
+import { IconMap, IconKey } from "@/components/global/icon-map/icon-map";
 import { Typography } from "@/components/ui/typography";
 import { cn, omitClassName } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 interface ValueItem {
   title: string;
   description: string;
-  icon: string;
+  icon: IconKey;
   iconBgColor: string;
 }
 

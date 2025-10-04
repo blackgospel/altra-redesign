@@ -4,8 +4,17 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
+const iconMap = {
+  users: Users,
+  smile: Smile,
+  communication: Communication,
+  note: Notes,
+} as const;
+
+type CaptureIconKey = keyof typeof iconMap;
+
 interface CaptureItem {
-  icon: string;
+  icon: CaptureIconKey;
   title: string;
 }
 
@@ -30,16 +39,8 @@ interface HowItWorksProps extends React.ComponentProps<"section"> {
   translationKey: string;
 }
 
-const getIconComponent = (iconName: string) => {
-  const iconMap = {
-    users: Users,
-    smile: Smile,
-    communication: Communication,
-    note: Notes,
-  } as const;
-
-  const IconComponent = iconMap[iconName as keyof typeof iconMap];
-  return IconComponent || Users;
+const getIconComponent = (iconName: CaptureIconKey) => {
+  return iconMap[iconName] || Users;
 };
 
 export function HowItWorks({

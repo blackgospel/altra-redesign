@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-interface DividerProps extends React.HTMLAttributes<HTMLDivElement> {}
+type DividerProps = React.HTMLAttributes<HTMLDivElement>;
 
 export function Divider({ className, ...props }: DividerProps) {
   return (
