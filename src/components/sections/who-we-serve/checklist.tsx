@@ -3,6 +3,7 @@
 import { ArrowRight, Check2 } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -27,6 +28,7 @@ export function Checklist({ slug, className, ...props }: ChecklistProps) {
 
   const title = t(`${slug}.checklist.title`);
   const ctaText = t(`${slug}.checklist.ctaText`);
+  const ctaLink = t(`${slug}.checklist.ctaLink`);
   const items = t.raw(`${slug}.checklist.items`) as ChecklistItem[];
 
   return (
@@ -67,14 +69,17 @@ export function Checklist({ slug, className, ...props }: ChecklistProps) {
                     ))}
                   </div>
 
-                  <Button
-                    size="md"
-                    variant="white"
-                    className="self-center @lg/who-we-serve:self-start"
-                  >
-                    {ctaText}
-                    <ArrowRight className="w-5 h-5" />
-                  </Button>
+                  {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                  <Link href={ctaLink as any}>
+                    <Button
+                      size="md"
+                      variant="white"
+                      className="self-center @lg/who-we-serve:self-start"
+                    >
+                      {ctaText}
+                      <ArrowRight className="w-5 h-5" />
+                    </Button>
+                  </Link>
                 </div>
               </div>
 

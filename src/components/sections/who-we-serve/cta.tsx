@@ -3,6 +3,7 @@
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { cn, omitClassName } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -21,6 +22,7 @@ export function CTA({ slug, ...props }: CTAProps) {
 
   const text = t(`${slug}.cta.text`);
   const buttonText = t(`${slug}.cta.buttonText`);
+  const buttonLink = t(`${slug}.cta.buttonLink`);
 
   return (
     <section
@@ -62,10 +64,13 @@ export function CTA({ slug, ...props }: CTAProps) {
             />
 
             <div className="absolute bottom-[0px] left-1/2 transform -translate-x-1/2 w-full max-w-[873px] flex flex-col items-center gap-[30px] px-4 z-10">
-              <Button variant="primary" size="md">
-                {buttonText}
-                <ArrowRight className="w-5 h-5" />
-              </Button>
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              <Link href={buttonLink as any}>
+                <Button variant="primary" size="md">
+                  {buttonText}
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </Link>
 
               <Typography variant="text-xl" className="text-white text-center">
                 {text}

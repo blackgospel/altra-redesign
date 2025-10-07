@@ -73,14 +73,16 @@
     "seeForYourself": {
       "title": "See for yourself",
       "description": "Our demos give you a clear picture of how Altra can transform experience and engagement, all the while saving you precious time.",
-      "cta": "Pick a Time"
+      "cta": "Pick a Time",
+      "ctaLink": "https://calendly.com/helloaltra"
     }
   },
   "home": {
     "hero": {
       "title": "Altra is the all-in-one experience and engagement platform designed for modern care services.",
       "subtitle": "We help you deliver outstanding care experiences, build trust with families, empower your teams, and improve outcomes for the people you support.",
-      "cta": "Book Demo"
+      "cta": "Book Demo",
+      "ctaLink": "https://calendly.com/helloaltra"
     },
     "heroImage": {
       "alt": "Altra Dashboard",
@@ -121,32 +123,38 @@
         "keep-families-connected": {
           "title": "Keep Families Connected, Reassured and Informed – Every Day",
           "description": "Give families what they want most: meaningful connection, proactive updates and peace of mind. Whether near or far, families stay closely connected to the day-to-day lives of their loved ones through real-time updates, media-rich moments and smart notification",
-          "imagePath": "/images/home/how-we-help/keep-families-connected.png"
+          "imagePath": "/images/home/how-we-help/keep-families-connected.png",
+          "ctaLink": "/our-solutions/family-engagement"
         },
         "make-every-day-count": {
           "title": "Make Every Day Count with Smarter Life Enrichment Planning",
           "description": "Run engaging, person-centred life enrichment programming with far less admin. From planning to participation tracking, everything is built for speed, clarity and impact – helping your team focus more on what matters most: the people you support.",
-          "imagePath": "/images/home/how-we-help/make-every-day-count.png"
+          "imagePath": "/images/home/how-we-help/make-every-day-count.png",
+          "ctaLink": "/our-solutions/activity-calendar"
         },
         "empower-every-individual": {
           "title": "Empower Every Individual with Personalised Content and Routines",
           "description": "Bring learning, leisure and independence into the hands of those you support. From tailored content to structured routines, everything is designed to engage, empower and enrich daily living experiences.",
-          "imagePath": "/images/home/how-we-help/empower-every-individual.png"
+          "imagePath": "/images/home/how-we-help/empower-every-individual.png",
+          "ctaLink": "/our-solutions/content-libraries"
         },
         "unite-and-simplify": {
           "title": "Unite and Simplify Team Communication and Tasks",
           "description": "Cut through the noise with a single hub for communication, workflows and task management. Your team stays aligned, informed and focused – with less admin and more time for meaningful care.",
-          "imagePath": "/images/home/how-we-help/unity-and-simplify.png"
+          "imagePath": "/images/home/how-we-help/unity-and-simplify.png",
+          "ctaLink": "/our-solutions/staff-engagement"
         },
         "turn-everyday-data": {
           "title": "Turn Everyday Data into Actionable Insights",
           "description": "Capture participation, feedback and outcomes in real time. With clear dashboards, instant reports and built-in surveys, you get the clarity you need to measure impact and make better decisions, faster.",
-          "imagePath": "/images/home/how-we-help/turn-everyday-data.png"
+          "imagePath": "/images/home/how-we-help/turn-everyday-data.png",
+          "ctaLink": "/our-solutions/surveys"
         },
         "seemlessly-connect": {
           "title": "Seamlessly Connect with Your Care Management Systems",
           "description": "No duplicate work, no silos. Altra integrates directly with your care management software, so data flows where it should – saving time, improving accuracy and giving your team a single source of truth.",
-          "imagePath": "/images/home/how-we-help/seemlessly-connect.png"
+          "imagePath": "/images/home/how-we-help/seemlessly-connect.png",
+          "ctaLink": "/our-solutions"
         }
       }
     },
@@ -160,12 +168,14 @@
         "Inspection-ready communication and feedback evidence"
       ],
       "cta": "Explore Our Solutions",
+      "ctaLink": "/our-solutions",
       "backgroundImage": "/images/home/what-you-can-achieve/ellipsis.png",
       "splashImage": "/images/home/what-you-can-achieve/what-you-can-achieve.png"
     },
     "readyToTransform": {
       "title": "Ready to transform experience and engagement in your care service?",
       "cta": "Explore Our Solutions",
+      "ctaLink": "/our-solutions",
       "backgroundImage": "/images/home/ready-to-transform/background.png",
       "splashImage": "/images/home/ready-to-transform/splash.png"
     },
@@ -241,7 +251,8 @@
             "title": "Support Resident Wellbeing",
             "description": "Keep minds active and spirits high with our Wellbeing Library, a hub of expert-led content including seated fitness, music, mindfulness and more — designed specifically for older adults in care.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/wellbeing-library"
           },
           {
             "id": "family-communication",
@@ -249,7 +260,8 @@
             "title": "Improve Communication with Families",
             "description": "Share regular updates, photos, and videos using our Family Engagement module. Families stay connected and reassured, which improves satisfaction and reduces complaints.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/family-engagement"
           },
           {
             "id": "digital-displays",
@@ -257,7 +269,8 @@
             "title": "Keep Everyone Informed",
             "description": "Use Digital Displays to show menus, activities and announcements in common areas, and automatically update these from a central dashboard — no USB sticks or slideshows needed.",
             "iconBgColor": "#00D39C",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/digital-signage"
           },
           {
             "id": "resident-onboarding",
@@ -265,7 +278,8 @@
             "title": "Streamline New Resident Onboarding",
             "description": "Ensure consistency and save time with our Workflow engine. From room prep to 7-day reviews, every task is tracked and nothing falls through the cracks.",
             "iconBgColor": "#4DA8DA",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/workflow"
           },
           {
             "id": "staff-communication",
@@ -273,7 +287,8 @@
             "title": "Communicate Seamlessly with Staff",
             "description": "Use Staff Communication module to keep caregivers updated on schedule changes, new appointments or urgent messages — all within the Altra app, with no need for separate messaging platforms.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/staff-engagement"
           },
           {
             "id": "reporting-insights",
@@ -281,13 +296,15 @@
             "title": "Get the Insights You Need",
             "description": "With Reporting, track activity attendance, engagement trends and satisfaction scores. Identify what's working and where to improve — all in one place.",
             "iconBgColor": "#BDD86C",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/group-intelligence"
           }
         ]
       },
       "checklist": {
         "title": "Why Elderly Care Providers Choose Altra",
         "ctaText": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra",
         "items": [
           {
             "id": "family-satisfaction",
@@ -313,7 +330,8 @@
       },
       "cta": {
         "text": "See how Altra supports person-centred care in elderly services.",
-        "buttonText": "Book Demo"
+        "buttonText": "Book Demo",
+        "buttonLink": "https://calendly.com/helloaltra"
       }
     },
     "ldSupportedLiving": {
@@ -331,7 +349,8 @@
             "title": "Promote Daily Structure and Independence",
             "description": "Use the Resident Content Library to deliver personalised guides that help people start their day, navigate routines, or feel more confident going out in the community — tailored to their needs and abilities.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/content-libraries"
           },
           {
             "id": "voice-assistants",
@@ -339,7 +358,8 @@
             "title": "Empower with Voice Assistants",
             "description": "With Voice Assistants, individuals can access their daily schedule, request support, or check what's happening in the home using simple, natural commands. It builds confidence and reduces reliance on staff for routine questions.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/voice-assistants"
           },
           {
             "id": "visual-planning",
@@ -347,7 +367,8 @@
             "title": "Support Routine Through Visual Planning",
             "description": "The Activities Calendar provides visibility into what's happening each day, supports planning around routines, and helps people supported build confidence in joining in. Participation can be logged and shared easily.",
             "iconBgColor": "#00D39C",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/activity-calendar"
           },
           {
             "id": "family-engagement",
@@ -355,7 +376,8 @@
             "title": "Keep Families Informed and Involved",
             "description": "Our Family Engagement module allow services to proactively share updates, moments and communication with loved ones. This reduces anxiety and helps build a shared support network around the individual.",
             "iconBgColor": "#4DA8DA",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/family-engagement"
           },
           {
             "id": "track-outcomes",
@@ -363,13 +385,15 @@
             "title": "Track What Matters",
             "description": "With Reporting, services can measure activity participation, engagement, and preferences — helping teams personalise support and evidence meaningful outcomes for each person.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/group-intelligence"
           }
         ]
       },
       "checklist": {
         "title": "Why Supported Living Providers Choose Altra",
         "ctaText": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra",
         "items": [
           {
             "id": "individual-goals",
@@ -395,7 +419,8 @@
       },
       "cta": {
         "text": "See how Altra helps supported living services empower every person supported.",
-        "buttonText": "Book Demo"
+        "buttonText": "Book Demo",
+        "buttonLink": "https://calendly.com/helloaltra"
       }
     },
     "dayServicesRespiteOutpatient": {
@@ -413,7 +438,8 @@
             "title": "Create Engaging Experiences",
             "description": "Use the Wellbeing Library to deliver tailored activities — from fitness to music and mindfulness — that make every visit meaningful and enjoyable.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/wellbeing-library"
           },
           {
             "id": "family-connection",
@@ -421,7 +447,8 @@
             "title": "Strengthen Family Connection",
             "description": "Keep families in the loop with updates, photos and messages through the Family Engagement module. This reassures loved ones and improves satisfaction.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/family-engagement"
           },
           {
             "id": "keep-informed",
@@ -429,7 +456,8 @@
             "title": "Keep Everyone Informed",
             "description": "Share schedules, menus and announcements on Digital Displays so clients and families know what is happening — updated instantly from a central dashboard.",
             "iconBgColor": "#00D39C",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/digital-signage"
           },
           {
             "id": "short-stay-onboarding",
@@ -437,7 +465,8 @@
             "title": "Streamline Short-Stay Onboarding",
             "description": "Track every step of a respite admission with Workflows. From arrival to departure, tasks are clear and nothing is missed.",
             "iconBgColor": "#4DA8DA",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/workflow"
           },
           {
             "id": "staff-communication",
@@ -445,7 +474,8 @@
             "title": "Communicate Seamlessly with Staff",
             "description": "Send updates on bookings, schedule changes or urgent messages directly to staff within the Altra app — no need for separate systems.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/staff-engagement"
           },
           {
             "id": "evidence-outcomes",
@@ -453,13 +483,15 @@
             "title": "Evidence Engagement and Outcomes",
             "description": "With Reporting, track attendance, engagement and feedback across day, respite and outpatient services to show impact and support compliance.",
             "iconBgColor": "#BDD86C",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/group-intelligence"
           }
         ]
       },
       "checklist": {
         "title": "Why Providers Choose Altra for Day and Short-Stay Services",
         "ctaText": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra",
         "items": [
           {
             "id": "client-family-experience",
@@ -485,7 +517,8 @@
       },
       "cta": {
         "text": "See how Altra supports meaningful, person-centred visits in day, respite and outpatient services.",
-        "buttonText": "Book Demo"
+        "buttonText": "Book Demo",
+        "buttonLink": "https://calendly.com/helloaltra"
       }
     },
     "independentLiving": {
@@ -503,7 +536,8 @@
             "title": "Keep Residents Informed in Real Time",
             "description": "Use Digital Displays to show daily menus, activity calendars, event highlights and community updates in shared spaces — no paper, no PowerPoint, just real-time info where residents need it most.",
             "iconBgColor": "rgba(203, 110, 226, 0.9)",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/digital-signage"
           },
           {
             "id": "resident-app",
@@ -511,7 +545,8 @@
             "title": "Empower with the Resident App",
             "description": "Give residents direct access to their Activities Calendar, menus, notices, and important updates through the Altra app. It supports greater autonomy while reducing demand on front desk teams.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/activity-calendar"
           },
           {
             "id": "concierge-services",
@@ -519,7 +554,8 @@
             "title": "Book Services with Ease",
             "description": "With Concierge, residents can request services, report maintenance needs or book extras (like guest meals or wellbeing treatments) directly from their app — all tracked and managed by your team in one dashboard.",
             "iconBgColor": "#00D39C",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/concierge"
           },
           {
             "id": "activities-calendar",
@@ -527,7 +563,8 @@
             "title": "Build an Active, Engaging Schedule",
             "description": "From fitness classes to movie nights and community outings, Altra's Activities Calendar makes it easy to plan, share and adapt events for a vibrant lifestyle — with participation logging and resident preferences built in.",
             "iconBgColor": "#4DA8DA",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/activity-calendar"
           },
           {
             "id": "branded-app",
@@ -535,13 +572,15 @@
             "title": "Launch Your Own Branded App",
             "description": "For groups and premium providers, Altra offers a Fully Branded App — your own branded app in the App Store. Give residents and families a modern, fully branded digital experience while reinforcing your brand identity.",
             "iconBgColor": "#ED4789",
-            "ctaText": "See more"
+            "ctaText": "See more",
+            "ctaHref": "/our-solutions/branded-app"
           }
         ]
       },
       "checklist": {
         "title": "Why Independent Living Communities Choose Altra",
         "ctaText": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra",
         "items": [
           {
             "id": "enhances-lifestyle",
@@ -567,7 +606,8 @@
       },
       "cta": {
         "text": "See how Altra helps you deliver a modern experience for independent older adults.",
-        "buttonText": "Book Demo"
+        "buttonText": "Book Demo",
+        "buttonLink": "https://calendly.com/helloaltra"
       }
     }
   },
@@ -576,7 +616,8 @@
       "subtitle": "Our Mission",
       "title": "Be the change you want to see",
       "description": "Our vision is to be the #1 platform for care services to provide seamless and personalised experiences for all residents through technology.",
-      "ctaText": "Book a Demo"
+      "ctaText": "Book a Demo",
+      "ctaLink": "https://calendly.com/helloaltra"
     },
     "values": {
       "caption": "Altra's Values",
@@ -671,7 +712,9 @@
         "title": "Plan, Share and Track Activities with Ease",
         "description": "Bring structure and visibility to your activity programme. From planning to participation tracking, everything is designed to save time and support person-centred care.",
         "note": "*See how your team can plan, track and share activities with ease.",
-        "imagePath": "/images/our-solutions/activity-calendar/hero.png"
+        "imagePath": "/images/our-solutions/activity-calendar/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Altra's Activities Calendar",
@@ -810,6 +853,7 @@
         "authorTitle": "Social Care Lead, Emeis Ireland",
         "authorImage": "/images/our-solutions/activity-calendar/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": "Find out how leading care providers are improving programming with Altra."
       }
     },
@@ -819,7 +863,9 @@
         "title": "Keep Families Connected, Reassured and Informed – Every Day",
         "description": "Altra's Family Engagement module empowers care providers to give families what they want most: meaningful connection, proactive updates and peace of mind. Whether near or far, families stay closely connected to the day-to-day lives of their loved ones through real-time updates, media-rich moments and smart notifications – all from one secure app.",
         "note": "*See how Altra can transform family engagement in your service.",
-        "imagePath": "/images/our-solutions/family-engagement/hero.png"
+        "imagePath": "/images/our-solutions/family-engagement/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Family Engagement",
@@ -852,7 +898,8 @@
           }
         ],
         "button": {
-          "cta": "Talk to Our Team"
+          "cta": "Talk to Our Team",
+          "link": "https://calendly.com/helloaltra"
         },
         "note": "Get tailored advice on how to implement a proactive communication strategy."
       },
@@ -924,6 +971,7 @@
         "authorTitle": "Hospitality Manager",
         "authorImage": "/images/our-solutions/family-engagement/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": "Find out how leading care providers are improving programming with Altra."
       }
     },
@@ -933,7 +981,9 @@
         "title": "Turn Digital Moments into Something Tangible, Personal and Joyful",
         "description": "With Altra's Newsletters module, care providers can easily turn posts from staff and families into beautifully designed, print-ready newsletters for residents. It's a simple way to strengthen connections, create moments of joy and spark meaningful conversations every week.",
         "note": "*See how care homes use Altra to create personalised newsletters in minutes.",
-        "imagePath": "/images/our-solutions/newsletters/hero.png"
+        "imagePath": "/images/our-solutions/newsletters/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Newsletters",
@@ -971,7 +1021,8 @@
           }
         ],
         "button": {
-          "cta": "Talk to Our Team"
+          "cta": "Talk to Our Team",
+          "link": "https://calendly.com/helloaltra"
         },
         "note": "Get tailored advice on how to implement a proactive communication strategy."
       },
@@ -1027,6 +1078,7 @@
         "authorTitle": "CEO",
         "authorImage": "/images/our-solutions/newsletters/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": "Discover how other care providers are using newsletters to improve resident wellbeing."
       }
     },
@@ -1036,7 +1088,9 @@
         "title": "Independence Through Innovation",
         "description": "Voice Assistants with Altra' Alexa Integration make resident life easier, richer and more independent. Voice technology delivers a natural, accessible way for people supported in elderly care and learning disability services to stay connected with their community, get updates and carry out daily tasks without needing to rely on staff.",
         "note": "*See how voice assistants can support your residents and your team.",
-        "imagePath": "/images/our-solutions/voice-assistants/hero.png"
+        "imagePath": "/images/our-solutions/voice-assistants/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Voice Assistants",
@@ -1131,7 +1185,9 @@
         "title": "Continuous Feedback Made Effortless",
         "description": "Altra's Survey module helps care providers collect meaningful, actionable feedback from residents, families and staff – all in one platform. Replace time-consuming manual processes with a digital tool built for speed, clarity and better decisions.",
         "note": "* Discover how your team can collect and act on feedback more effectively.",
-        "imagePath": "/images/our-solutions/surveys/hero.png"
+        "imagePath": "/images/our-solutions/surveys/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "howItWorks": {
         "sectionLabel": "How it works",
@@ -1229,6 +1285,7 @@
         "authorTitle": "Group Quality Lead, Consensus Support:",
         "authorImage": "/images/our-solutions/surveys/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": " Find out how leading care providers are improving programming with Altra.",
         "usedFor": "Menu updates     •    Quarterly engagement surveys \n  •     Housekeeping satisfaction\n  •     Respite discharge feedback\n  •     Activities surveys    "
       }
@@ -1239,7 +1296,9 @@
         "title": "Enriched Aging, On Demand",
         "description": "Altra's Wellbeing Library gives your team instant access to expertly designed content that supports physical health, mental stimulation and emotional wellbeing. It's your all-in-one digital hub to build a more varied, meaningful and fulfilling activity programme without the time-consuming prep.",
         "note": "*See how Altra's Wellbeing Library enhances engagement in your care service.",
-        "imagePath": "/images/our-solutions/wellbeing-library/hero.png"
+        "imagePath": "/images/our-solutions/wellbeing-library/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "howItWorks": {
         "sectionLabel": "How it works",
@@ -1343,6 +1402,7 @@
         "authorTitle": "Activities Coordinator, SignaCare",
         "authorImage": "/images/our-solutions/wellbeing-library/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": " Discover how other homes are using the Wellbeing Library every week."
       }
     },
@@ -1352,7 +1412,9 @@
         "title": "Share What's on the Menu — Simply, Clearly and Consistently",
         "description": "With Altra's Menu module, care teams can easily create, manage and share menus across your entire service. Whether printed, posted to the app, or displayed on digital signage, menus are now easy to update and accessible to everyone.",
         "note": "*See how Altra helps you modernise your food and dining communication.",
-        "imagePath": "/images/our-solutions/menu/hero.png"
+        "imagePath": "/images/our-solutions/menu/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Altra's Menu Module",
@@ -1428,7 +1490,9 @@
         "title": "Deliver the Right Information, to the Right People, at the Right Time",
         "description": "Altra's Content Libraries give care providers powerful tools to share rich, personalised content with both families and residents. From onboarding guides and medication support to daily prompts and community integration tools, everything is fully customisable, accessible across media formats, and controlled by you — down to the individual level.",
         "note": "*Discover how Content Libraries streamline communication and support personal independence.",
-        "imagePath": "/images/our-solutions/content-libraries/hero.png"
+        "imagePath": "/images/our-solutions/content-libraries/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Content Libraries",
@@ -1548,7 +1612,9 @@
         "title": "One Central Place for Resident Requests and Service Delivery",
         "description": "Altra's Concierge module gives your team a simple, effective way to manage resident requests, streamline service delivery, and improve the everyday experience in your home. Whether it's maintenance, housekeeping, menu changes or special requests, everything is logged, tracked and fulfilled from one place.",
         "note": "*Discover how Concierge simplifies day-to-day operations in your care home.",
-        "imagePath": "/images/our-solutions/concierge/hero.png"
+        "imagePath": "/images/our-solutions/concierge/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "howItWorks": {
         "sectionLabel": "How It Works",
@@ -1666,6 +1732,7 @@
         "authorTitle": "Resident Experience Manager, Curam Care",
         "authorImage": "/images/our-solutions/concierge/customer-story-author.png",
         "ctaText": "View more Cast Studies",
+        "ctaLink": "https://calendly.com/helloaltra",
         "description": ""
       }
     },
@@ -1675,7 +1742,9 @@
         "title": "One Platform to Lead, Manage and Elevate Your Entire Group",
         "description": "Altra's Group Intelligence empowers care groups to manage all homes in one place — driving consistent quality, standardising services, and providing real-time oversight across your organisation. From communication and branding to reporting and service offerings, everything you need to lead with clarity is built in.",
         "note": "*See how care groups use Altra to simplify operations and scale excellence.",
-        "imagePath": "/images/our-solutions/group-intelligence/hero.png"
+        "imagePath": "/images/our-solutions/group-intelligence/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Group Intelligence",
@@ -1768,6 +1837,7 @@
         "authorTitle": "Sales & Hospitality Manager, Athena Care Homes",
         "authorImage": "/images/our-solutions/group-intelligence/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": ""
       }
     },
@@ -1777,7 +1847,9 @@
         "title": "Your Brand. Your Experience. Powered by Altra.",
         "description": "With our Branded App, care groups can launch their own branded version of the Altra App — fully custom, publicly available in app stores, and designed to elevate both engagement and brand visibility. It's your service, your voice, your community — wrapped in a world-class user experience.",
         "note": "*See how your own branded app can transform family engagement and positioning",
-        "imagePath": "/images/our-solutions/branded-app/hero.png"
+        "imagePath": "/images/our-solutions/branded-app/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with the Branded App",
@@ -1860,6 +1932,7 @@
         "authorTitle": "Resident Experience Manager, Curam Care",
         "authorImage": "/images/our-solutions/branded-app/customer-story-author.png",
         "ctaText": "See More Success Stories",
+        "ctaLink": "/customer-testimonials",
         "description": "Learn how care groups are using their Branded App to lead the market."
       }
     },
@@ -1869,7 +1942,9 @@
         "title": "One Hub for Team Messaging, Workforce Resources & Engagement.",
         "description": "Altra's Staff Engagement module brings all your internal communication and resources into one secure, easy-to-use platform. Whether you're sharing updates, filling shifts, aligning teams or storing key documents, everything happens in one place — built specifically for care teams on the move.",
         "note": "*See how care homes are simplifying staff comms with Altra.",
-        "imagePath": "/images/our-solutions/staff-engagement/hero.png"
+        "imagePath": "/images/our-solutions/staff-engagement/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with better Staff Engagement",
@@ -1956,7 +2031,9 @@
         "title": "Engage Residents. Welcome Guests. Stream Updates with Ease.",
         "description": "Altra TV's Digital Signage module turns your TV screens into dynamic communication hubs for residents, families and guests. From activity calendars and menus to general notices and announcements, everything is kept up to date automatically — no hardware or daily slide edits required.",
         "note": "*See how your care home can share real-time updates across your service.",
-        "imagePath": "/images/our-solutions/digital-signage/hero.png"
+        "imagePath": "/images/our-solutions/digital-signage/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Altra TV",
@@ -2068,7 +2145,9 @@
         "title": "Replace Reactive Workarounds with Reliable, Repeatable Processes",
         "description": "Altra's Workflow module help care providers save time, ensure consistency, and maintain compliance across every touchpoint — from new resident onboarding to incident follow-up and beyond. Whether it's a one-time task or a recurring process, Altra ensures that nothing is missed, and everything is tracked.",
         "note": "*See how Workflows help your team focus on care, not chasing tasks.",
-        "imagePath": "/images/our-solutions/workflow/hero.png"
+        "imagePath": "/images/our-solutions/workflow/hero.png",
+        "cta": "Book a Demo",
+        "ctaLink": "https://calendly.com/helloaltra"
       },
       "spotlight": {
         "title": "What You Can Achieve with Workflows",
@@ -2176,7 +2255,8 @@
       "subtitle": "Customer Testimonials",
       "title": "\"Altra has changed our worklife\"",
       "description": "Discover what our clients across elderly care, supported living, independent living, and adult learning disability settings say about bringing Altra into their organisation.",
-      "ctaText": "Book a Demo"
+      "ctaText": "Book a Demo",
+      "ctaLink": "https://calendly.com/helloaltra"
     },
     "clients": {
       "title": "We partner with care providers of all sizes across Ireland, the UK, France, Belgium, Germany, and beyond.",
@@ -2340,6 +2420,72 @@
           "authorName": "Linda Steward",
           "authorTitle": "Wellbeing Lead\n|\nAvondale Care Scotland",
           "authorImage": "/images/customer-testimonials/linda-steward.png"
+        }
+      ]
+    }
+  },
+  "privacyPolicy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: January 2025"
+    },
+    "content": {
+      "introduction": "At Altra, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you use our platform and services.",
+      "sections": [
+        {
+          "title": "Information We Collect",
+          "content": "We collect information that you provide directly to us, including name, email address, organization details, and any other information you choose to provide when using our platform."
+        },
+        {
+          "title": "How We Use Your Information",
+          "content": "We use the information we collect to provide, maintain, and improve our services, to communicate with you, to monitor and analyze trends and usage, and to protect the security and integrity of our platform."
+        },
+        {
+          "title": "Data Security",
+          "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+        },
+        {
+          "title": "Your Rights",
+          "content": "You have the right to access, correct, or delete your personal information. You may also object to or restrict certain processing of your data. To exercise these rights, please contact us at hello@altra.ie."
+        },
+        {
+          "title": "Contact Us",
+          "content": "If you have any questions about this Privacy Policy, please contact us at hello@altra.ie."
+        }
+      ]
+    }
+  },
+  "dataSecurity": {
+    "hero": {
+      "title": "Data Security",
+      "lastUpdated": "Last Updated: January 2025"
+    },
+    "content": {
+      "introduction": "Data security is at the core of everything we do at Altra. We understand the sensitive nature of care data and are committed to maintaining the highest standards of security and compliance.",
+      "sections": [
+        {
+          "title": "Security Infrastructure",
+          "content": "Our platform is built on industry-leading security infrastructure with end-to-end encryption, regular security audits, and continuous monitoring to protect your data."
+        },
+        {
+          "title": "Compliance & Certifications",
+          "content": "We are fully compliant with GDPR and other relevant data protection regulations. Our systems undergo regular third-party security assessments and penetration testing."
+        },
+        {
+          "title": "Access Controls",
+          "content": "We implement strict role-based access controls to ensure that only authorized personnel can access sensitive data. All access is logged and monitored."
+        },
+        {
+          "title": "Data Encryption",
+          "content": "All data is encrypted both in transit and at rest using industry-standard encryption protocols. We use secure SSL/TLS connections for all data transmission."
+        },
+        {
+          "title": "Backup & Recovery",
+          "content": "We maintain regular automated backups of all data with secure off-site storage. Our disaster recovery procedures ensure business continuity and data availability."
+        },
+        {
+          "title": "Security Incident Response",
+          "content": "We have a comprehensive incident response plan in place. In the unlikely event of a security incident, we will notify affected parties in accordance with applicable regulations."
         }
       ]
     }

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
@@ -24,7 +25,7 @@ export function Hero({ className, ...props }: HeroProps) {
             {t("subtitle")}
           </Typography>
         </div>
-        <Link href="/our-solutions">
+        <Link href={t("ctaLink") as any}>
           <Button variant="primary" size="md" className="self-start">
             {t("cta")}
             <ArrowRight className="size-5" />

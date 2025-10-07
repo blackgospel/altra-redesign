@@ -3,6 +3,7 @@ import { IconKey, IconMap } from "@/components/global/icon-map/icon-map";
 import { SectionTitle } from "@/components/global/section-title/section-title";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -77,15 +78,18 @@ export function SpotlightGrid({
 
       {button && (
         <div className="flex flex-col items-center gap-4">
-          <Button
-            variant="primary"
-            size="sm"
-            className="w-fit"
-            onClick={button.onClick}
-          >
-            {t(`button.${button.translationKey}`)}
-            <ArrowRight className="size-5" />
-          </Button>
+          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+          <Link href={t("button.link") as any}>
+            <Button
+              variant="primary"
+              size="sm"
+              className="w-fit"
+              onClick={button.onClick}
+            >
+              {t(`button.${button.translationKey}`)}
+              <ArrowRight className="size-5" />
+            </Button>
+          </Link>
           {button.showNote && (
             <Typography
               variant="text-l"

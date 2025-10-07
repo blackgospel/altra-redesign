@@ -2,6 +2,7 @@ import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { HOW_WE_HELP } from "@/config/home";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -36,10 +37,13 @@ export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
                   </Typography>
                 </div>
 
-                <Button variant="outline" size="sm" className="self-start">
-                  {t("cta")}
-                  <ArrowRight className="size-5" />
-                </Button>
+                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                <Link href={t(`items.${item.slug}.ctaLink`) as any}>
+                  <Button variant="outline" size="sm" className="self-start">
+                    {t("cta")}
+                    <ArrowRight className="size-5" />
+                  </Button>
+                </Link>
               </div>
 
               <div className="relative aspect-[689/500] w-full lg:w-auto flex-1 xl:flex-none">

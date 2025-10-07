@@ -1,6 +1,7 @@
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -25,14 +26,17 @@ export function ReadyToTransform({
               {t("title")}
             </Typography>
 
-            <Button
-              variant="primary"
-              size="md"
-              className="self-center xl:self-start flex items-center gap-3"
-            >
-              {t("cta")}
-              <ArrowRight className="size-5" />
-            </Button>
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+            <Link href={t("ctaLink") as any}>
+              <Button
+                variant="primary"
+                size="md"
+                className="self-center xl:self-start flex items-center gap-3"
+              >
+                {t("cta")}
+                <ArrowRight className="size-5" />
+              </Button>
+            </Link>
           </div>
 
           <div className="flex flex-1 relative w-full aspect-[713/501]">

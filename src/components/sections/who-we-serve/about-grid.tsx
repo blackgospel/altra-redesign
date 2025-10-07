@@ -31,7 +31,7 @@ export function AboutGrid({ slug, className, ...props }: AboutGridProps) {
           slots={{ title: { variant: "h3" } }}
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-[1200px] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mx-auto">
           {items.map((item) => (
             <AboutGridCard key={item.id} item={item} />
           ))}

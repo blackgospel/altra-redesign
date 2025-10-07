@@ -1,43 +1,34 @@
 "use client";
 
-import { ArrowRight } from "@/assets/icons/ArrowRight";
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbProps,
 } from "@/components/ui/breadcrumb";
-import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
-import { Link } from "@/i18n/navigation";
 import { heightTopOffsetClassName } from "@/config/header";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
-interface OurMissionHeroProps extends React.ComponentProps<"section"> {
+interface PrivacyPolicyHeroProps extends React.ComponentProps<"section"> {
   slots?: {
     breadcrumb?: Partial<BreadcrumbProps>;
   };
 }
 
-export function OurMissionHero({
+export function PrivacyPolicyHero({
   slots,
   className,
   ...props
-}: OurMissionHeroProps) {
-  const t = useTranslations("ourMission.hero");
-  const headerT = useTranslations("header.nav");
+}: PrivacyPolicyHeroProps) {
+  const t = useTranslations("privacyPolicy.hero");
 
   const content = {
-    subtitle: t("subtitle"),
     title: t("title"),
-    description: t("description"),
-    ctaText: t("ctaText"),
-    ctaLink: t("ctaLink"),
+    lastUpdated: t("lastUpdated"),
   };
 
-  const breadcrumbItems: BreadcrumbItem[] = [
-    { label: headerT("our-mission.label") },
-  ];
+  const breadcrumbItems: BreadcrumbItem[] = [{ label: "Privacy Policy" }];
 
   return (
     <section
@@ -65,22 +56,10 @@ export function OurMissionHero({
               )}
 
               <div className="flex flex-col gap-[15px] max-w-[849px] mx-auto">
-                <div className="flex flex-col gap-[10px]">
-                  <Typography variant="caption-m" className="uppercase">
-                    {content.subtitle}
-                  </Typography>
-                  <Typography variant="h2">{content.title}</Typography>
-                </div>
-                <Typography variant="text-xl">{content.description}</Typography>
-                <div className="flex justify-center mt-[10px]">
-                  {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                  <Link href={content.ctaLink as any}>
-                    <Button variant="white" size="md">
-                      {content.ctaText}
-                      <ArrowRight className="size-5" />
-                    </Button>
-                  </Link>
-                </div>
+                <Typography variant="h2">{content.title}</Typography>
+                <Typography variant="text-xl" className="opacity-80">
+                  {content.lastUpdated}
+                </Typography>
               </div>
             </div>
           </div>

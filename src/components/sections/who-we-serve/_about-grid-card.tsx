@@ -1,6 +1,7 @@
 import { ArrowRight } from "@/assets/icons";
 import { IconMap } from "@/components/global/icon-map";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { AboutGridItem } from "./who-we-serve.types";
 
 interface AboutGridCardProps {
@@ -30,13 +31,16 @@ export function AboutGridCard({ item }: AboutGridCardProps) {
           </Typography>
         </div>
 
-        {item.ctaText && (
-          <button className="flex items-center gap-2 py-1 hover:gap-3 transition-all duration-200 self-start">
-            <Typography variant="btn-m" className="text-dark-navy-60">
-              {item.ctaText}
-            </Typography>
-            <ArrowRight className="w-5 h-5 text-dark-navy-60" />
-          </button>
+        {item.ctaText && item.ctaHref && (
+          /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+          <Link href={item.ctaHref as any}>
+            <button className="flex items-center gap-2 py-1 hover:gap-3 transition-all duration-200 self-start">
+              <Typography variant="btn-m" className="text-dark-navy-60">
+                {item.ctaText}
+              </Typography>
+              <ArrowRight className="w-5 h-5 text-dark-navy-60" />
+            </button>
+          </Link>
         )}
       </div>
     </div>

@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { heightTopOffsetClassName } from "@/config/header";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -51,6 +52,8 @@ export function OurSolutionsHero({
     description: t(`${slug}.hero.description`),
     note: t(`${slug}.hero.note`),
     imagePath: t(`${slug}.hero.imagePath`),
+    cta: t(`${slug}.hero.cta`),
+    ctaLink: t(`${slug}.hero.ctaLink`),
   };
 
   const kebabSlug = slug
@@ -92,10 +95,13 @@ export function OurSolutionsHero({
             <Typography variant="text-xl">{content.description}</Typography>
 
             <div className="flex flex-col gap-4">
-              <Button variant="primary" size="sm" className="self-start">
-                Book a Demo
-                <ArrowRight className="size-5" />
-              </Button>
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              <Link href={content.ctaLink as any}>
+                <Button variant="primary" size="sm" className="self-start">
+                  {content.cta}
+                  <ArrowRight className="size-5" />
+                </Button>
+              </Link>
               <Typography variant="text-l" className="text-dark-gray-40">
                 {content.note}
               </Typography>

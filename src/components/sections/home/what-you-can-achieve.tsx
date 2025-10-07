@@ -1,6 +1,7 @@
 import { ArrowRight, Check2 } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -35,14 +36,17 @@ export function WhatYouCanAchieve({
                 </div>
               </div>
 
-              <Button
-                variant="white"
-                size="md"
-                className="flex w-full items-center gap-3 @md/achieve:w-auto @md/achieve:self-start"
-              >
-                {t("cta")}
-                <ArrowRight className="size-5" />
-              </Button>
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              <Link href={t("ctaLink") as any}>
+                <Button
+                  variant="white"
+                  size="md"
+                  className="flex w-full items-center gap-3 @md/achieve:w-auto @md/achieve:self-start"
+                >
+                  {t("cta")}
+                  <ArrowRight className="size-5" />
+                </Button>
+              </Link>
             </div>
 
             <div className="relative flex min-h-0 flex-1">

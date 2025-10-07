@@ -3,6 +3,7 @@
 import { ArrowRight, SpeechMarks } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { cn, omitClassName } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -96,10 +97,13 @@ export function CustomerStory({
             )}
 
             <div className="w-full max-w-[873px] flex flex-col items-center gap-[30px] px-4 z-10">
-              <Button variant="primary" size="md">
-                {t("ctaText")}
-                <ArrowRight className="w-5 h-5" />
-              </Button>
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              <Link href={t("ctaLink") as any}>
+                <Button variant="primary" size="md">
+                  {t("ctaText")}
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </Link>
 
               <Typography variant="text-xl" className="text-white text-center">
                 {t("description")}

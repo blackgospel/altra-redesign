@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 
 export function SeeForYourself() {
   const t = useTranslations("footer.seeForYourself");
@@ -14,12 +14,13 @@ export function SeeForYourself() {
         <Typography variant="text-l">{t("description")}</Typography>
       </div>
 
-      <Button variant="primary" className="self-start">
-        <Link href="#" className="flex items-center gap-2">
+      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+      <Link href={t("ctaLink") as any}>
+        <Button variant="primary" className="self-start flex items-center gap-2">
           <span>{t("cta")}</span>
           <ArrowRight className="size-6" />
-        </Link>
-      </Button>
+        </Button>
+      </Link>
     </div>
   );
 }

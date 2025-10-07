@@ -3,6 +3,7 @@
 import { ArrowRight } from "@/assets/icons/ArrowRight";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import { Link } from "@/i18n/navigation";
 import { heightTopOffsetClassName } from "@/config/header";
 import { cn, omitClassName } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -20,6 +21,7 @@ export function CustomerTestimonialsHero({
     title: t("title"),
     description: t("description"),
     ctaText: t("ctaText"),
+    ctaLink: t("ctaLink"),
   };
 
   return (
@@ -47,10 +49,13 @@ export function CustomerTestimonialsHero({
               <Typography variant="text-xl">{content.description}</Typography>
 
               <div className="flex justify-center mt-[10px]">
-                <Button variant="white" size="md">
-                  {content.ctaText}
-                  <ArrowRight className="size-5" />
-                </Button>
+                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+                <Link href={content.ctaLink as any}>
+                  <Button variant="white" size="md">
+                    {content.ctaText}
+                    <ArrowRight className="size-5" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
