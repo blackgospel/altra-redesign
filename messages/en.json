@@ -686,7 +686,7 @@
     },
     "team": {
       "title": "Altra's Team",
-      "description": "We have unique blend of industry and technology experience in our team to deliver on our mission of providing the #1 resident experience platform for care homes.",
+      "description": "We have unique blend of industry and technology experience in our team to deliver on our mission of providing the No. 1 experience and engagement platform designed for modern care services.",
       "members": [
         {
           "name": "Adam Keane",
@@ -1728,7 +1728,7 @@
         "title": "Customer Story: Curam Care",
         "subtitle": "Resident Experience That Feels Personal",
         "testimonial": "\"Concierge has made it so much easier for us to stay on top of resident requests. Whether it's a maintenance issue or just something simple like a new pillow or favourite snack, we can now track every request and make sure nothing is missed. It's helping us build more trust with residents and families, and our team finds it so easy to use. It really reinforces our promise of personal, responsive care.\"",
-        "authorName": "Laura Collins",
+        "authorName": "Lisa Vile",
         "authorTitle": "Resident Experience Manager, Curam Care",
         "authorImage": "/images/our-solutions/concierge/customer-story-author.png",
         "ctaText": "View more Cast Studies",
@@ -1928,7 +1928,7 @@
         "title": "Customer Story: Curam Care",
         "subtitle": "Branded. Trusted. Loved by Families.",
         "testimonial": "\"Having our own branded app — Curam Connect — has been a huge success. Families recognise it as part of our service, and it builds trust straight away. It's helped us reinforce our values while offering a world-class experience through Altra's platform. Families love the simplicity, and our team love that it feels truly ours.\"",
-        "authorName": "Laura Collins",
+        "authorName": "Lisa Vile",
         "authorTitle": "Resident Experience Manager, Curam Care",
         "authorImage": "/images/our-solutions/branded-app/customer-story-author.png",
         "ctaText": "See More Success Stories",
@@ -2259,7 +2259,7 @@
       "ctaLink": "https://calendly.com/helloaltra"
     },
     "clients": {
-      "title": "We partner with care providers of all sizes across Ireland, the UK, France, Belgium, Germany, and beyond.",
+      "title": "We partner with care providers of all sizes across Ireland, UK, France, Belgium, Germany, and beyond.",
       "logos": [
         { "src": "/images/clients/athena-logo.png", "alt": "Athena" },
         { "src": "/images/clients/carechoice-logo.png", "alt": "CareChoice" },
@@ -2286,7 +2286,7 @@
         "title": "What our customers say about Altra Wellbeing Hub"
       },
       "altraStaff": {
-        "title": "What our customers say about Altra Staff"
+        "title": "What our customers say about Altra Staff Engagement"
       }
     },
     "testimonials": {
@@ -2299,9 +2299,21 @@
         },
         {
           "quote": "The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.",
-          "authorName": "Laura Collins",
+          "authorName": "Lisa Vile",
           "authorTitle": "Sales & Hospitality Manager\n|\nAthena Care Homes",
-          "authorImage": "/images/customer-testimonials/laura-collins.png"
+          "authorImage": "/images/customer-testimonials/lisa-vile.png"
+        },
+        {
+          "quote": "Since using Altra, we have seen stronger family engagement, fewer phone calls requesting updates, and a more motivated team who can easily share the positive work they do every day. Families now feel more reassured, knowing they have visibility of their loved one's activities and wellbeing. Our team also saves at least 4–5 hours per week on administrative tasks, as information is shared instantly through the app and integrated to our residents timelines on our digital care system.",
+          "authorName": "Ben Jackson",
+          "authorTitle": "Owner\n|\nQueen Ann Care",
+          "authorImage": "/images/customer-testimonials/ben-jackson.png"
+        },
+        {
+          "quote": "This is something unique, being able to share the wellbeing of residents with their families. It helps to put our families at ease - particularly in the early days - and shows we are doing our utmost to get to know them. We did not quite realise what this would mean to our families. I have been quite shocked at how quickly it has taken off. The feedback from our residents' families about the app has been brilliant. Every care home should have this.",
+          "authorName": "Subhaan Iqbal",
+          "authorTitle": "IT Director\n|\nPrincipal Care Homes",
+          "authorImage": "/images/customer-testimonials/subhaan-iqbal.png"
         },
         {
           "quote": "Altra is working really well. Feedback is very positive. One family member works with the Care Inspectorate (in Scotland). She loves the fact that she can see photos and videos of activities her mum is involved in and that it's completely private. Definite thumbs up across the board!",
@@ -2316,110 +2328,98 @@
           "authorImage": "/images/customer-testimonials/orla-coleman.png"
         },
         {
-          "quote": "This application brings a real plus in our relationships with families. It is both dynamic and interactive. Although reluctant at first, I am now delighted to be part of this project. I'm getting quite a lot of positive feedback from families who are becoming more and more active on the app. To test it is to adopt it ;-)",
-          "authorName": "Emilie Berger",
-          "authorTitle": "Director\n|\nMaison de Repos Les Amarantes",
-          "authorImage": "/images/customer-testimonials/emilie-berger.png"
+          "quote": "It's great! Families get to see what the residents are up to and the activities they are involved with.",
+          "authorName": "Kiera Garrigan",
+          "authorTitle": "Administration\n|\nResidence Asbourne",
+          "authorImage": "/images/customer-testimonials/kiera-garrigan.png"
         },
         {
-          "quote": "The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.",
-          "authorName": "Laura Collins",
-          "authorTitle": "Sales & Hospitality Manager\n|\nAthena Care Homes",
-          "authorImage": "/images/customer-testimonials/laura-collins.png"
+          "quote": "It is simple to use for both staff and families. It's a great tool to keep residents connected with their families, sharing photos of good memories in their life.",
+          "authorName": "Jaison John",
+          "authorTitle": "Regional Director\n|\nBellevie Living",
+          "authorImage": "/images/customer-testimonials/jaison-john.png"
         },
         {
-          "quote": "Altra is working really well. Feedback is very positive. One family member works with the Care Inspectorate (in Scotland). She loves the fact that she can see photos and videos of activities her mum is involved in and that it's completely private. Definite thumbs up across the board!",
-          "authorName": "Linda Steward",
-          "authorTitle": "Wellbeing Lead\n|\nAvondale Care Scotland",
-          "authorImage": "/images/customer-testimonials/linda-steward.png"
+          "quote": "It helps us connect with families in a more controlled way. It provides us with stronger data security that can be challenging on a more open communication platforms like email or social media.",
+          "authorName": "Catherine Tighe",
+          "authorTitle": "Director of Nursing\n|\nMarymount Care Centre",
+          "authorImage": "/images/customer-testimonials/catherine-tighe.png"
+        },
+        {
+          "quote": "What a wonderful idea this is. It is such a pleasure to sign in and see what is happening. It is so important.",
+          "authorName": "Daughter of resident",
+          "authorTitle": "",
+          "authorImage": "/images/customer-testimonials/placeholder.png"
+        },
+        {
+          "quote": "I'm based in the States and this is a fantastic way to stay in touch with anything regarding my dad. Thank you for helping us stay in contact.",
+          "authorName": "Son of resident",
+          "authorTitle": "",
+          "authorImage": "/images/customer-testimonials/placeholder.png"
         }
       ],
       "altraWellbeingHub": [
         {
-          "quote": "This application brings a real plus in our relationships with families. It is both dynamic and interactive. Although reluctant at first, I am now delighted to be part of this project. I'm getting quite a lot of positive feedback from families who are becoming more and more active on the app. To test it is to adopt it ;-)",
-          "authorName": "Emilie Berger",
-          "authorTitle": "Director\n|\nMaison de Repos Les Amarantes",
-          "authorImage": "/images/customer-testimonials/emilie-berger.png"
+          "quote": "We are really loving the Wellbeing Hub. The seated yoga and chair zumba videos have been a great hit! The residents said it's better than what I used to do, coming up with my own moves 😄 Thanks again for these amazing services. It's brilliant to have resources all in one place.",
+          "authorName": "Lisa",
+          "authorTitle": "Activities Coordinator\n|\nSignaCare",
+          "authorImage": "/images/customer-testimonials/lisa-signcare.png"
         },
         {
-          "quote": "The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.",
-          "authorName": "Laura Collins",
-          "authorTitle": "Sales & Hospitality Manager\n|\nAthena Care Homes",
-          "authorImage": "/images/customer-testimonials/laura-collins.png"
+          "quote": "Our whole activity calendar is now made up of content from the Wellbeing Hub. Having everything in one place makes it so easy for us to schedule new activities.",
+          "authorName": "Catherine",
+          "authorTitle": "Activities Coordinator\n|\nMarymount Nursing Home",
+          "authorImage": "/images/customer-testimonials/catherine-marymount.png"
         },
         {
-          "quote": "Altra is working really well. Feedback is very positive. One family member works with the Care Inspectorate (in Scotland). She loves the fact that she can see photos and videos of activities her mum is involved in and that it's completely private. Definite thumbs up across the board!",
-          "authorName": "Linda Steward",
-          "authorTitle": "Wellbeing Lead\n|\nAvondale Care Scotland",
-          "authorImage": "/images/customer-testimonials/linda-steward.png"
+          "quote": "The Wellbeing Hub is great! We especially love the different exercise videos as it can be difficult to find suitable videos like that elsewhere. It's great having the opportunity to try new exercises when they are made so accessible in the Wellbeing Hub. It really saves time and avoids us being repetitive.",
+          "authorName": "Celine",
+          "authorTitle": "Social Care Manager\n|\nVirtue",
+          "authorImage": "/images/customer-testimonials/celine-virtue.png"
         },
         {
-          "quote": "Altra has made such a difference when interacting with residents. Residents love viewing family photos and comments on the Family Newsletters. Altra has had such a positive impact on the home.",
-          "authorName": "Orla Coleman",
-          "authorTitle": "Director of Nursing\n|\nSt Luke`s Home",
-          "authorImage": "/images/customer-testimonials/orla-coleman.png"
+          "quote": "I am very impressed with Altra so far and have found it to be a useful tool with activities here in Brentwood Manor. The residents have enjoyed activities from the Wellbeing Hub such as the interactive stories and puzzles and have been really engaged.",
+          "authorName": "Ciara",
+          "authorTitle": "Activity Therapist\n|\nEmeis",
+          "authorImage": "/images/customer-testimonials/ciara-orpea.png"
         },
         {
-          "quote": "This application brings a real plus in our relationships with families. It is both dynamic and interactive. Although reluctant at first, I am now delighted to be part of this project. I'm getting quite a lot of positive feedback from families who are becoming more and more active on the app. To test it is to adopt it ;-)",
-          "authorName": "Emilie Berger",
-          "authorTitle": "Director\n|\nMaison de Repos Les Amarantes",
-          "authorImage": "/images/customer-testimonials/emilie-berger.png"
-        },
-        {
-          "quote": "The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.",
-          "authorName": "Laura Collins",
-          "authorTitle": "Sales & Hospitality Manager\n|\nAthena Care Homes",
-          "authorImage": "/images/customer-testimonials/laura-collins.png"
-        },
-        {
-          "quote": "Altra is working really well. Feedback is very positive. One family member works with the Care Inspectorate (in Scotland). She loves the fact that she can see photos and videos of activities her mum is involved in and that it's completely private. Definite thumbs up across the board!",
-          "authorName": "Linda Steward",
-          "authorTitle": "Wellbeing Lead\n|\nAvondale Care Scotland",
-          "authorImage": "/images/customer-testimonials/linda-steward.png"
+          "quote": "I am finding it very interesting and also great for the residents. They are loving the virtual tours and exercise videos. Lots to do on it and keeps residents active!",
+          "authorName": "Christine",
+          "authorTitle": "Activity Therapist\n|\nGrace Healthcare",
+          "authorImage": "/images/customer-testimonials/christine-grace.png"
         }
       ],
       "altraStaff": [
         {
-          "quote": "This application brings a real plus in our relationships with families. It is both dynamic and interactive. Although reluctant at first, I am now delighted to be part of this project. I'm getting quite a lot of positive feedback from families who are becoming more and more active on the app. To test it is to adopt it ;-)",
-          "authorName": "Emilie Berger",
-          "authorTitle": "Director\n|\nMaison de Repos Les Amarantes",
-          "authorImage": "/images/customer-testimonials/emilie-berger.png"
+          "quote": "We use Altra to increase daily wellness, staying connected with family and friends and to offer entertainment options.\n\nAltra has brought families and residents closer together because they can now do so via video calls. We have been using Altra for the past two years and it is part of our organisation now.  My favourite part about Altra is that it's customer driven.",
+          "authorName": "Miracline Samuel",
+          "authorTitle": "Regional Director\n|\nEmeis",
+          "authorImage": "/images/customer-testimonials/miracline-samuel.png"
         },
         {
-          "quote": "The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.",
-          "authorName": "Laura Collins",
-          "authorTitle": "Sales & Hospitality Manager\n|\nAthena Care Homes",
-          "authorImage": "/images/customer-testimonials/laura-collins.png"
+          "quote": "Altra has proven to be an invaluable tool in enhancing our residents' wellbeing. The digital experience has allowed us to engage residents in meaningful activities, from virtual classes to personalised content. Families appreciate the transparency and connection it provides, and our staff find it easy to use. Altra truly supports a holistic approach to care.",
+          "authorName": "Anne Marie Woods",
+          "authorTitle": "General Manager\n|\nNewtownpark House",
+          "authorImage": "/images/customer-testimonials/anne-marie-woods.png"
         },
         {
-          "quote": "Altra is working really well. Feedback is very positive. One family member works with the Care Inspectorate (in Scotland). She loves the fact that she can see photos and videos of activities her mum is involved in and that it's completely private. Definite thumbs up across the board!",
-          "authorName": "Linda Steward",
-          "authorTitle": "Wellbeing Lead\n|\nAvondale Care Scotland",
-          "authorImage": "/images/customer-testimonials/linda-steward.png"
+          "quote": "The feedback from the families has been great. You can see what's been going on in the nursing home. We've been very happy with Altra. The team has been very responsive. We've been happy with the customer service.",
+          "authorName": "Catherine Buttimer",
+          "authorTitle": "Care Manager\n|\nSilverstream",
+          "authorImage": "/images/customer-testimonials/catherine-buttimer.png"
         },
         {
-          "quote": "Altra has made such a difference when interacting with residents. Residents love viewing family photos and comments on the Family Newsletters. Altra has had such a positive impact on the home.",
-          "authorName": "Orla Coleman",
-          "authorTitle": "Director of Nursing\n|\nSt Luke`s Home",
-          "authorImage": "/images/customer-testimonials/orla-coleman.png"
+          "quote": "We use Altra as a connectivity tool for residents, as well as a way to access entertainment. Plus, Altra is important for our internal communication.\n\nThe video calling feature is especially beneficial for families who live far away. Altra is a wonderful digital tool. Our residents love it!",
+          "authorName": "Min Wei",
+          "authorTitle": "Wellbeing Manager\n|\nBeechfield Group",
+          "authorImage": "/images/customer-testimonials/min-wei.png"
         },
         {
-          "quote": "This application brings a real plus in our relationships with families. It is both dynamic and interactive. Although reluctant at first, I am now delighted to be part of this project. I'm getting quite a lot of positive feedback from families who are becoming more and more active on the app. To test it is to adopt it ;-)",
-          "authorName": "Emilie Berger",
-          "authorTitle": "Director\n|\nMaison de Repos Les Amarantes",
-          "authorImage": "/images/customer-testimonials/emilie-berger.png"
-        },
-        {
-          "quote": "The platform has strengthened the relationship between relatives and our care homes, as they can log in and see the regular, positive interactions happening each day, providing them with much-needed reassurance. It has also further strengthened the bond between residents and our team members, as they share news and messages from the residents' loved ones, fostering a more connected and supportive environment.",
-          "authorName": "Laura Collins",
-          "authorTitle": "Sales & Hospitality Manager\n|\nAthena Care Homes",
-          "authorImage": "/images/customer-testimonials/laura-collins.png"
-        },
-        {
-          "quote": "Altra is working really well. Feedback is very positive. One family member works with the Care Inspectorate (in Scotland). She loves the fact that she can see photos and videos of activities her mum is involved in and that it's completely private. Definite thumbs up across the board!",
-          "authorName": "Linda Steward",
-          "authorTitle": "Wellbeing Lead\n|\nAvondale Care Scotland",
-          "authorImage": "/images/customer-testimonials/linda-steward.png"
+          "quote": "Altra has been hugely beneficial to our residents. They can enjoy daily entertainment and classes and also stay connected with their families. Many families appreciate the convenience of the communication tools and the reassurance that their loved ones have easy, affordable access to the things they enjoy such as radio, tv channels and libraries. The Altra team are so helpful and supportive and the residents love using Altra.",
+          "authorName": "Wendy Fagan",
+          "authorTitle": "Wellbeing Coordinator\n|\nAilesbury & Ashbury",
+          "authorImage": "/images/customer-testimonials/wendy-fagan.png"
         }
       ]
     }

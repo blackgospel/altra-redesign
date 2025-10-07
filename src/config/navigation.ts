@@ -48,13 +48,13 @@ export const NAVIGATION_ITEMS = [
     hasDropdown: true,
     dropdown: [
       {
+        href: PATHS.WHO_WE_SERVE.ELDERLY_CARE,
+      },
+      {
         href: PATHS.WHO_WE_SERVE.LD_SUPPORTED_LIVING,
       },
       {
         href: PATHS.WHO_WE_SERVE.INDEPENDENT_LIVING,
-      },
-      {
-        href: PATHS.WHO_WE_SERVE.ELDERLY_CARE,
       },
       {
         href: PATHS.WHO_WE_SERVE.DAY_SERVICES,
@@ -70,43 +70,43 @@ export const NAVIGATION_ITEMS = [
         href: PATHS.OUR_SOLUTIONS.FAMILY_ENGAGEMENT,
       },
       {
-        href: PATHS.OUR_SOLUTIONS.NEWSLETTERS,
+        href: PATHS.OUR_SOLUTIONS.STAFF_ENGAGEMENT,
       },
       {
         href: PATHS.OUR_SOLUTIONS.ACTIVITY_CALENDAR,
       },
       {
-        href: PATHS.OUR_SOLUTIONS.VOICE_ASSISTANTS,
+        href: PATHS.OUR_SOLUTIONS.WELLBEING_LIBRARY,
       },
       {
         href: PATHS.OUR_SOLUTIONS.SURVEYS,
       },
       {
-        href: PATHS.OUR_SOLUTIONS.WELLBEING_LIBRARY,
-      },
-      {
-        href: PATHS.OUR_SOLUTIONS.MENU,
-      },
-      {
         href: PATHS.OUR_SOLUTIONS.CONTENT_LIBRARIES,
-      },
-      {
-        href: PATHS.OUR_SOLUTIONS.CONCIERGE,
-      },
-      {
-        href: PATHS.OUR_SOLUTIONS.GROUP_INTELLIGENCE,
-      },
-      {
-        href: PATHS.OUR_SOLUTIONS.BRANDED_APP,
-      },
-      {
-        href: PATHS.OUR_SOLUTIONS.STAFF_ENGAGEMENT,
       },
       {
         href: PATHS.OUR_SOLUTIONS.DIGITAL_SIGNAGE,
       },
       {
         href: PATHS.OUR_SOLUTIONS.WORKFLOW,
+      },
+      {
+        href: PATHS.OUR_SOLUTIONS.CONCIERGE,
+      },
+      {
+        href: PATHS.OUR_SOLUTIONS.VOICE_ASSISTANTS,
+      },
+      {
+        href: PATHS.OUR_SOLUTIONS.MENU,
+      },
+      {
+        href: PATHS.OUR_SOLUTIONS.NEWSLETTERS,
+      },
+      {
+        href: PATHS.OUR_SOLUTIONS.GROUP_INTELLIGENCE,
+      },
+      {
+        href: PATHS.OUR_SOLUTIONS.BRANDED_APP,
       },
     ],
   },
