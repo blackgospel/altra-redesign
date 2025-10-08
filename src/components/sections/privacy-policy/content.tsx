@@ -4,7 +4,7 @@ import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
-interface PrivacyPolicyContentProps extends React.ComponentProps<"section"> {}
+type PrivacyPolicyContentProps = React.ComponentProps<"section">;
 
 export function PrivacyPolicyContent({
   className,

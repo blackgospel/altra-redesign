@@ -4,7 +4,7 @@ import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 
-interface DataSecurityContentProps extends React.ComponentProps<"section"> {}
+type DataSecurityContentProps = React.ComponentProps<"section">;
 
 export function DataSecurityContent({
   className,
