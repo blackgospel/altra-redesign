@@ -1,7 +1,8 @@
+"use client";
+
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
-import { HOW_WE_HELP } from "@/config/home";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -13,13 +14,15 @@ type HowWeHelpProps = React.ComponentProps<"section">;
 export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
   const t = useTranslations("home.howWeHelp");
 
+  const items: Array<{ title: string; description: string; imagePath: string; ctaLink: string }> = t.raw("items");
+
   return (
     <section className={cn("", className)} {...props}>
       <div className="flex flex-col gap-12">
         <SectionTitle title={t("title")} description={t("description")} />
 
         <div className="flex flex-col gap-12 md:gap-32">
-          {HOW_WE_HELP.map((item, index) => (
+          {items.map((item, index) => (
             <div
               key={index}
               className={`flex flex-col-reverse ${
@@ -29,16 +32,16 @@ export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
               <div className="flex-1 flex flex-col gap-6">
                 <div className="flex flex-col gap-4">
                   <Typography variant="h4">
-                    {t(`items.${item.slug}.title`)}
+                    {item.title}
                   </Typography>
 
                   <Typography variant="text-xl" className="text-dark-gray-40">
-                    {t(`items.${item.slug}.description`)}
+                    {item.description}
                   </Typography>
                 </div>
 
                 {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-                <Link href={t(`items.${item.slug}.ctaLink`) as any}>
+                <Link href={item.ctaLink as any}>
                   <Button variant="outline" size="sm" className="self-start">
                     {t("cta")}
                     <ArrowRight className="size-5" />
@@ -48,8 +51,8 @@ export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
 
               <div className="relative aspect-[689/500] w-full lg:w-auto flex-1 xl:flex-none">
                 <Image
-                  src={t(`items.${item.slug}.imagePath`)}
-                  alt={t(`items.${item.slug}.title`)}
+                  src={item.imagePath}
+                  alt={item.title}
                   width={689}
                   height={500}
                   priority

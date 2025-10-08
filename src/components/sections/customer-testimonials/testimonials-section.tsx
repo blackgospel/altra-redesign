@@ -3,7 +3,7 @@
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-import { useRef } from "react";
+import { useRef, useMemo } from "react";
 import { TestimonialCard } from "./testimonial-card";
 
 interface TestimonialsSectionProps extends React.HTMLAttributes<HTMLElement> {
@@ -20,18 +20,16 @@ export function TestimonialsSection({
   const t = useTranslations();
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  const testimonials = Array.from({ length: 7 }, (_, i) => ({
-    quote: t(`customerTestimonials.testimonials.${category}.${i}.quote`),
-    authorName: t(
-      `customerTestimonials.testimonials.${category}.${i}.authorName`
-    ),
-    authorTitle: t(
-      `customerTestimonials.testimonials.${category}.${i}.authorTitle`
-    ),
-    authorImage: t(
-      `customerTestimonials.testimonials.${category}.${i}.authorImage`
-    ),
-  }));
+  // Dynamically get testimonials array from translations
+  const testimonials = useMemo(() => {
+    const testimonialsArray = t.raw(
+      `customerTestimonials.testimonials.${category}`
+    );
+    if (Array.isArray(testimonialsArray)) {
+      return testimonialsArray;
+    }
+    return [];
+  }, [t, category]);
 
   return (
     <div
@@ -58,21 +56,26 @@ export function TestimonialsSection({
         </div>
 
         <div className="hidden md:flex md:flex-col gap-6">
-          <div className="grid grid-cols-2 gap-6">
-            <TestimonialCard {...testimonials[0]} />
-            <TestimonialCard {...testimonials[1]} />
-          </div>
-          <div className="grid grid-cols-2 gap-6">
-            <TestimonialCard {...testimonials[2]} />
-            <TestimonialCard {...testimonials[3]} />
-          </div>
-          <div className="grid grid-cols-2 gap-6">
-            <TestimonialCard {...testimonials[4]} />
-            <TestimonialCard {...testimonials[5]} />
-          </div>
-          <div className="grid grid-cols-2 gap-6">
-            <TestimonialCard {...testimonials[6]} />
-          </div>
+          {Array.from(
+            { length: Math.ceil(testimonials.length / 2) },
+            (_, rowIndex) => {
+              const startIndex = rowIndex * 2;
+              const rowTestimonials = testimonials.slice(
+                startIndex,
+                startIndex + 2
+              );
+              return (
+                <div key={rowIndex} className="grid grid-cols-2 gap-6">
+                  {rowTestimonials.map((testimonial, colIndex) => (
+                    <TestimonialCard
+                      key={startIndex + colIndex}
+                      {...testimonial}
+                    />
+                  ))}
+                </div>
+              );
+            }
+          )}
         </div>
       </div>
     </div>
