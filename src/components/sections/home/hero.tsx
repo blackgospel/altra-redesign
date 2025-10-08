@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { SmartLink } from "@/components/ui/smart-link";

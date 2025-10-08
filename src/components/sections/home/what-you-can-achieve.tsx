@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowRight, Check2 } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
