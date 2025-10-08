@@ -29,7 +29,7 @@ export function WhatYouCanAchieve({
                 <Typography variant="h3">{t("title")}</Typography>
 
                 <div className="flex flex-col gap-5">
-                  {t.raw("bullets").map((item: string) => (
+                  {(t.raw("bullets") || []).map((item: string) => (
                     <div key={item} className="flex items-center gap-[15px]">
                       <Check2 className="size-6 shrink-0" stroke="#8265D4" />
                       <Typography variant="title-m">{item}</Typography>

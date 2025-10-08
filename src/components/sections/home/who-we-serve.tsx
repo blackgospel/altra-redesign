@@ -10,7 +10,11 @@ type WhoWeServeProps = React.ComponentProps<"section">;
 export function WhoWeServe({ className, ...props }: WhoWeServeProps) {
   const t = useTranslations("home.whoWeServe");
 
-  const items: Array<{ title: string; description: string; imagePath: string }> = t.raw("items");
+  const items: Array<{
+    title: string;
+    description: string;
+    imagePath: string;
+  }> = t.raw("items") || [];
 
   return (
     <section className={cn("@container/who-we-serve", className)} {...props}>

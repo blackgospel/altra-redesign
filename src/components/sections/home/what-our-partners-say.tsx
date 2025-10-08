@@ -14,7 +14,12 @@ export function WhatOurPartnersSay({
 }: WhatOurPartnersSayProps) {
   const t = useTranslations("home.testimonials");
 
-  const items: Array<{ quote: string; name: string; role: string; avatar: string }> = t.raw("items");
+  const items: Array<{
+    quote: string;
+    name: string;
+    role: string;
+    avatar: string;
+  }> = t.raw("items") || [];
 
   return (
     <section
@@ -46,9 +51,7 @@ export function WhatOurPartnersSay({
                 />
               </div>
               <div className="flex flex-col">
-                <Typography variant="title-m">
-                  {item.name}
-                </Typography>
+                <Typography variant="title-m">{item.name}</Typography>
                 <Typography variant="text-l" className="text-dark-gray-40">
                   {item.role}
                 </Typography>

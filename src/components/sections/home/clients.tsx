@@ -9,7 +9,7 @@ type ClientsProps = React.ComponentProps<"section">;
 export function Clients({ className, ...props }: ClientsProps) {
   const t = useTranslations("home.clients");
 
-  const logos: Array<{ src: string; alt: string }> = t.raw("logos");
+  const logos: Array<{ src: string; alt: string }> = t.raw("logos") || [];
 
   return (
     <section className={cn("@container/clients", className)} {...props}>

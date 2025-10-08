@@ -14,7 +14,12 @@ type HowWeHelpProps = React.ComponentProps<"section">;
 export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
   const t = useTranslations("home.howWeHelp");
 
-  const items: Array<{ title: string; description: string; imagePath: string; ctaLink: string }> = t.raw("items");
+  const items: Array<{
+    title: string;
+    description: string;
+    imagePath: string;
+    ctaLink: string;
+  }> = t.raw("items") || [];
 
   return (
     <section className={cn("", className)} {...props}>
@@ -31,9 +36,7 @@ export function HowWeHelp({ className, ...props }: HowWeHelpProps) {
             >
               <div className="flex-1 flex flex-col gap-6">
                 <div className="flex flex-col gap-4">
-                  <Typography variant="h4">
-                    {item.title}
-                  </Typography>
+                  <Typography variant="h4">{item.title}</Typography>
 
                   <Typography variant="text-xl" className="text-dark-gray-40">
                     {item.description}
