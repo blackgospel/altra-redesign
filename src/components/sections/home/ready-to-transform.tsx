@@ -1,7 +1,7 @@
 import { ArrowRight } from "@/assets/icons";
 import { Button } from "@/components/ui/button";
+import { SmartLink } from "@/components/ui/smart-link";
 import { Typography } from "@/components/ui/typography";
-import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -26,8 +26,7 @@ export function ReadyToTransform({
               {t("title")}
             </Typography>
 
-            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
-            <Link href={t("ctaLink") as any}>
+            <SmartLink href={t("ctaLink")}>
               <Button
                 variant="primary"
                 size="md"
@@ -36,7 +35,7 @@ export function ReadyToTransform({
                 {t("cta")}
                 <ArrowRight className="size-5" />
               </Button>
-            </Link>
+            </SmartLink>
           </div>
 
           <div className="flex flex-1 relative w-full aspect-[713/501]">
