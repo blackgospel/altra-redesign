@@ -72,11 +72,15 @@ export function MobileNavMenu({ onClose }: MobileNavMenuProps) {
           }}
         >
           <div className="flex items-center gap-2">
-            <Button variant="ghost" size="sm" className="flex-1">
-              Log in
+            <Button variant="ghost" size="sm" className="flex-1" asChild>
+              <a href="https://app.altra.ie/login">
+                {t("actions.login", { default: "Log in" })}
+              </a>
             </Button>
-            <Button variant="primary" size="sm" className="flex-1">
-              Book Demo
+            <Button variant="primary" size="sm" className="flex-1" asChild>
+              <a href="https://calendly.com/helloaltra">
+                {t("actions.bookDemo", { default: "Book Demo" })}
+              </a>
             </Button>
           </div>
         </div>

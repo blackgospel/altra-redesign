@@ -24,11 +24,15 @@ export function DesktopHeader({ navbarStyles }: DesktopHeaderProps) {
       <AltraNavigationMenu />
 
       <div className="flex items-center gap-2">
-        <Button variant="ghost" size="sm">
-          {t("actions.login", { default: "Log in" })}
+        <Button variant="ghost" size="sm" asChild>
+          <a href="https://app.altra.ie/login">
+            {t("actions.login", { default: "Log in" })}
+          </a>
         </Button>
-        <Button variant="primary" size="sm">
-          {t("actions.bookDemo", { default: "Book Demo" })}
+        <Button variant="primary" size="sm" asChild>
+          <a href="https://calendly.com/helloaltra">
+            {t("actions.bookDemo", { default: "Book Demo" })}
+          </a>
         </Button>
       </div>
     </div>
