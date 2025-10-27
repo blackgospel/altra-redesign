@@ -2,6 +2,7 @@
 
 import { ChevronRight, HomeFill } from "@/assets/icons";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Typography } from "./typography";
 
@@ -21,6 +22,7 @@ export function Breadcrumb({
   className,
   ...props
 }: BreadcrumbProps) {
+  const t = useTranslations("header.nav");
   const isWhite = variant === "white";
   const isDarkGray = variant === "dark-gray";
 
@@ -52,7 +54,7 @@ export function Breadcrumb({
               : "text-gray-600"
           )}
         >
-          <Typography variant="text-m">Home</Typography>
+          <Typography variant="text-m">{t("home.label")}</Typography>
         </Link>
       </div>
 

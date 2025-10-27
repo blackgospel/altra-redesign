@@ -36,7 +36,7 @@ export function Benefits({ translationKey, ...props }: BenefitsProps) {
             <div className="flex flex-col gap-8 lg:gap-16 items-center">
               <Typography
                 variant="h3"
-                className="text-center lg:text-left pr-6 lg:pr-0"
+                className="text-center lg:text-left pr-6"
               >
                 {t("title")}
               </Typography>
