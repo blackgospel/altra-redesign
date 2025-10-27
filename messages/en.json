@@ -1654,22 +1654,22 @@
         "items": [
           {
             "title": "Offer a clear, centralised way for residents and families to make requests",
-            "icon": "handshake",
+            "icon": "users",
             "iconBgColor": "rgba(203, 110, 226, 0.9)"
           },
           {
             "title": "Keep teams aligned on open tasks, statuses and completion timelines",
-            "icon": "users",
+            "icon": "notes",
             "iconBgColor": "#ED4789"
           },
           {
             "title": "Reduce missed or forgotten requests",
-            "icon": "check",
+            "icon": "communication",
             "iconBgColor": "#00D39C"
           },
           {
             "title": "Log all service activity for accountability and auditing",
-            "icon": "document",
+            "icon": "graphic",
             "iconBgColor": "#4DA8DA"
           },
           {

@@ -1578,22 +1578,22 @@
         "items": [
           {
             "title": "Offrir une solution claire et centralisée pour les demandes des résidents et des familles",
-            "icon": "handshake",
+            "icon": "users",
             "iconBgColor": "rgba(203, 110, 226, 0.9)"
           },
           {
             "title": "Maintenir les équipes alignées sur les tâches en cours, leur statut et les délais de réalisation",
-            "icon": "users",
+            "icon": "notes",
             "iconBgColor": "#ED4789"
           },
           {
             "title": "Réduire les demandes oubliées ou non traitées",
-            "icon": "check",
+            "icon": "communication",
             "iconBgColor": "#00D39C"
           },
           {
             "title": "Conserver un historique complet des services pour le suivi et les audits",
-            "icon": "document",
+            "icon": "graphic",
             "iconBgColor": "#4DA8DA"
           },
           {
@@ -2359,6 +2359,41 @@
           "authorName": "Wendy Fagan",
           "authorTitle": "Coordinatrice Bien-être\n|\nAilesbury & Ashbury",
           "authorImage": "/images/customer-testimonials/wendy-fagan.png"
+        }
+      ]
+    }
+  },
+  "dataSecurity": {
+    "hero": {
+      "title": "Sécurité des données",
+      "lastUpdated": "Dernière mise à jour : Janvier 2025"
+    },
+    "content": {
+      "introduction": "La sécurité des données est au cœur de tout ce que nous faisons chez Altra. Nous comprenons la nature sensible des données de soins et nous nous engageons à maintenir les normes de sécurité et de conformité les plus élevées.",
+      "sections": [
+        {
+          "title": "Infrastructure de sécurité",
+          "content": "Notre plateforme est construite sur une infrastructure de sécurité de pointe avec un chiffrement de bout en bout, des audits de sécurité réguliers et une surveillance continue pour protéger vos données."
+        },
+        {
+          "title": "Conformité et certifications",
+          "content": "Nous sommes entièrement conformes au RGPD et aux autres réglementations pertinentes en matière de protection des données. Nos systèmes font l'objet d'évaluations de sécurité et de tests d'intrusion réguliers par des tiers."
+        },
+        {
+          "title": "Contrôles d'accès",
+          "content": "Nous mettons en œuvre des contrôles d'accès stricts basés sur les rôles pour garantir que seul le personnel autorisé peut accéder aux données sensibles. Tous les accès sont enregistrés et surveillés."
+        },
+        {
+          "title": "Chiffrement des données",
+          "content": "Toutes les données sont chiffrées en transit et au repos à l'aide de protocoles de chiffrement standard de l'industrie. Nous utilisons des connexions SSL/TLS sécurisées pour toutes les transmissions de données."
+        },
+        {
+          "title": "Sauvegarde et récupération",
+          "content": "Nous effectuons des sauvegardes automatisées régulières de toutes les données avec un stockage hors site sécurisé. Nos procédures de reprise après sinistre garantissent la continuité des activités et la disponibilité des données."
+        },
+        {
+          "title": "Réponse aux incidents de sécurité",
+          "content": "Nous avons mis en place un plan complet de réponse aux incidents. Dans le cas improbable d'un incident de sécurité, nous informerons les parties concernées conformément aux réglementations applicables."
         }
       ]
     }
