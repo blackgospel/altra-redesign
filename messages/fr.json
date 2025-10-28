@@ -613,6 +613,100 @@
       }
     }
   },
+  "ourMission": {
+    "hero": {
+      "subtitle": "Notre Mission",
+      "title": "Soyez le changement que vous voulez voir",
+      "description": "Notre vision est d'être la plateforme n°1 pour les services de soins afin de fournir des expériences fluides et personnalisées à tous les résidents grâce à la technologie.",
+      "ctaText": "Réservez une démo",
+      "ctaLink": "https://calendly.com/helloaltra"
+    },
+    "values": {
+      "caption": "Les valeurs d'Altra",
+      "title": "Tout ce que nous faisons chez Altra incarne les valeurs suivantes :",
+      "footer": "En incarnant ces valeurs, Altra peut aider les services de soins à améliorer la vie quotidienne des résidents et à soutenir le bien-être général.",
+      "items": [
+        {
+          "title": "Accessibilité",
+          "description": "Notre application est facile à utiliser pour tous les résidents, familles et soignants.",
+          "icon": "eye",
+          "iconBgColor": "rgba(203, 110, 226, 0.9)"
+        },
+        {
+          "title": "Transparence",
+          "description": "Nous facilitons une communication ouverte entre les résidents, leurs proches et le personnel des services de soins, favorisant la transparence et la collaboration.",
+          "icon": "search",
+          "iconBgColor": "#ED4789"
+        },
+        {
+          "title": "Engagement",
+          "description": "Nous favorisons l'opportunité pour les résidents de s'engager avec leurs proches, de participer à des activités et d'accéder à des ressources éducatives et de divertissement.",
+          "icon": "messageOne",
+          "iconBgColor": "#00D39C"
+        },
+        {
+          "title": "Dignité",
+          "description": "Altra promeut la dignité et l'indépendance des résidents en aidant les maisons de soins à leur fournir les outils et les ressources dont ils ont besoin pour vivre une vie épanouissante.",
+          "icon": "users",
+          "iconBgColor": "#4DA8DA"
+        },
+        {
+          "title": "Inclusivité",
+          "description": "Tout sur Altra est construit sur l'inclusivité, en tenant compte des besoins et préférences divers des résidents lors de l'interaction avec Altra.",
+          "icon": "world",
+          "iconBgColor": "#BDD86C"
+        },
+        {
+          "title": "Soutien",
+          "description": "Altra fournit le soutien dont le personnel soignant, les résidents et les familles ont besoin pour naviguer sur Altra, y compris l'accès aux informations et aux ressources et les opportunités de retour d'information pour améliorer davantage notre offre.",
+          "icon": "wellbeing",
+          "iconBgColor": "#9B8FEF"
+        }
+      ]
+    },
+    "story": {
+      "sections": [
+        {
+          "caption": "Notre histoire",
+          "title": "Altra est né d'une expérience personnelle d'exploitation d'une maison de retraite à Dublin, en Irlande, pendant plus de 30 ans.",
+          "description": "Construite à l'origine par le grand-père et le père d'Adam, Adam a grandi en travaillant dans la maison de retraite familiale dès l'âge de 15 ans. En utilisant cette expérience et cette compréhension, Adam s'est lancé dans la création d'un outil pour aider d'autres maisons de retraite à améliorer la qualité des soins qu'elles fournissent aux résidents. Il a vu de première main les défis auxquels sont confrontées les maisons de soins et était déterminé à construire une solution qui ferait une réelle différence dans la vie du personnel, des résidents et des familles.\n\nEn tirant parti de la technologie et de l'innovation, Altra vise à fournir aux maisons de soins les outils et les ressources dont elles ont besoin pour aider leurs résidents à vivre leur vie pleinement et à se sentir soutenus, engagés et responsabilisés. Avec ses racines dans l'expérience personnelle, Altra s'engage à offrir un avenir meilleur aux résidents des maisons de soins et à soutenir le personnel dévoué qui travaille sans relâche pour leur fournir des soins de qualité.",
+          "imagePath": "/images/our-mission/our-story.png",
+          "reverse": true,
+          "showDivider": true,
+          "showBlobs": true
+        },
+        {
+          "caption": "La mission d'Altra",
+          "title": "Notre mission est d'améliorer la vie quotidienne des résidents dans les services de soins en fournissant les bons outils pour soutenir tout le monde.",
+          "description": "Notre mission est enracinée dans la conviction que chacun mérite de vivre une vie épanouissante et digne, quel que soit son âge ou son état de santé. Dans les maisons de soins, les résidents peuvent faire face à de nombreux défis qui peuvent impacter leur vie quotidienne.\n\nPour aider à relever ces défis, nous nous consacrons à fournir les bons outils pour soutenir la capacité des services de soins à améliorer les expériences quotidiennes des résidents. Cela inclut l'offre de solutions technologiques qui permettent aux résidents, aux familles et aux soignants de rester connectés ; d'accéder à des ressources de divertissement et éducatives ; et d'éliminer les frictions pour que les familles puissent offrir des cadeaux et d'autres services auxiliaires à leurs proches dans les maisons de soins, le tout via une seule application unifiée.\n\nNotre objectif est d'aider les services de soins à créer un environnement dans lequel les résidents peuvent s'épanouir, se sentir soutenus et connectés aux familles et aux proches. Ce faisant, nous espérons avoir un impact positif sur la vie quotidienne des résidents dans les maisons de soins et contribuer à améliorer la qualité des soins fournis.",
+          "imagePath": "/images/our-mission/altra-mission.png",
+          "reverse": false,
+          "showDivider": false,
+          "showBlobs": false
+        }
+      ]
+    },
+    "team": {
+      "title": "L'équipe d'Altra",
+      "description": "Nous avons un mélange unique d'expérience industrielle et technologique dans notre équipe pour réaliser notre mission de fournir la plateforme d'expérience et d'engagement n°1 conçue pour les services de soins modernes.",
+      "members": [
+        {
+          "name": "Adam Keane",
+          "role": "Fondateur et Directeur Général",
+          "bio": "Après avoir passé plusieurs années dans la finance d'entreprise, Adam s'est lancé dans un nouveau défi en créant Altra, inspiré par ses expériences de travail dans la maison de retraite de sa famille, où il a vu de première main les défis auxquels sont confrontés les prestataires de soins. Adam s'engage à utiliser ses compétences et son expertise pour aider à façonner l'avenir des soins en maison de retraite.",
+          "quote": "Ma mère et mon père dirigeaient notre maison de retraite familiale, et ils m'ont appris l'importance des soins compatissants. Ils ont mis un grand accent sur les soins centrés sur la personne et comment cela peut vraiment apporter de la joie aux résidents. Voir cela en action m'a fait une impression durable. Je vise à apporter ce même accent de soins et de dévouement au travail que nous faisons chez Altra.",
+          "imagePath": "/images/our-mission/adam-keane.png"
+        },
+        {
+          "name": "Sebastien Destenbert",
+          "role": "Directeur des Opérations",
+          "bio": "Sebastien a une exposition multi-industrielle dans la banque, le conseil et le commerce électronique. Sebastien a rejoint l'équipe en tant que COO, apportant son expertise du commerce électronique et de l'expérience client pour aider à digitaliser davantage l'industrie des maisons de retraite et avoir un impact durable sur tout l'écosystème (maison de retraite, personnel, familles et résidents).",
+          "quote": "Pendant des années, j'ai eu ma grand-mère dans une maison de retraite que je ne pouvais pas visiter car j'étais à l'étranger, et il était très difficile d'organiser un appel vidéo. Mon père continuait d'aller à la maison de retraite presque toutes les semaines malgré la distance (1h30 de route), se demandant toujours à quelles activités ma grand-mère participait, si elle mangeait suffisamment, etc... Il est temps d'apporter l'ère numérique dans le monde des maisons de retraite, de fournir les outils qui manquent cruellement pour rester correctement en contact avec nos aînés, d'apporter plus de transparence sur ce que font les maisons de retraite pour prendre soin de leurs résidents, et de briser le tabou autour de la fin de vie.",
+          "imagePath": "/images/our-mission/sebastien-destenbert-ff09f6.png"
+        }
+      ]
+    }
+  },
   "ourSolutions": {
     "activityCalendar": {
       "hero": {
